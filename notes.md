@@ -1,4 +1,4 @@
-- Selling a full radio may be impractical due to FCC reculations for testing and certification. We may have to sell a "Kit" that just requires assembling the enclosure
+:- Selling a full radio may be impractical due to FCC reculations for testing and certification. We may have to sell a "Kit" that just requires assembling the enclosure
 - How do we want do deal with the battery? Baofeng battery?
 - Components:
 	- RF IC:
