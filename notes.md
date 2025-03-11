@@ -1,0 +1,26 @@
+- Selling a full radio may be impractical due to FCC reculations for testing and certification. We may have to sell a "Kit" that just requires assembling the enclosure
+- How do we want do deal with the battery? Baofeng battery?
+- Components:
+	- RF IC:
+		- AK2401A:
+			- Works, Made in Japan. 6dBm max output power
+		- RDA1846
+			- FM, used in Baofengs. Hard to source. Made in China
+		- Si4463:
+			- Silicon labs chip. Annoying to program. Can possibly use PlatformIO. Built in MCU
+	- RF Amp (we want at least 36dBm, AK2401A outputs up to 4dBm):
+		- ?
+	- MCU:
+		- ATSAMD51J19A is on the Adafruit Feather M4
+		- STM32F405 is on the TYT M380 and thus has OpenRTX built for it. This is also faster than the ATSAMD51J19A, although is has less SRAM
+		- STM32F415 is a revision on the 405. I recommend this
+	- Display:
+		- https://www.digikey.com/en/products/detail/orient-display/AES200202A00-1-54ENRS/15198467
+	- Display Driver:
+		- SSD1681
+	- GPS:
+		- ZOE-M10Q-0. This is on the RAK devices. It's pretty expensive though
+		- Off the shelf RAK WisBlock reciever, and make it optional?
+	- SPI flash (storing DMR contacts and codeplug)
+		- W27Q256JV (16MB, enough for 500,000 DMR contacts + 777,216 bytes left over for the codeplug + messages)
+			- Should I add footprints for a second IC?
