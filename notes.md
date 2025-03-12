@@ -9,9 +9,9 @@
 				- Works, Made in Japan. 6dBm max output power
 			- RDA1846
 				- FM, used in Baofengs. Hard to source. Made in China
-			- Si4463:
-				- Silicon labs chip. Annoying to program. Can possibly use PlatformIO. Built in MCU
-		- RF Amp (we want at least 36dBm, AK2401A outputs up to 4dBm):
+			- Si4468:
+				- +20dBm output, new, FM support might be lacking, I would like to verify FM audio output before we decide on this IC 
+		- RF Amp (we want at least 36dBm, Si4468 supports +20dbM):
 			- ?
 			- I might need to design my own "gain block amplifier" using transistors
 		- MCU:
@@ -27,4 +27,4 @@
 			- Off the shelf RAK WisBlock reciever, and make it optional?
 		- SPI flash (storing DMR contacts and codeplug)
 			- W27Q256JV (16MB, enough for 500,000 DMR contacts + 777,216 bytes left over for the codeplug + messages)
-				- Should I add footprints for a second IC?
+				- I'll add footprints for a second IC (with an inverted chip select) just in case we need the extra storage
