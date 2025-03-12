@@ -1,0 +1,68 @@
+Product Requirement Document
+anything with a ? is undecided
+
+Features:
+    Voice Radio:
+        cover 2M/70CM ham, FRS/GMRS, Business band itinerant frequencies
+        dual channel watch
+        VFO mode and channel Memory mode
+        At least 4 watts of output power. (36dBm)
+        selectable power modes
+        scan feature
+        FM suport required:
+            TX & RX CTCSS tones
+            DCS tones
+            DTMF tones from keypad
+            Repeater TX/RX offset
+            selectable 12.5kHz/25kHz channel width
+            Dial tone
+        DMR support required (QFSK)
+            DMR Tier 1 and 2.
+            DMR Tier 3?
+            IP over DMR (Over USBC)(ETSI TS 102 361-2)?
+            AES256 & ARC4 (same as RC4) encription
+            Programmable Radio ID
+            500,000 contacts
+            Color Code, dual timeslot (and simplex mode), talkgroups, RX groups
+            Promiscuous mode
+            Repeater TX/RX offset
+            SMS
+            Digital APRS? 
+            GPS Ranging?
+            Roaming?
+        M17 support out of the box? (QFSK)
+            need more information on M17 to write requirements
+        APRS (AX.25)
+            Fully front-panel customizable
+            Position RX/TX (TX If GPS)
+            TX/RX messaging
+            message history
+            Beacon TX/RX
+            Station packet/location history storage
+    Hardware interfaces:
+        Mic
+        Speaker
+        Screen (ideally paperwhite)
+        channel select encoder
+        Volume Knob
+        Power separate or on Volume Knob
+        SMA antenna connector
+        front panel 10-key
+        front panel D-pad (or similar)
+        3x user programmable buttons
+        Battery:
+            External battery? or just integrated battery
+            External charging dock?
+        USBC for program/codeplug
+        USBC KISS TNC
+        Kenwood style external handset connector
+        Clip?
+        GPS optional? if cost prohibitive
+        External Keyboard over USBC?
+
+    External Software CPS (Customer Programming Software, for programming channel presets, etc)
+        support all data storage fields for all software Features
+        Menu structured similar to radio
+
+    
+            
