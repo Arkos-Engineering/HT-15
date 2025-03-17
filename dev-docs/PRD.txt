@@ -3,7 +3,7 @@ anything with a ? is undecided
 
 Features:
     Voice Radio:
-        cover 2M/70CM ham, FRS/GMRS, Business band itinerant frequencies
+        cover 2M/70CM ham (at least, 100MHz to 1GHz is ideal), FRS/GMRS, Business band itinerant frequencies
         dual channel watch
         VFO mode and channel Memory mode
         At least 4 watts of output power. (36dBm)
@@ -49,19 +49,20 @@ Features:
         SMA antenna connector
         front panel 10-key
         front panel D-pad (or similar)
+        front panel back/enter
         3x user programmable buttons
         Battery:
             External battery? or just integrated battery
             External charging dock?
         USBC for program/codeplug
-        USBC KISS TNC
+        USBC KISS TNC?
         Kenwood style external handset connector
         Clip?
         GPS optional? if cost prohibitive
         External Keyboard over USBC?
 
     External Software CPS (Customer Programming Software, for programming channel presets, etc)
-        support all data storage fields for all software Features
+        Support all data storage fields for all software Features
         Menu structured similar to radio
 
     
