@@ -43,6 +43,7 @@ Features:
         Mic
         Speaker
         Screen (ideally paperwhite)
+        RGB LED
         channel select encoder
         Volume Knob
         Power separate or on Volume Knob
