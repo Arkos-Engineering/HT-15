@@ -37,6 +37,8 @@
 		- BMS, only needed if designing battery
 			- BQ2947? does this balance, or just monitor?
 		- Microphone
-			- I2S, PDM?
+			- SPH0645LM4H-B, I2S MEMS mic. Needs PIO
+			- Analog mic and compander into built in ADC?
 		- Speaker amp
 			- I2S amp
+			- TAS2110? Maybe too smart for our needs
