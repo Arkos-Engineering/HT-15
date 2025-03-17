@@ -44,6 +44,7 @@ Features:
         Speaker
         Screen (ideally paperwhite)
         RGB LED
+        SD card slot for contacts, messages, etc.
         channel select encoder
         Volume Knob
         Power separate or on Volume Knob

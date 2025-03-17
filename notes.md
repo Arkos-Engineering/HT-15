@@ -30,7 +30,8 @@
 			- Off the shelf RAK WisBlock reciever, and make it optional?
 		- SPI flash (storing DMR contacts and codeplug)
 			- W27Q256JV (16MB, enough for 500,000 DMR contacts + 777,216 bytes left over for the codeplug + messages)
-				- I'll add footprints for a second IC (with an inverted chip select) just in case we need the extra storage
+				- I may add footprints for a second IC (with an inverted chip select) just in case we need the extra storage
+			- instead of the flash for APRS storage and contacts, let's use an SD card and keep the codeplug maybe on the primary MCU flash?. The connector is ~$1, and it also uses SPI
 		- Battery charging IC
 			- 
 		- BMS, only needed if designing battery
