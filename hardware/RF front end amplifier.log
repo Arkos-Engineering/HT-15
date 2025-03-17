@@ -1,0 +1,15 @@
+LTspice 24.1.5 for Windows
+Circuit: C:\Users\ben\Documents\OSS-Radio\dev-docs\EE\RF front end amplifier.net
+Start Time: Thu Mar 13 11:30:32 2025
+solver = Normal
+Maximum thread count: 28
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.040 seconds.
+
+Files loaded:
+C:\Users\ben\Documents\OSS-Radio\dev-docs\EE\RF front end amplifier.net
+C:\Users\ben\AppData\Local\LTspice\lib\cmp\standard.bjt
+
