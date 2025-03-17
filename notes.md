@@ -10,14 +10,15 @@
 			- RDA1846
 				- FM, used in Baofengs. Hard to source. Made in China
 			- Si4468:
-				- +20dBm output, new, FM support might be lacking, I would like to verify FM audio output before we decide on this IC 
+				- +20dBm output, new, FM support might be lacking. This seems like the best choise
 		- RF Amp (we want at least 36dBm, Si4468 supports +20dbM):
 			- ?
 			- I might need to design my own "gain block amplifier" using transistors
 		- MCU:
 			- ATSAMD51J19A is on the Adafruit Feather M4
 			- STM32F405 is on the TYT M380 and thus has OpenRTX built for it. This is also faster than the ATSAMD51J19A, although is has less SRAM
-			- STM32F415 is a revision on the 405. I recommend this
+			- STM32F415 is a revision on the 405
+			- RP2354A/B or RP2350A/B. This is the best option. Optional external flash, more ram, dual core, faster clock
 		- Display:
 			- https://www.digikey.com/en/products/detail/orient-display/AES200202A00-1-54ENRS/15198467
 		- Display Driver:
