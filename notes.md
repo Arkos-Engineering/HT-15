@@ -29,3 +29,7 @@
 		- SPI flash (storing DMR contacts and codeplug)
 			- W27Q256JV (16MB, enough for 500,000 DMR contacts + 777,216 bytes left over for the codeplug + messages)
 				- I'll add footprints for a second IC (with an inverted chip select) just in case we need the extra storage
+		- Battery charging IC
+			- 
+		- BMS, only needed if designing battery
+			- BQ2947? does this balance, or just monitor?
