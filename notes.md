@@ -33,7 +33,8 @@
 				- I may add footprints for a second IC (with an inverted chip select) just in case we need the extra storage
 			- instead of the flash for APRS storage and contacts, let's use an SD card and keep the codeplug maybe on the primary MCU flash?. The connector is ~$1, and it also uses SPI
 		- Battery charging IC
-			- 
+			- MCP73844. needs an external PMOS
+				- LM51571 to boost the 5V up to charge voltage 
 		- BMS, only needed if designing battery
 			- BQ2947? does this balance, or just monitor?
 		- Microphone
@@ -42,3 +43,4 @@
 		- Speaker amp
 			- I2S amp
 			- TAS2110? Maybe too smart for our needs
+			- MAX98357A. Seems like the best option, supports I2S (and PDM, but I2S seems to have the least overhead). Needs PIO for I2S
