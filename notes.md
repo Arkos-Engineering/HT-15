@@ -24,12 +24,12 @@
 		- Display:
 			- https://www.digikey.com/en/products/detail/orient-display/AES200202A00-1-54ENRS/15198467
 		- Display Driver:
-			- SSD1681
+			- SSD1681 Not necessary, The display i chose is SPI
 		- GPS:
 			- ZOE-M10Q-0. This is on the RAK devices. It's pretty expensive though
 			- Off the shelf RAK WisBlock reciever, and make it optional?
 		- SPI flash (storing DMR contacts and codeplug)
-			- W27Q256JV (16MB, enough for 500,000 DMR contacts + 777,216 bytes left over for the codeplug + messages)
+			- W25Q256JV (16MB, enough for 500,000 DMR contacts + 777,216 bytes left over for the codeplug + messages)
 				- I may add footprints for a second IC (with an inverted chip select) just in case we need the extra storage
 			- instead of the flash for APRS storage and contacts, let's use an SD card and keep the codeplug maybe on the primary MCU flash?. The connector is ~$1, and it also uses SPI
 		- Battery charging IC
