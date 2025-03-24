@@ -31,12 +31,16 @@
 		- SPI flash (storing DMR contacts and codeplug)
 			- W25Q256JV (16MB, enough for 500,000 DMR contacts + 777,216 bytes left over for the codeplug + messages)
 				- I may add footprints for a second IC (with an inverted chip select) just in case we need the extra storage
+			- BY25Q256FS
+		- SD slot
+			- MEM2061
 			- instead of the flash for APRS storage and contacts, let's use an SD card and keep the codeplug maybe on the primary MCU flash?. The connector is ~$1, and it also uses SPI
 		- Battery charging IC
 			- MCP73844. needs an external PMOS
 				- LM51571 to boost the 5V up to charge voltage 
 		- BMS, only needed if designing battery
 			- BQ2947? does this balance, or just monitor?
+			- S-8252AAY-M6T1U 
 		- Microphone
 			- SPH0645LM4H-B, I2S MEMS mic. Needs PIO
 			- Analog mic and compander into built in ADC?
