@@ -14,6 +14,8 @@
 		- RF Amp (we want at least 36dBm, Si4468 supports +20dbM):
 			- ?
 			- I might need to design my own "gain block amplifier" using transistors
+		- RF Switch:
+			- for switching the amplifier in/out for low power output (wideband tx) and recieving
 		- MCU:
 			- ATSAMD51J19A is on the Adafruit Feather M4
 			- STM32F405 is on the TYT M380 and thus has OpenRTX built for it. This is also faster than the ATSAMD51J19A, although is has less SRAM
