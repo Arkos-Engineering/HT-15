@@ -12,7 +12,8 @@
 			- Si4468:
 				- +20dBm output, new, FM support might be lacking. This seems like the best choice
 		- RF Amp (we want at least 36dBm, Si4468 supports +20dbM):
-			- ?
+			- MAAM-011229-TR1000
+			- AFT09MS007N
 			- I might need to design my own "gain block amplifier" using transistors
 		- RF Switch:
 			- for switching the amplifier in/out for low power output (wideband tx) and recieving
