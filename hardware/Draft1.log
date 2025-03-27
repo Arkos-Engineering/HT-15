@@ -1,0 +1,15 @@
+LTspice 24.1.5 for Windows
+Circuit: C:\Users\ben\Documents\OSS-Radio\hardware\Draft1.net
+Start Time: Fri Mar 21 15:48:29 2025
+solver = Normal
+Maximum thread count: 28
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.089 seconds.
+
+Files loaded:
+C:\Users\ben\Documents\OSS-Radio\hardware\Draft1.net
+C:\Users\ben\AppData\Local\LTspice\lib\cmp\standard.mos
+

@@ -1,0 +1,21 @@
+LTspice 24.1.5 for Windows
+Circuit: Z:\Projects\OSS-Radio\hardware\MOSFET RF front end amplifier.net
+Start Time: Mon Mar 24 12:54:29 2025
+solver = Normal
+Maximum thread count: 28
+tnom = 27
+temp = 27
+method = trap
+No AC stimulus found:
+     Set the value of a current or voltage source to "AC 1."
+     to make it behave as a signal generator for AC analysis.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Failed to find DC operating point for AC analysis.
+
+Simulation stopped by user.
+Total elapsed time: 25.526 seconds.
+
+Files loaded:
+Z:\Projects\OSS-Radio\hardware\MOSFET RF front end amplifier.net
+C:\Users\ben\AppData\Local\LTspice\lib\cmp\standard.mos
+
