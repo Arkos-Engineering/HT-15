@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "49ca318c-9df5-4cc7-9813-bca5d7f1145d")
+	(uuid "07358e7b-e4c2-4dc9-afc7-4dd3da34f83a")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:Conn_01x03_Pin"
@@ -3695,7 +3695,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 170.18) (xy 41.91 170.18)
+			(xy 25.4 170.18) (xy 29.21 170.18)
 		)
 		(stroke
 			(width 0)
@@ -3712,6 +3712,16 @@
 			(type default)
 		)
 		(uuid "136be7b3-7eb1-4466-901e-8823b31d023a")
+	)
+	(wire
+		(pts
+			(xy 36.83 170.18) (xy 41.91 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "158493b6-9623-472b-8afb-316212a91cd4")
 	)
 	(wire
 		(pts
@@ -5171,12 +5181,12 @@
 				(type solid)
 			)
 		)
-		(column_widths 8.89 22.86)
+		(column_widths 8.89 64.77)
 		(row_heights 2.54 2.54 2.54 2.54 2.54 2.54 2.54)
 		(cells
 			(table_cell "SPI0"
 				(exclude_from_sim no)
-				(at 231.14 140.97 0)
+				(at 184.15 135.89 0)
 				(size 8.89 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -5191,10 +5201,10 @@
 				)
 				(uuid "f26d041e-02a5-4f42-aafa-66582cd36b3e")
 			)
-			(table_cell "Si4468 (RF IC)"
+			(table_cell "Si4468 (RF IC), Wisblock GPS/Expansions"
 				(exclude_from_sim no)
-				(at 240.03 140.97 0)
-				(size 22.86 2.54)
+				(at 193.04 135.89 0)
+				(size 64.77 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -5210,7 +5220,7 @@
 			)
 			(table_cell "SPI1"
 				(exclude_from_sim no)
-				(at 231.14 143.51 0)
+				(at 184.15 138.43 0)
 				(size 8.89 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -5227,8 +5237,8 @@
 			)
 			(table_cell "Display, SD Card, External SPI flash"
 				(exclude_from_sim no)
-				(at 240.03 143.51 0)
-				(size 22.86 2.54)
+				(at 193.04 138.43 0)
+				(size 64.77 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -5244,7 +5254,7 @@
 			)
 			(table_cell "I2C0"
 				(exclude_from_sim no)
-				(at 231.14 146.05 0)
+				(at 184.15 140.97 0)
 				(size 8.89 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -5259,10 +5269,10 @@
 				)
 				(uuid "d50333e0-c424-4f75-8148-f3655c5fc2b2")
 			)
-			(table_cell ""
+			(table_cell "Wisblock GPS/Expansions"
 				(exclude_from_sim no)
-				(at 240.03 146.05 0)
-				(size 22.86 2.54)
+				(at 193.04 140.97 0)
+				(size 64.77 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -5278,7 +5288,7 @@
 			)
 			(table_cell "I2C1"
 				(exclude_from_sim no)
-				(at 231.14 148.59 0)
+				(at 184.15 143.51 0)
 				(size 8.89 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -5295,8 +5305,8 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 240.03 148.59 0)
-				(size 22.86 2.54)
+				(at 193.04 143.51 0)
+				(size 64.77 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -5310,9 +5320,9 @@
 				)
 				(uuid "90633d34-948c-45e2-91ae-eb9c6870dd55")
 			)
-			(table_cell ""
+			(table_cell "UART0"
 				(exclude_from_sim no)
-				(at 231.14 151.13 0)
+				(at 184.15 146.05 0)
 				(size 8.89 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -5327,10 +5337,10 @@
 				)
 				(uuid "1559a78b-816d-498c-b2f4-61549b419e8b")
 			)
-			(table_cell ""
+			(table_cell "Wisblock GPS/Expansions"
 				(exclude_from_sim no)
-				(at 240.03 151.13 0)
-				(size 22.86 2.54)
+				(at 193.04 146.05 0)
+				(size 64.77 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -5344,9 +5354,9 @@
 				)
 				(uuid "09d10db8-6df0-486e-be97-cff4f95f7800")
 			)
-			(table_cell ""
+			(table_cell "UART1"
 				(exclude_from_sim no)
-				(at 231.14 153.67 0)
+				(at 184.15 148.59 0)
 				(size 8.89 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -5363,8 +5373,8 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 240.03 153.67 0)
-				(size 22.86 2.54)
+				(at 193.04 148.59 0)
+				(size 64.77 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -5380,7 +5390,7 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 231.14 156.21 0)
+				(at 184.15 151.13 0)
 				(size 8.89 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -5397,8 +5407,8 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 240.03 156.21 0)
-				(size 22.86 2.54)
+				(at 193.04 151.13 0)
+				(size 64.77 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -5460,7 +5470,7 @@
 	)
 	(global_label "RF_GPIO2"
 		(shape bidirectional)
-		(at 201.93 111.76 0)
+		(at 162.56 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5470,7 +5480,7 @@
 		)
 		(uuid "1feba326-fe42-4400-b553-9e0f602c309c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 215.0375 111.76 0)
+			(at 175.6675 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5504,7 +5514,7 @@
 	)
 	(global_label "RF_SDO"
 		(shape input)
-		(at 201.93 101.6 0)
+		(at 162.56 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5514,7 +5524,7 @@
 		)
 		(uuid "2ab9c095-98c9-49bd-b9d7-438e6f517e64")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.0514 101.6 0)
+			(at 172.6814 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5548,7 +5558,7 @@
 	)
 	(global_label "RF_GPIO3"
 		(shape bidirectional)
-		(at 201.93 109.22 0)
+		(at 162.56 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5558,7 +5568,7 @@
 		)
 		(uuid "39e809a1-deb1-4fa0-b381-0b6461974f8f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 215.0375 109.22 0)
+			(at 175.6675 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5614,7 +5624,7 @@
 	)
 	(global_label "RF_SDI"
 		(shape output)
-		(at 201.93 99.06 0)
+		(at 162.56 59.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5624,7 +5634,7 @@
 		)
 		(uuid "63fbbba0-bb72-4526-98fa-e3bc82d53451")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 211.3257 99.06 0)
+			(at 171.9557 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5636,7 +5646,7 @@
 	)
 	(global_label "RF_SEL"
 		(shape output)
-		(at 201.93 96.52 0)
+		(at 162.56 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5646,7 +5656,7 @@
 		)
 		(uuid "648303e3-0d68-4bfc-8b07-9da0bb173501")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 211.628 96.52 0)
+			(at 172.258 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5658,7 +5668,7 @@
 	)
 	(global_label "V_BAT"
 		(shape input)
-		(at 34.29 170.18 180)
+		(at 25.4 170.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5668,7 +5678,7 @@
 		)
 		(uuid "73b3a1d4-b3e9-4a5f-8725-63932be24597")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.9224 170.18 0)
+			(at 17.0324 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5680,7 +5690,7 @@
 	)
 	(global_label "RF_GPIO0"
 		(shape bidirectional)
-		(at 201.93 116.84 0)
+		(at 162.56 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5690,7 +5700,7 @@
 		)
 		(uuid "9c1d2e24-14a4-4db4-8287-063a44145e33")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 215.0375 116.84 0)
+			(at 175.6675 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5702,7 +5712,7 @@
 	)
 	(global_label "RF_GPIO1"
 		(shape bidirectional)
-		(at 201.93 114.3 0)
+		(at 162.56 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5712,7 +5722,7 @@
 		)
 		(uuid "a98cd58a-fbe1-47c2-bec1-2d259f53e215")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 215.0375 114.3 0)
+			(at 175.6675 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5746,7 +5756,7 @@
 	)
 	(global_label "RF_SHUTDOWN"
 		(shape output)
-		(at 201.93 93.98 0)
+		(at 162.56 54.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5756,7 +5766,7 @@
 		)
 		(uuid "cf3b9a2b-8315-4396-bfcf-ceaca336c845")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.4619 93.98 0)
+			(at 179.0919 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5768,7 +5778,7 @@
 	)
 	(global_label "RF_SCLK"
 		(shape output)
-		(at 201.93 104.14 0)
+		(at 162.56 64.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5778,7 +5788,7 @@
 		)
 		(uuid "e73676ed-8c5b-427d-bb5e-27fe91638910")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.019 104.14 0)
+			(at 173.649 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5790,7 +5800,7 @@
 	)
 	(global_label "RF_INTERRUPT"
 		(shape input)
-		(at 201.93 106.68 0)
+		(at 162.56 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5800,7 +5810,7 @@
 		)
 		(uuid "f29340a3-d846-495c-a9d3-f16ea0f70dc5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.4014 106.68 0)
+			(at 179.0314 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6489,6 +6499,73 @@
 			(project "OSS Radio Hardware Design"
 				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/e0ca9277-1532-4a93-8da4-fd2786b01953"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 33.02 170.18 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3fb65e02-b041-420d-ad67-a33062d0b033")
+		(property "Reference" "R12"
+			(at 31.242 173.736 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 33.02 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 168.402 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 33.02 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5845d076-0135-4694-b14d-a566be6fe171")
+		)
+		(pin "1"
+			(uuid "fd94b88f-1eca-4584-aed9-9ff06cc18560")
+		)
+		(instances
+			(project "OSS Radio Hardware Design"
+				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/e0ca9277-1532-4a93-8da4-fd2786b01953"
+					(reference "R12")
 					(unit 1)
 				)
 			)
