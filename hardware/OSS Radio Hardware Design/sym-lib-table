@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "rp2350a-qfn60")(type "KiCad")(uri "${KIPRJMOD}/Library/RP2350_KiCad-main/rp2350a-qfn60.kicad_sym")(options "")(descr ""))
   (lib (name "rp2350b-qfn80")(type "KiCad")(uri "${KIPRJMOD}/Library/RP2350_KiCad-main/rp2350b-qfn80.kicad_sym")(options "")(descr ""))
+  (lib (name "2025-03-28_00-57-05")(type "KiCad")(uri "${KIPRJMOD}/Library/Si4468/2025-03-28_00-57-05.kicad_sym")(options "")(descr ""))
 )
