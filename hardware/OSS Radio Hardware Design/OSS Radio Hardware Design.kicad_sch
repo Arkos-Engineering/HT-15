@@ -6,6 +6,48 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 102.87 30.48)
+		(size 33.02 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b6409364-80a7-45e6-8438-6c9767ff2100")
+		(property "Sheetname" "Display"
+			(at 102.87 29.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Display.kicad_sch"
+			(at 102.87 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "OSS Radio Hardware Design"
+				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 31.75 30.48)
 		(size 33.02 16.51)
 		(exclude_from_sim no)
@@ -48,7 +90,7 @@
 		)
 	)
 	(sheet
-		(at 69.85 30.48)
+		(at 67.31 30.48)
 		(size 33.02 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -64,7 +106,7 @@
 		)
 		(uuid "e66fc4ce-3cac-45bb-898e-a8c8a0752f3b")
 		(property "Sheetname" "RF"
-			(at 69.85 29.7684 0)
+			(at 67.31 29.7684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,7 +115,7 @@
 			)
 		)
 		(property "Sheetfile" "RF.kicad_sch"
-			(at 69.85 47.5746 0)
+			(at 67.31 47.5746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
