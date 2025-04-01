@@ -6,6 +6,48 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 173.99 30.48)
+		(size 33.02 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1fea53e1-bad3-4fc0-9492-4b8e0f78b13e")
+		(property "Sheetname" "Audio"
+			(at 173.99 29.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Audio.kicad_sch"
+			(at 173.99 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "OSS Radio Hardware Design"
+				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 102.87 30.48)
 		(size 33.02 16.51)
 		(exclude_from_sim no)
@@ -21,7 +63,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "b6409364-80a7-45e6-8438-6c9767ff2100")
-		(property "Sheetname" "Display"
+		(property "Sheetname" "Display And RAK GPS"
 			(at 102.87 29.7684 0)
 			(effects
 				(font
@@ -127,6 +169,48 @@
 			(project "OSS Radio Hardware Design"
 				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 138.43 30.48)
+		(size 33.02 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f2573a87-f70c-4caf-8131-0e6b13f03101")
+		(property "Sheetname" "Storage"
+			(at 138.43 29.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Storage.kicad_sch"
+			(at 138.43 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "OSS Radio Hardware Design"
+				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307"
+					(page "5")
 				)
 			)
 		)

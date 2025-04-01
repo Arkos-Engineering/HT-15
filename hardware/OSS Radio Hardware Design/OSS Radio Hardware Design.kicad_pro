@@ -411,7 +411,15 @@
     ],
     [
       "b6409364-80a7-45e6-8438-6c9767ff2100",
-      "Display"
+      "Display And RAK GPS"
+    ],
+    [
+      "f2573a87-f70c-4caf-8131-0e6b13f03101",
+      "Storage"
+    ],
+    [
+      "1fea53e1-bad3-4fc0-9492-4b8e0f78b13e",
+      "Audio"
     ]
   ],
   "text_variables": {}
