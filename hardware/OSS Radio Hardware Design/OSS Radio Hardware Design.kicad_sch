@@ -90,6 +90,48 @@
 		)
 	)
 	(sheet
+		(at 209.55 30.48)
+		(size 33.02 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c701d20d-e266-4c46-aeb3-ff3d813a359d")
+		(property "Sheetname" "Power"
+			(at 209.55 29.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 209.55 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "OSS Radio Hardware Design"
+				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 31.75 30.48)
 		(size 33.02 16.51)
 		(exclude_from_sim no)

@@ -1905,143 +1905,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:NCP1117-3.3_SOT223"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -3.81 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "NCP1117-3.3_SOT223"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF"
-				(at 2.54 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "1A Low drop-out regulator, Fixed Output 3.3V, SOT-223"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "REGULATOR LDO 3.3V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?223*TabPin2*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NCP1117-3.3_SOT223_0_1"
-				(rectangle
-					(start -5.08 -5.08)
-					(end 5.08 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "NCP1117-3.3_SOT223_1_1"
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "VI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "VO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -3821,16 +3684,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "1.1A MAX\n"
-		(exclude_from_sim no)
-		(at 69.596 158.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "9deb4446-bdbb-4e0a-8a7c-581e747a6184")
-	)
 	(junction
 		(at 40.64 27.94)
 		(diameter 0)
@@ -3982,12 +3835,6 @@
 		(uuid "5d0ba094-8a2d-4209-a496-2fd0c4157c51")
 	)
 	(junction
-		(at 62.23 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "609d20a9-dbdd-4d46-9147-25d8b4d46d78")
-	)
-	(junction
 		(at 111.76 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4082,12 +3929,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b2b81b4d-ab73-4ffb-b214-434cd5f828e8")
-	)
-	(junction
-		(at 36.83 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b2eae7bc-1324-4f3a-aa3a-c84c1a2b15a5")
 	)
 	(junction
 		(at 201.93 22.86)
@@ -4241,16 +4082,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 161.29) (xy 64.77 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04cf7721-7a86-44fd-8c2e-92735609cd86")
-	)
-	(wire
-		(pts
 			(xy 151.13 30.48) (xy 161.29 30.48)
 		)
 		(stroke
@@ -4258,16 +4089,6 @@
 			(type default)
 		)
 		(uuid "09131f92-9bb9-4b30-8724-ad23ba271a80")
-	)
-	(wire
-		(pts
-			(xy 36.83 168.91) (xy 36.83 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0abd947a-bc31-4362-af2d-65550cc3dc34")
 	)
 	(wire
 		(pts
@@ -4318,26 +4139,6 @@
 			(type default)
 		)
 		(uuid "1257cc5d-4b29-4514-a91f-63e2bb10443f")
-	)
-	(wire
-		(pts
-			(xy 24.13 161.29) (xy 26.67 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13275168-9699-430a-b561-927a0ffa40ce")
-	)
-	(wire
-		(pts
-			(xy 34.29 161.29) (xy 36.83 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "158493b6-9623-472b-8afb-316212a91cd4")
 	)
 	(wire
 		(pts
@@ -4681,16 +4482,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 149.86) (xy 36.83 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5582f84b-6cfa-498a-9a5d-2698e148b441")
-	)
-	(wire
-		(pts
 			(xy 120.65 30.48) (xy 130.81 30.48)
 		)
 		(stroke
@@ -4751,16 +4542,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 161.29) (xy 43.18 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6726c228-c635-499c-8442-de732c23d17c")
-	)
-	(wire
-		(pts
 			(xy 57.15 123.19) (xy 64.77 123.19)
 		)
 		(stroke
@@ -4818,16 +4599,6 @@
 			(type default)
 		)
 		(uuid "73d4ff2a-27af-4823-82a8-0e8091091a21")
-	)
-	(wire
-		(pts
-			(xy 62.23 170.18) (xy 62.23 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "764d7947-96a8-4f84-827f-523b9d1c83ba")
 	)
 	(wire
 		(pts
@@ -4958,16 +4729,6 @@
 			(type default)
 		)
 		(uuid "87060f6f-a849-4a2f-89b9-20ae070c5ed8")
-	)
-	(wire
-		(pts
-			(xy 36.83 158.75) (xy 36.83 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88beec32-6a93-4fcd-8b58-15e8f589d0d8")
 	)
 	(wire
 		(pts
@@ -5168,16 +4929,6 @@
 			(type default)
 		)
 		(uuid "a03d6832-f8ac-4659-b4db-377522f26ba9")
-	)
-	(wire
-		(pts
-			(xy 50.8 168.91) (xy 50.8 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a054b77b-1760-4eca-b24d-75b86c0da540")
 	)
 	(wire
 		(pts
@@ -5398,26 +5149,6 @@
 			(type default)
 		)
 		(uuid "b97d4ba4-194a-44b9-8725-88a5212b3c40")
-	)
-	(wire
-		(pts
-			(xy 36.83 170.18) (xy 62.23 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bafff799-0043-4687-8cb8-607fe220c4ec")
-	)
-	(wire
-		(pts
-			(xy 58.42 161.29) (xy 62.23 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "beecccbc-471c-48df-84ff-03efecfcb3e6")
 	)
 	(wire
 		(pts
@@ -6390,28 +6121,6 @@
 			)
 		)
 	)
-	(global_label "5V_USB"
-		(shape input)
-		(at 36.83 149.86 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "203291e5-67c9-4eb0-a718-0efa4cae8a34")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.83 139.7991 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "RF_SDO"
 		(shape input)
 		(at 156.21 60.96 0)
@@ -6764,28 +6473,6 @@
 			)
 		)
 	)
-	(global_label "V_BAT"
-		(shape input)
-		(at 24.13 161.29 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "73b3a1d4-b3e9-4a5f-8725-63932be24597")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 15.7624 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "DISPLAY_SCLK"
 		(shape output)
 		(at 156.21 83.82 0)
@@ -6909,28 +6596,6 @@
 		(uuid "b21b9e0a-4998-4985-9fa6-ee1cbf15e35f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 210.0557 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "3V3_MCU"
-		(shape output)
-		(at 64.77 161.29 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b3585b77-fd9a-47b9-8264-e23ad50be874")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.2823 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7711,77 +7376,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:NCP1117-3.3_SOT223")
-		(at 50.8 161.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "244ad9be-0b4a-406a-987b-7499df996387")
-		(property "Reference" "U3"
-			(at 50.8 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NCP1117-3.3_SOT223"
-			(at 50.8 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 50.8 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF"
-			(at 53.34 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1A Low drop-out regulator, Fixed Output 3.3V, SOT-223"
-			(at 50.8 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5c6df782-53e6-4186-825c-e1f6dad50e49")
-		)
-		(pin "3"
-			(uuid "6f7b680f-90ac-4d99-9261-f2b135f6ec6e")
-		)
-		(pin "1"
-			(uuid "246dbebc-c34f-43bb-97a4-921e3c073284")
-		)
-		(instances
-			(project "OSS Radio Hardware Design"
-				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/e0ca9277-1532-4a93-8da4-fd2786b01953"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 36.83 86.36 0)
 		(unit 1)
@@ -7978,73 +7572,6 @@
 			(project "OSS Radio Hardware Design"
 				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/e0ca9277-1532-4a93-8da4-fd2786b01953"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 30.48 161.29 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3fb65e02-b041-420d-ad67-a33062d0b033")
-		(property "Reference" "R12"
-			(at 28.702 164.846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 30.48 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 30.48 159.512 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 30.48 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 30.48 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5845d076-0135-4694-b14d-a566be6fe171")
-		)
-		(pin "1"
-			(uuid "fd94b88f-1eca-4584-aed9-9ff06cc18560")
-		)
-		(instances
-			(project "OSS Radio Hardware Design"
-				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/e0ca9277-1532-4a93-8da4-fd2786b01953"
-					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -8591,73 +8118,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 36.83 154.94 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "5846afcb-febb-43d6-929e-441d19cad6e2")
-		(property "Reference" "R10"
-			(at 33.274 153.162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 34.29 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.608 154.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 36.83 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 36.83 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2087353b-f751-43e2-982a-81c0c5fcba3f")
-		)
-		(pin "1"
-			(uuid "275899b2-68b7-4c79-8517-e5bd1a2c1c6c")
-		)
-		(instances
-			(project "OSS Radio Hardware Design"
-				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/e0ca9277-1532-4a93-8da4-fd2786b01953"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 97.79 22.86 0)
 		(unit 1)
@@ -9001,76 +8461,6 @@
 			(project "OSS Radio Hardware Design"
 				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/e0ca9277-1532-4a93-8da4-fd2786b01953"
 					(reference "Y1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 36.83 165.1 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7b855a6a-0455-4c05-b03c-4d434010d02d")
-		(property "Reference" "C5"
-			(at 40.64 163.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10u"
-			(at 40.64 166.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.8648 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 36.83 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 36.83 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c3fc4b37-ea38-41f6-ae98-83cf44e3c934")
-		)
-		(pin "2"
-			(uuid "90bebe93-ab4f-4f8a-b08f-8d69e310415e")
-		)
-		(instances
-			(project "OSS Radio Hardware Design"
-				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/e0ca9277-1532-4a93-8da4-fd2786b01953"
-					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -10424,71 +9814,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 50.8 172.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d2b3fbb9-24e3-4576-962b-af0bfeea17e7")
-		(property "Reference" "#PWR06"
-			(at 50.8 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 50.8 176.784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f988bcc6-0390-4cf5-85fa-742615dc5815")
-		)
-		(instances
-			(project "OSS Radio Hardware Design"
-				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/e0ca9277-1532-4a93-8da4-fd2786b01953"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 224.79 30.48 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10953,76 +10278,6 @@
 			(project "OSS Radio Hardware Design"
 				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/e0ca9277-1532-4a93-8da4-fd2786b01953"
 					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 62.23 165.1 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f24bb115-885b-47e6-9579-89c1d6670307")
-		(property "Reference" "C6"
-			(at 66.04 163.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10u"
-			(at 66.04 166.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 61.2648 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 62.23 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 62.23 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f6a0c3ae-2df0-4e48-af63-91a4283e66b3")
-		)
-		(pin "2"
-			(uuid "efa225a1-e680-49ed-9ced-4c39e94627e8")
-		)
-		(instances
-			(project "OSS Radio Hardware Design"
-				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/e0ca9277-1532-4a93-8da4-fd2786b01953"
-					(reference "C6")
 					(unit 1)
 				)
 			)
