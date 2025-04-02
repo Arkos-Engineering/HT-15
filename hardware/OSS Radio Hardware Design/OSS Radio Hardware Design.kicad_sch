@@ -63,7 +63,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "b6409364-80a7-45e6-8438-6c9767ff2100")
-		(property "Sheetname" "Display And RAK GPS"
+		(property "Sheetname" "Display and GPS"
 			(at 102.87 29.7684 0)
 			(effects
 				(font
