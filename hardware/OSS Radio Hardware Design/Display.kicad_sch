@@ -2831,6 +2831,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Need to re-select FET for BOM. Check to see if AO4300A works"
+		(exclude_from_sim no)
+		(at 126.238 94.234 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "49c46cd0-56b9-4baf-abbc-5f1670e99a88")
+	)
 	(text "GPS RAK Connector?\n"
 		(exclude_from_sim no)
 		(at 75.438 64.516 0)

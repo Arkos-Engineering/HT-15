@@ -4592,6 +4592,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 172.72) (xy 147.32 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "720ee933-8d66-4103-9bed-37e14035be52")
+	)
+	(wire
+		(pts
 			(xy 124.46 33.02) (xy 124.46 35.56)
 		)
 		(stroke
@@ -6421,6 +6431,28 @@
 			)
 		)
 	)
+	(global_label "CHGR_STAT"
+		(shape input)
+		(at 175.26 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "708553b8-4baa-4a58-a1b8-b4c7e96bbc3c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 188.5866 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SD_CARD_DETECT"
 		(shape input)
 		(at 175.26 96.52 0)
@@ -6588,6 +6620,28 @@
 		(uuid "b5e31693-e847-483a-b005-135e3e1df10f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 209.0881 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CHGR_CONN"
+		(shape input)
+		(at 156.21 172.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bf19c6db-ced8-4278-aa74-9e94ad4476d9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.5648 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
