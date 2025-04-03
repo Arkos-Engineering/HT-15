@@ -1138,7 +1138,7 @@
 	)
 	(text "RF IC\n"
 		(exclude_from_sim no)
-		(at 164.846 130.302 0)
+		(at 163.576 128.778 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2047,7 +2047,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "10n"
 			(at 223.52 92.7162 0)
 			(effects
 				(font
@@ -2184,7 +2184,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 129.5338 128.27 0)
 			(effects
 				(font
@@ -2243,18 +2243,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6aba6838-e11e-4e13-a723-5e15c73bed9f")
 		(property "Reference" "C20"
-			(at 130.8036 133.35 90)
+			(at 130.81 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "4.7uF"
-			(at 130.8036 135.89 90)
+		(property "Value" "4.7u"
+			(at 130.81 136.906 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2387,7 +2386,7 @@
 				)
 			)
 		)
-		(property "Value" "100pF"
+		(property "Value" "100p"
 			(at 200.914 91.44 90)
 			(effects
 				(font
@@ -2581,7 +2580,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33pF"
+		(property "Value" "15p"
 			(at 129.5338 110.49 0)
 			(effects
 				(font
@@ -2861,7 +2860,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100pF"
+		(property "Value" "100p"
 			(at 129.5338 119.38 0)
 			(effects
 				(font
