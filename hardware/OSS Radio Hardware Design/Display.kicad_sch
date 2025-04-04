@@ -2431,7 +2431,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:Si1308EDL"
+		(symbol "Transistor_FET:AO3400A"
 			(pin_names
 				(hide yes)
 			)
@@ -2447,7 +2447,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Si1308EDL"
+			(property "Value" "AO3400A"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -2456,7 +2456,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 				(at 5.08 -1.905 0)
 				(effects
 					(font
@@ -2467,7 +2467,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.vishay.com/docs/63399/si1308edl.pdf"
+			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
 				(at 5.08 -3.81 0)
 				(effects
 					(font
@@ -2477,7 +2477,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "30V Vds, 1.4A Id, N-Channel MOSFET, SC-70"
+			(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2495,7 +2495,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?323*"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2504,7 +2504,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Si1308EDL_0_1"
+			(symbol "AO3400A_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -2671,7 +2671,7 @@
 					)
 				)
 			)
-			(symbol "Si1308EDL_1_1"
+			(symbol "AO3400A_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -2830,16 +2830,6 @@
 			)
 			(embedded_fonts no)
 		)
-	)
-	(text "Need to re-select FET for BOM. Check to see if AO4300A works"
-		(exclude_from_sim no)
-		(at 126.238 94.234 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "49c46cd0-56b9-4baf-abbc-5f1670e99a88")
 	)
 	(text "GPS RAK Connector?\n"
 		(exclude_from_sim no)
@@ -5037,82 +5027,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Si1308EDL")
-		(at 207.01 67.31 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "95d6e6aa-2437-44c7-893b-685a6a257177")
-		(property "Reference" "Q1"
-			(at 201.422 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Si1308EDL"
-			(at 201.676 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
-			(at 201.93 69.215 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/63399/si1308edl.pdf"
-			(at 201.93 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "30V Vds, 1.4A Id, N-Channel MOSFET, SC-70"
-			(at 207.01 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c928b8d8-ba0f-45e9-b016-426c4cf80871")
-		)
-		(pin "1"
-			(uuid "2b42b0bd-8166-4908-a383-d2eb85e112fb")
-		)
-		(pin "3"
-			(uuid "061697f3-b8b0-4be4-a62e-3d449844eef8")
-		)
-		(instances
-			(project ""
-				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/b6409364-80a7-45e6-8438-6c9767ff2100"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 196.85 78.74 90)
 		(unit 1)
@@ -5580,6 +5494,82 @@
 			(project "OSS Radio Hardware Design"
 				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/b6409364-80a7-45e6-8438-6c9767ff2100"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3400A")
+		(at 207.01 67.31 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c11c80de-38e8-4e5c-8c48-4611b43139a9")
+		(property "Reference" "Q1"
+			(at 200.66 68.5801 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 200.66 66.0401 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 201.93 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+			(at 201.93 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 207.01 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f06223bc-1fd0-4717-9fbc-39d1e0396a2d")
+		)
+		(pin "1"
+			(uuid "279276b1-1d4e-49e0-91d3-2f712fd654b2")
+		)
+		(pin "3"
+			(uuid "c2c2b01c-adb1-4b93-80ac-9b97a8b9ae69")
+		)
+		(instances
+			(project ""
+				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/b6409364-80a7-45e6-8438-6c9767ff2100"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
