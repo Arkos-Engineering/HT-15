@@ -454,6 +454,10 @@
     [
       "c701d20d-e266-4c46-aeb3-ff3d813a359d",
       "Power"
+    ],
+    [
+      "7b56df82-cc6a-450b-93ef-d87bc728ade2",
+      "Buttons"
     ]
   ],
   "text_variables": {}

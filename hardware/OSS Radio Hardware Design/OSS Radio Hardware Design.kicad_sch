@@ -6,7 +6,7 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 173.99 30.48)
+		(at 167.64 30.48)
 		(size 33.02 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "1fea53e1-bad3-4fc0-9492-4b8e0f78b13e")
 		(property "Sheetname" "Audio"
-			(at 173.99 29.7684 0)
+			(at 167.64 29.7684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +31,7 @@
 			)
 		)
 		(property "Sheetfile" "Audio.kicad_sch"
-			(at 173.99 47.5746 0)
+			(at 167.64 47.5746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48,7 +48,49 @@
 		)
 	)
 	(sheet
-		(at 102.87 30.48)
+		(at 238.76 30.48)
+		(size 33.02 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7b56df82-cc6a-450b-93ef-d87bc728ade2")
+		(property "Sheetname" "Buttons"
+			(at 238.76 29.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Buttons.kicad_sch"
+			(at 238.76 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "OSS Radio Hardware Design"
+				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 96.52 30.48)
 		(size 33.02 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -64,7 +106,7 @@
 		)
 		(uuid "b6409364-80a7-45e6-8438-6c9767ff2100")
 		(property "Sheetname" "Display and GPS"
-			(at 102.87 29.7684 0)
+			(at 96.52 29.7684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,7 +115,7 @@
 			)
 		)
 		(property "Sheetfile" "Display.kicad_sch"
-			(at 102.87 47.5746 0)
+			(at 96.52 47.5746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -90,7 +132,7 @@
 		)
 	)
 	(sheet
-		(at 209.55 30.48)
+		(at 203.2 30.48)
 		(size 33.02 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -106,7 +148,7 @@
 		)
 		(uuid "c701d20d-e266-4c46-aeb3-ff3d813a359d")
 		(property "Sheetname" "Power"
-			(at 209.55 29.7684 0)
+			(at 203.2 29.7684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -115,7 +157,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 209.55 47.5746 0)
+			(at 203.2 47.5746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -132,7 +174,7 @@
 		)
 	)
 	(sheet
-		(at 31.75 30.48)
+		(at 25.4 30.48)
 		(size 33.02 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -148,7 +190,7 @@
 		)
 		(uuid "e0ca9277-1532-4a93-8da4-fd2786b01953")
 		(property "Sheetname" "MCU"
-			(at 31.75 29.7684 0)
+			(at 25.4 29.7684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -157,7 +199,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 31.75 47.5746 0)
+			(at 25.4 47.5746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -174,7 +216,7 @@
 		)
 	)
 	(sheet
-		(at 67.31 30.48)
+		(at 60.96 30.48)
 		(size 33.02 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -190,7 +232,7 @@
 		)
 		(uuid "e66fc4ce-3cac-45bb-898e-a8c8a0752f3b")
 		(property "Sheetname" "RF"
-			(at 67.31 29.7684 0)
+			(at 60.96 29.7684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -199,7 +241,7 @@
 			)
 		)
 		(property "Sheetfile" "RF.kicad_sch"
-			(at 67.31 47.5746 0)
+			(at 60.96 47.5746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -216,7 +258,7 @@
 		)
 	)
 	(sheet
-		(at 138.43 30.48)
+		(at 132.08 30.48)
 		(size 33.02 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -232,7 +274,7 @@
 		)
 		(uuid "f2573a87-f70c-4caf-8131-0e6b13f03101")
 		(property "Sheetname" "Storage"
-			(at 138.43 29.7684 0)
+			(at 132.08 29.7684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -241,7 +283,7 @@
 			)
 		)
 		(property "Sheetfile" "Storage.kicad_sch"
-			(at 138.43 47.5746 0)
+			(at 132.08 47.5746 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -7,4 +7,5 @@
   (lib (name "2025-04-02_22-14-21")(type "KiCad")(uri "${KIPRJMOD}/Library/S-8252/2025-04-02_22-14-21.kicad_sym")(options "")(descr ""))
   (lib (name "2025-04-02_22-09-11")(type "KiCad")(uri "${KIPRJMOD}/Library/MCP73844/2025-04-02_22-09-11.kicad_sym")(options "")(descr ""))
   (lib (name "2025-04-04_20-55-54")(type "KiCad")(uri "${KIPRJMOD}/Library/LM5157/2025-04-04_20-55-54.kicad_sym")(options "")(descr ""))
+  (lib (name "P091S")(type "KiCad")(uri "${KIPRJMOD}/Library/P091S/P091S.kicad_sym")(options "")(descr ""))
 )
