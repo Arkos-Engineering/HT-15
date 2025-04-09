@@ -4312,6 +4312,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 167.64) (xy 156.21 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36f216a4-083e-49cf-97f6-5a11e988bf03")
+	)
+	(wire
+		(pts
 			(xy 119.38 33.02) (xy 119.38 35.56)
 		)
 		(stroke
@@ -5981,7 +5991,7 @@
 	)
 	(global_label "MIC_SCL"
 		(shape output)
-		(at 156.21 114.3 0)
+		(at 156.21 124.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5991,7 +6001,7 @@
 		)
 		(uuid "0d322d3a-83c9-4c91-b28e-e40f94a1a798")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.9966 114.3 0)
+			(at 166.9966 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6069,7 +6079,7 @@
 	)
 	(global_label "BTN_MTX_3"
 		(shape input)
-		(at 156.21 134.62 0)
+		(at 156.21 142.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6079,7 +6089,7 @@
 		)
 		(uuid "18fb4010-5940-4387-b14b-004df0de9248")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.5365 134.62 0)
+			(at 169.5365 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6089,9 +6099,9 @@
 			)
 		)
 	)
-	(global_label "AUDIOAMP_ENABLE"
+	(global_label "AUDIOAMP_RESET"
 		(shape output)
-		(at 156.21 109.22 0)
+		(at 156.21 111.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6101,7 +6111,7 @@
 		)
 		(uuid "1c03ce13-c133-4163-a254-200d0e36cf1b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.6124 109.22 0)
+			(at 175.3423 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6157,7 +6167,7 @@
 	)
 	(global_label "BTN_MTX_4"
 		(shape input)
-		(at 156.21 137.16 0)
+		(at 156.21 144.78 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6167,7 +6177,7 @@
 		)
 		(uuid "266e087c-94aa-45ed-a267-bfebc05889e1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.5365 137.16 0)
+			(at 169.5365 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6223,7 +6233,7 @@
 	)
 	(global_label "AUDIOAMP_SDI"
 		(shape output)
-		(at 156.21 101.6 0)
+		(at 156.21 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6233,7 +6243,7 @@
 		)
 		(uuid "35393a1d-9c6a-4aa6-aaee-5a8da6ba68a0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.6815 101.6 0)
+			(at 172.6815 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6289,7 +6299,7 @@
 	)
 	(global_label "MIC_WORDSELECT"
 		(shape output)
-		(at 156.21 111.76 0)
+		(at 156.21 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6299,7 +6309,7 @@
 		)
 		(uuid "41c06c91-7dff-425c-a8d7-cc51070d0fed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.5841 111.76 0)
+			(at 175.5841 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6322,6 +6332,28 @@
 		(uuid "47a64571-54c3-457a-a27d-59bd3d493bbe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 185.5023 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HEADSET_PTT"
+		(shape input)
+		(at 156.21 157.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4b37866f-81a6-49ec-8c02-0b4892911faf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 171.5322 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6377,7 +6409,7 @@
 	)
 	(global_label "MIC_SDO"
 		(shape input)
-		(at 156.21 116.84 0)
+		(at 156.21 127 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6387,7 +6419,7 @@
 		)
 		(uuid "5a7fa1e2-ef34-491f-8a87-158165eac864")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.299 116.84 0)
+			(at 167.299 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6399,7 +6431,7 @@
 	)
 	(global_label "BTN_MTX_6"
 		(shape input)
-		(at 156.21 142.24 0)
+		(at 156.21 149.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6409,7 +6441,7 @@
 		)
 		(uuid "5acd5771-ae7a-4d89-b158-3f4c6fde4c3d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.5365 142.24 0)
+			(at 169.5365 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6531,7 +6563,7 @@
 	)
 	(global_label "CHGR_STAT"
 		(shape input)
-		(at 175.26 119.38 0)
+		(at 156.21 167.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6541,7 +6573,7 @@
 		)
 		(uuid "708553b8-4baa-4a58-a1b8-b4c7e96bbc3c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.5866 119.38 0)
+			(at 169.5366 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6597,7 +6629,7 @@
 	)
 	(global_label "AUDIOAMP_I2C_SCL"
 		(shape bidirectional)
-		(at 213.36 118.11 0)
+		(at 156.21 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6607,7 +6639,7 @@
 		)
 		(uuid "82da65f1-5602-4bed-bdf3-f8a27f47917e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.418 118.11 0)
+			(at 178.268 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6619,7 +6651,7 @@
 	)
 	(global_label "BTN_MTX_5"
 		(shape input)
-		(at 156.21 139.7 0)
+		(at 156.21 147.32 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6629,7 +6661,7 @@
 		)
 		(uuid "8e4aca31-bc40-4373-88e9-51b172f83e48")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.5365 139.7 0)
+			(at 169.5365 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6641,7 +6673,7 @@
 	)
 	(global_label "BTN_MTX_2"
 		(shape input)
-		(at 156.21 132.08 0)
+		(at 156.21 139.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6651,7 +6683,29 @@
 		)
 		(uuid "915b3c68-2f93-490d-82cc-136e2507fe5f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.5365 132.08 0)
+			(at 169.5365 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AUDIOAMP_SDO"
+		(shape input)
+		(at 156.21 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "99fcd664-6486-4151-a190-f6ee370d4265")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.4072 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6685,7 +6739,7 @@
 	)
 	(global_label "AUDIOAMP_I2C_SDA"
 		(shape bidirectional)
-		(at 213.36 120.65 0)
+		(at 156.21 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6695,7 +6749,7 @@
 		)
 		(uuid "a5b52934-b67c-40e7-833f-ad9a70c60db3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.4785 120.65 0)
+			(at 178.3285 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6751,7 +6805,7 @@
 	)
 	(global_label "AUDIOAMP_WORDSELECT"
 		(shape output)
-		(at 156.21 106.68 0)
+		(at 156.21 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6761,7 +6815,7 @@
 		)
 		(uuid "ac62a081-fc47-4599-b90a-6a439508f218")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.6923 106.68 0)
+			(at 181.6923 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6773,7 +6827,7 @@
 	)
 	(global_label "BTN_MTX_A"
 		(shape output)
-		(at 156.21 121.92 0)
+		(at 156.21 129.54 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6783,7 +6837,7 @@
 		)
 		(uuid "afa2851f-7f98-41b0-af8e-5f68deb180a0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.4156 121.92 0)
+			(at 169.4156 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6839,7 +6893,7 @@
 	)
 	(global_label "BTN_MTX_B"
 		(shape output)
-		(at 156.21 124.46 0)
+		(at 156.21 132.08 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6849,7 +6903,7 @@
 		)
 		(uuid "b609e303-9847-4965-855e-e42cef41ac4c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.597 124.46 0)
+			(at 169.597 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6872,6 +6926,28 @@
 		(uuid "bf19c6db-ced8-4278-aa74-9e94ad4476d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 170.5648 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AUDIOAMP_MASTERCLK"
+		(shape output)
+		(at 156.21 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c0e64ce9-a4f6-4361-a257-4a4ce531ea8e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.3014 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6905,7 +6981,7 @@
 	)
 	(global_label "BTN_MTX_7"
 		(shape input)
-		(at 156.21 144.78 0)
+		(at 156.21 152.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6915,7 +6991,7 @@
 		)
 		(uuid "c8216128-8b3b-4402-9272-a1ed7804b163")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.5365 144.78 0)
+			(at 169.5365 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6949,7 +7025,7 @@
 	)
 	(global_label "AUDIOAMP_SCL"
 		(shape output)
-		(at 156.21 104.14 0)
+		(at 156.21 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6959,7 +7035,7 @@
 		)
 		(uuid "e05f7d0a-b71d-470c-80ab-60cf8d89e32a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.1048 104.14 0)
+			(at 173.1048 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6993,7 +7069,7 @@
 	)
 	(global_label "BTN_MTX_C"
 		(shape output)
-		(at 156.21 127 0)
+		(at 156.21 134.62 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7003,7 +7079,7 @@
 		)
 		(uuid "e7a108a1-5823-4832-b443-a968e0d18af3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.597 127 0)
+			(at 169.597 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7015,7 +7091,7 @@
 	)
 	(global_label "BTN_MTX_1"
 		(shape input)
-		(at 156.21 129.54 0)
+		(at 156.21 137.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7025,7 +7101,7 @@
 		)
 		(uuid "e9798ec2-4394-4e72-a31d-be5644faa42d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.5365 129.54 0)
+			(at 169.5365 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -52,7 +52,7 @@
 		- Speaker amp
 			- I2S amp
 			- TAS2110? Maybe too smart for our needs
-			- MAX98357A. Seems like the best option, supports I2S (and PDM, but I2S seems to have the least overhead). Needs PIO for I2S
-			- TLV320DAC3100?
+			- MAX98357A
+			- TLV320AIC3100 Seems like the best option, supports I2S (and PDM, but I2S seems to have the least overhead). Needs PIO for I2S. Also has a mic input and headphone output
 		- Speaker
 			- AS01808AO-WP-R
