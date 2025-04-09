@@ -6595,6 +6595,28 @@
 			)
 		)
 	)
+	(global_label "AUDIOAMP_I2C_SCL"
+		(shape bidirectional)
+		(at 213.36 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "82da65f1-5602-4bed-bdf3-f8a27f47917e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 235.418 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BTN_MTX_5"
 		(shape input)
 		(at 156.21 139.7 0)
@@ -6652,6 +6674,28 @@
 		(uuid "9c1d2e24-14a4-4db4-8287-063a44145e33")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 169.3175 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AUDIOAMP_I2C_SDA"
+		(shape bidirectional)
+		(at 213.36 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a5b52934-b67c-40e7-833f-ad9a70c60db3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 235.4785 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
