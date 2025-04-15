@@ -5756,7 +5756,7 @@
 				)
 				(uuid "d50333e0-c424-4f75-8148-f3655c5fc2b2")
 			)
-			(table_cell "Wisblock GPS/Expansions"
+			(table_cell "Audio IC, Wisblock GPS/Expansions"
 				(exclude_from_sim no)
 				(at 218.44 148.59 0)
 				(size 64.77 2.54)
@@ -5968,7 +5968,7 @@
 		)
 	)
 	(global_label "5V_USB"
-		(shape input)
+		(shape output)
 		(at 243.84 30.48 180)
 		(fields_autoplaced yes)
 		(effects
