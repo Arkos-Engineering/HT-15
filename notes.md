@@ -11,6 +11,8 @@
 				- FM, used in Baofengs. Hard to source. Made in China
 			- Si4468:
 				- +20dBm output, new, FM support might be lacking. This seems like the best choice
+			- TI CC1120:
+				- +16dBm. FM support code examples exist
 		- RF Amp (we want at least 36dBm, Si4468 supports +20dbM):
 			- MAAM-011229-TR1000
 			- AFT09MS007N

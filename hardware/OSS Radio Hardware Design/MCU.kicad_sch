@@ -6123,7 +6123,7 @@
 	)
 	(global_label "AUDIOAMP_RESET"
 		(shape output)
-		(at 156.21 111.76 0)
+		(at 224.79 111.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6133,7 +6133,7 @@
 		)
 		(uuid "1c03ce13-c133-4163-a254-200d0e36cf1b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.3423 111.76 0)
+			(at 243.9223 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
