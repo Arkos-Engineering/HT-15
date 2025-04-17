@@ -271,6 +271,165 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:ESD9B3.3ST5G"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ESD9B3.3ST5G"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-923"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "ESD protection diode, 3.3Vrwm, SOD-923"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode TVS ESD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?923*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ESD9B3.3ST5G_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ESD9B3.3ST5G_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MEM2061-01-188-00-A_REVA:MEM2061-01-188-00-A_REVA"
 			(pin_names
 				(offset 1.016)
@@ -905,7 +1064,7 @@
 	)
 	(text "SD Card"
 		(exclude_from_sim no)
-		(at 220.218 82.042 0)
+		(at 233.172 81.534 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -932,10 +1091,22 @@
 		(uuid "049f0a1f-a56b-416a-85df-217dbfcc44db")
 	)
 	(junction
+		(at 213.36 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0757e5a9-17d3-4e33-a4e7-43f11f3a5c2f")
+	)
+	(junction
 		(at 223.52 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "12873c34-97e6-43cd-a432-e3e816884c14")
+	)
+	(junction
+		(at 215.9 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28b8baf2-64eb-4320-abc9-b443572cc2d7")
 	)
 	(junction
 		(at 207.01 31.75)
@@ -944,10 +1115,28 @@
 		(uuid "481a0552-2a3c-4018-92c8-1dd448f8e7ab")
 	)
 	(junction
-		(at 207.01 62.23)
+		(at 186.69 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6196f876-3f9c-4e45-95ec-6b9f91e14c5e")
+	)
+	(junction
+		(at 207.01 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6edfeffd-6e0f-4636-8022-5fbd6e374659")
+	)
+	(junction
+		(at 187.96 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "727fe005-03b3-4007-b2d1-c2e012452f44")
+	)
+	(junction
+		(at 186.69 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c756e90-ef83-41b3-8fce-f0e8cd7af0cb")
 	)
 	(junction
 		(at 223.52 67.31)
@@ -997,6 +1186,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 44.45) (xy 186.69 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09351760-5e5a-4c2c-9396-d55834c387b4")
+	)
+	(wire
+		(pts
 			(xy 186.69 39.37) (xy 185.42 39.37)
 		)
 		(stroke
@@ -1017,13 +1216,13 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 39.37) (xy 207.01 49.53)
+			(xy 207.01 52.07) (xy 226.06 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "23a5a37b-1902-41e2-8e4a-072dc4fd90e9")
+		(uuid "2631538b-17f6-4d11-a0f7-c241b30c8675")
 	)
 	(wire
 		(pts
@@ -1034,6 +1233,26 @@
 			(type default)
 		)
 		(uuid "2fcba84b-9ab1-4203-83e6-db2b8d9740d0")
+	)
+	(wire
+		(pts
+			(xy 204.47 52.07) (xy 207.01 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3158b867-2d29-4dc6-a538-b946a913279b")
+	)
+	(wire
+		(pts
+			(xy 187.96 62.23) (xy 226.06 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e6bedd8-ac8a-4da3-8f8e-3da230fe3ac5")
 	)
 	(wire
 		(pts
@@ -1057,13 +1276,33 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 54.61) (xy 207.01 62.23)
+			(xy 215.9 41.91) (xy 226.06 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bc16ce9-ed6d-4ebc-aeb3-e27581206838")
+	)
+	(wire
+		(pts
+			(xy 186.69 54.61) (xy 186.69 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5bf1ac9b-5436-45a2-9f0d-4b3ef53f67bc")
+	)
+	(wire
+		(pts
+			(xy 204.47 54.61) (xy 226.06 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6437a363-229a-472a-a670-659af394aac4")
 	)
 	(wire
 		(pts
@@ -1087,13 +1326,43 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 62.23) (xy 207.01 62.23)
+			(xy 207.01 52.07) (xy 207.01 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7108de38-4b33-4415-a3c5-2954ddd1c8a4")
+	)
+	(wire
+		(pts
+			(xy 186.69 39.37) (xy 186.69 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76bfb47b-9504-4e31-ad22-1ba03d19fbdc")
+	)
+	(wire
+		(pts
+			(xy 184.15 62.23) (xy 186.69 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7d2d953a-5578-4afc-a9b2-fddb5540992d")
+	)
+	(wire
+		(pts
+			(xy 204.47 49.53) (xy 213.36 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d461000-e807-4dea-9ebd-a4671ff20216")
 	)
 	(wire
 		(pts
@@ -1137,6 +1406,26 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 54.61) (xy 204.47 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90cb6004-5623-4c93-b807-fb0acf70a9ce")
+	)
+	(wire
+		(pts
+			(xy 204.47 41.91) (xy 215.9 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "963b1886-e676-4932-8384-6a3bc6de58c1")
+	)
+	(wire
+		(pts
 			(xy 223.52 67.31) (xy 226.06 67.31)
 		)
 		(stroke
@@ -1154,6 +1443,16 @@
 			(type default)
 		)
 		(uuid "a67e3b88-c05f-4b23-9552-5b65a559a7b9")
+	)
+	(wire
+		(pts
+			(xy 186.69 44.45) (xy 186.69 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b082f9cd-f1cf-4a94-8a62-1dd557c48036")
 	)
 	(wire
 		(pts
@@ -1217,6 +1516,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 49.53) (xy 213.36 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbb76113-bbc8-4a50-b625-e574ad859673")
+	)
+	(wire
+		(pts
 			(xy 218.44 39.37) (xy 226.06 39.37)
 		)
 		(stroke
@@ -1227,13 +1536,23 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 62.23) (xy 226.06 62.23)
+			(xy 186.69 62.23) (xy 187.96 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "eb6b6d32-1748-4240-bc3d-dd521720e876")
+	)
+	(wire
+		(pts
+			(xy 213.36 49.53) (xy 226.06 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec3b79f6-6438-433a-bbe0-c3025754b551")
 	)
 	(wire
 		(pts
@@ -1255,9 +1574,19 @@
 		)
 		(uuid "ee0d354c-3db4-4aa9-bd47-095f6117c116")
 	)
+	(wire
+		(pts
+			(xy 215.9 41.91) (xy 215.9 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdd44e5a-f73e-4e3f-a057-35388cb0f6f6")
+	)
 	(global_label "SD_CARD_DETECT"
 		(shape output)
-		(at 204.47 62.23 180)
+		(at 184.15 62.23 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1267,7 +1596,7 @@
 		)
 		(uuid "09625102-d378-4fd9-9bbb-0f20ac9deacb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.3983 62.23 0)
+			(at 165.0783 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1279,7 +1608,7 @@
 	)
 	(global_label "SD_SDO"
 		(shape output)
-		(at 226.06 41.91 180)
+		(at 204.47 41.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1289,7 +1618,7 @@
 		)
 		(uuid "100af578-99cd-496e-b6b2-0ed8d94f3bbd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 215.8177 41.91 0)
+			(at 194.2277 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1301,7 +1630,7 @@
 	)
 	(global_label "SD_CS"
 		(shape input)
-		(at 226.06 49.53 180)
+		(at 204.47 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1311,7 +1640,7 @@
 		)
 		(uuid "516786b6-c529-4371-8be8-656b327a5dd3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.1482 49.53 0)
+			(at 195.5582 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1323,7 +1652,7 @@
 	)
 	(global_label "SD_SCLK"
 		(shape input)
-		(at 226.06 54.61 180)
+		(at 204.47 54.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1333,7 +1662,7 @@
 		)
 		(uuid "520909d2-8f8f-4221-8625-dc47b4d12720")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.8501 54.61 0)
+			(at 193.2601 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1389,7 +1718,7 @@
 	)
 	(global_label "SD_SDI"
 		(shape input)
-		(at 226.06 52.07 180)
+		(at 204.47 52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1399,7 +1728,7 @@
 		)
 		(uuid "94c77552-cd1a-4c0c-87e8-15e51ecc3bce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 216.5434 52.07 0)
+			(at 194.9534 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1520,8 +1849,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 207.01 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0486f16b-7303-4c28-9566-e2afe809649d")
+		(property "Reference" "#PWR063"
+			(at 207.01 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 207.01 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 207.01 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bca4654e-6953-4000-b898-4ceffaabc67e")
+		)
+		(instances
+			(project "OSS Radio Hardware Design"
+				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/f2573a87-f70c-4caf-8131-0e6b13f03101"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
-		(at 207.01 52.07 180)
+		(at 186.69 52.07 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1530,7 +1924,7 @@
 		(fields_autoplaced yes)
 		(uuid "05f4fade-b011-484a-9531-a8ad339b544f")
 		(property "Reference" "R19"
-			(at 209.55 50.7999 0)
+			(at 189.23 50.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1538,8 +1932,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
-			(at 209.55 53.3399 0)
+		(property "Value" "5k1"
+			(at 189.23 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1548,7 +1942,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 52.07 0)
+			(at 186.69 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1557,7 +1951,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 207.01 52.07 0)
+			(at 186.69 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1566,7 +1960,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 207.01 52.07 0)
+			(at 186.69 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1702,6 +2096,270 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 204.47 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0fe644d0-8708-48e9-90a7-14d35ad16a54")
+		(property "Reference" "#PWR065"
+			(at 204.47 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 204.47 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 204.47 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f78a7381-4820-4d37-8866-d34a10605123")
+		)
+		(instances
+			(project "OSS Radio Hardware Design"
+				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/f2573a87-f70c-4caf-8131-0e6b13f03101"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:ESD9B3.3ST5G")
+		(at 215.9 68.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "34cbc8e0-6a3d-4752-b68f-f1da0f6b26f7")
+		(property "Reference" "D50"
+			(at 220.472 67.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESD9B3.3ST5G"
+			(at 218.694 64.008 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-923"
+			(at 215.9 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
+			(at 215.9 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD protection diode, 3.3Vrwm, SOD-923"
+			(at 215.9 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4805ac48-d352-4572-b2fc-48d1a91cd94e")
+		)
+		(pin "2"
+			(uuid "71da333d-ee17-4625-8375-408239965190")
+		)
+		(instances
+			(project "OSS Radio Hardware Design"
+				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/f2573a87-f70c-4caf-8131-0e6b13f03101"
+					(reference "D50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 213.36 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "368f496c-5cec-486e-b302-7327a2b83804")
+		(property "Reference" "#PWR066"
+			(at 213.36 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 213.36 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 213.36 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9246b2a6-523e-4b4d-ad6d-08f79dc427df")
+		)
+		(instances
+			(project "OSS Radio Hardware Design"
+				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/f2573a87-f70c-4caf-8131-0e6b13f03101"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 215.9 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "386171de-3596-4134-8b4a-f4c0f8fddd5f")
+		(property "Reference" "#PWR064"
+			(at 215.9 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 215.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 215.9 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27ae3300-464b-4ddd-a540-ce0e2aa96ad7")
+		)
+		(instances
+			(project "OSS Radio Hardware Design"
+				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/f2573a87-f70c-4caf-8131-0e6b13f03101"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 50.8 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1760,6 +2418,144 @@
 			(project "OSS Radio Hardware Design"
 				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/f2573a87-f70c-4caf-8131-0e6b13f03101"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:ESD9B3.3ST5G")
+		(at 187.96 66.04 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6231183b-740f-4c5f-892b-c8bba091c5e1")
+		(property "Reference" "D48"
+			(at 192.532 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESD9B3.3ST5G"
+			(at 190.754 61.468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-923"
+			(at 187.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
+			(at 187.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD protection diode, 3.3Vrwm, SOD-923"
+			(at 187.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eef40fc1-3aa4-4e33-b0f2-25c557e9dd16")
+		)
+		(pin "2"
+			(uuid "8615a5d3-d4de-4990-aa76-11d284067268")
+		)
+		(instances
+			(project "OSS Radio Hardware Design"
+				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/f2573a87-f70c-4caf-8131-0e6b13f03101"
+					(reference "D48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:ESD9B3.3ST5G")
+		(at 207.01 68.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "69e351b2-15bb-479c-9752-127717095ed8")
+		(property "Reference" "D49"
+			(at 211.582 67.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESD9B3.3ST5G"
+			(at 209.804 64.008 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-923"
+			(at 207.01 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
+			(at 207.01 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD protection diode, 3.3Vrwm, SOD-923"
+			(at 207.01 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eca9df0e-10bc-4e40-b9dc-fa09b5a9411e")
+		)
+		(pin "2"
+			(uuid "62955ac3-c93a-49e5-86aa-6411d8d97d0a")
+		)
+		(instances
+			(project "OSS Radio Hardware Design"
+				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/f2573a87-f70c-4caf-8131-0e6b13f03101"
+					(reference "D49")
 					(unit 1)
 				)
 			)
@@ -1829,6 +2625,209 @@
 			(project "OSS Radio Hardware Design"
 				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/f2573a87-f70c-4caf-8131-0e6b13f03101"
 					(reference "C40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:ESD9B3.3ST5G")
+		(at 180.34 44.45 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7484e042-72ef-4624-b1a8-279dfdab678e")
+		(property "Reference" "D53"
+			(at 181.864 49.022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESD9B3.3ST5G"
+			(at 184.912 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-923"
+			(at 180.34 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
+			(at 180.34 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD protection diode, 3.3Vrwm, SOD-923"
+			(at 180.34 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4fc6b860-05b5-41ee-a112-9d37c2a46321")
+		)
+		(pin "2"
+			(uuid "75ca8d30-52d7-4a05-8602-1c6fc3e7df01")
+		)
+		(instances
+			(project "OSS Radio Hardware Design"
+				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/f2573a87-f70c-4caf-8131-0e6b13f03101"
+					(reference "D53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 176.53 44.45 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "76beb8a8-1e96-4ab1-9a17-afba763591e0")
+		(property "Reference" "#PWR067"
+			(at 170.18 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.72 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 176.53 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90c31a0a-72b7-49d6-a72e-c701da5745c0")
+		)
+		(instances
+			(project "OSS Radio Hardware Design"
+				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/f2573a87-f70c-4caf-8131-0e6b13f03101"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:ESD9B3.3ST5G")
+		(at 204.47 82.55 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7a6d650c-9dbd-4954-a95a-32c139336dc0")
+		(property "Reference" "D51"
+			(at 209.042 81.026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESD9B3.3ST5G"
+			(at 207.264 77.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-923"
+			(at 204.47 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
+			(at 204.47 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD protection diode, 3.3Vrwm, SOD-923"
+			(at 204.47 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a1a6dc3-51ba-4267-9c9a-7b30f6826790")
+		)
+		(pin "2"
+			(uuid "39181928-4fa7-4149-ad2d-206f75a91d6c")
+		)
+		(instances
+			(project "OSS Radio Hardware Design"
+				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/f2573a87-f70c-4caf-8131-0e6b13f03101"
+					(reference "D51")
 					(unit 1)
 				)
 			)
@@ -2390,6 +3389,140 @@
 			(project "OSS Radio Hardware Design"
 				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/f2573a87-f70c-4caf-8131-0e6b13f03101"
 					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 187.96 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb1d982b-44b3-4066-8afb-5e8e960f408a")
+		(property "Reference" "#PWR062"
+			(at 187.96 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 187.96 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 187.96 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6c1835c-b2e7-4f24-973a-e02533400725")
+		)
+		(instances
+			(project "OSS Radio Hardware Design"
+				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/f2573a87-f70c-4caf-8131-0e6b13f03101"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:ESD9B3.3ST5G")
+		(at 213.36 82.55 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f6d32f72-08ca-4716-b747-43d3d6102722")
+		(property "Reference" "D52"
+			(at 217.932 81.026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESD9B3.3ST5G"
+			(at 216.154 77.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-923"
+			(at 213.36 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
+			(at 213.36 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD protection diode, 3.3Vrwm, SOD-923"
+			(at 213.36 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d10dc2f-3cb6-4e66-b6f0-d41151e1eafd")
+		)
+		(pin "2"
+			(uuid "adee9638-86c4-4495-9a87-3ffd7870c5ba")
+		)
+		(instances
+			(project "OSS Radio Hardware Design"
+				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/f2573a87-f70c-4caf-8131-0e6b13f03101"
+					(reference "D52")
 					(unit 1)
 				)
 			)
