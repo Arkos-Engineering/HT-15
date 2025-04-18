@@ -1985,16 +1985,6 @@
 		)
 		(uuid "35e1076c-4dbb-4f18-8a23-162dd5de32e5")
 	)
-	(text "TODO External audio connectors\n"
-		(exclude_from_sim no)
-		(at 102.362 123.19 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ec44cd14-caf5-47ff-96c4-8a93e134ce75")
-	)
 	(text "Audio Output Amplifier and Headset Mic"
 		(exclude_from_sim no)
 		(at 197.358 118.872 0)
@@ -2343,16 +2333,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 67.31) (xy 233.68 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1666f809-b0ad-439f-ae48-0b6f8f8d0d81")
-	)
-	(wire
-		(pts
 			(xy 163.83 52.07) (xy 177.8 52.07)
 		)
 		(stroke
@@ -2400,6 +2380,16 @@
 			(type default)
 		)
 		(uuid "1e54c43d-0c18-4cda-bfae-823a3447de0f")
+	)
+	(wire
+		(pts
+			(xy 233.68 67.31) (xy 218.44 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20e6e95b-531f-4c42-ac72-fa17618d42b0")
 	)
 	(wire
 		(pts
@@ -2493,7 +2483,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 67.31) (xy 218.44 67.31)
+			(xy 234.95 69.85) (xy 233.68 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2653,7 +2643,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 74.93) (xy 247.65 74.93)
+			(xy 218.44 74.93) (xy 240.03 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2993,6 +2983,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 69.85) (xy 220.98 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5983f29-e838-49c2-a782-0799f2e57af0")
+	)
+	(wire
+		(pts
 			(xy 200.66 49.53) (xy 200.66 48.26)
 		)
 		(stroke
@@ -3153,16 +3153,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 69.85) (xy 240.03 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d17a1640-82d5-45fb-b125-78fde1cbf93c")
-	)
-	(wire
-		(pts
 			(xy 195.58 29.21) (xy 193.04 29.21)
 		)
 		(stroke
@@ -3233,6 +3223,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 69.85) (xy 248.92 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db8cba85-9f0d-4e8f-bb87-bd7b51eae074")
+	)
+	(wire
+		(pts
 			(xy 247.65 66.04) (xy 248.92 66.04)
 		)
 		(stroke
@@ -3260,6 +3260,16 @@
 			(type default)
 		)
 		(uuid "e2f3705d-dee5-4a82-9eeb-0d7c02a0ab87")
+	)
+	(wire
+		(pts
+			(xy 233.68 69.85) (xy 233.68 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3c34678-7dd8-4a65-9913-ec76c656ba30")
 	)
 	(wire
 		(pts
@@ -3323,6 +3333,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 74.93) (xy 247.65 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f81d89a2-b3d3-4811-8c24-52d25f2d99b1")
+	)
+	(wire
+		(pts
 			(xy 190.5 90.17) (xy 193.04 90.17)
 		)
 		(stroke
@@ -3340,16 +3360,6 @@
 			(type default)
 		)
 		(uuid "fc00c6d4-dd47-4038-a034-2f34a53c29b9")
-	)
-	(wire
-		(pts
-			(xy 240.03 69.85) (xy 248.92 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff24c155-a513-4d6e-851e-10a9f76f9735")
 	)
 	(global_label "3V3_MCU"
 		(shape input)
@@ -4461,6 +4471,76 @@
 			(project "OSS Radio Hardware Design"
 				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/1fea53e1-bad3-4fc0-9492-4b8e0f78b13e"
 					(reference "C47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 242.57 74.93 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2f473d05-bd99-4592-a9a9-584145469ffc")
+		(property "Reference" "R52"
+			(at 242.316 76.708 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 246.634 76.708 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 242.57 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bf1a9769-58ca-462d-b302-cdeb644d195e")
+		)
+		(pin "1"
+			(uuid "061f6b57-d5d6-4889-ba0f-96f548517771")
+		)
+		(instances
+			(project "OSS Radio Hardware Design"
+				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/1fea53e1-bad3-4fc0-9492-4b8e0f78b13e"
+					(reference "R52")
 					(unit 1)
 				)
 			)
@@ -5947,7 +6027,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 231.14 67.31 90)
+		(at 237.49 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5955,7 +6035,7 @@
 		(dnp no)
 		(uuid "9a8c6da0-479a-409a-8ebf-35d4f6be4cbe")
 		(property "Reference" "C79"
-			(at 230.378 70.104 90)
+			(at 236.728 72.644 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5964,7 +6044,7 @@
 			)
 		)
 		(property "Value" "47u"
-			(at 234.95 70.104 90)
+			(at 241.3 72.644 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5973,7 +6053,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 231.14 67.31 0)
+			(at 237.49 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5982,7 +6062,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 231.14 67.31 0)
+			(at 237.49 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5991,7 +6071,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 231.14 67.31 0)
+			(at 237.49 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6142,6 +6222,72 @@
 			(project ""
 				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/1fea53e1-bad3-4fc0-9492-4b8e0f78b13e"
 					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 226.06 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "acfae2b0-29d3-4287-96a5-7fb28f11a214")
+		(property "Reference" "#PWR068"
+			(at 232.41 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 227.838 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 226.06 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c851b90-ed67-40f5-84cd-8d33e49a485e")
+		)
+		(instances
+			(project "OSS Radio Hardware Design"
+				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/1fea53e1-bad3-4fc0-9492-4b8e0f78b13e"
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -6677,6 +6823,75 @@
 			(project ""
 				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/1fea53e1-bad3-4fc0-9492-4b8e0f78b13e"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 223.52 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "ff759fdc-6133-4893-8b63-9272361d83cb")
+		(property "Reference" "C90"
+			(at 222.758 72.644 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47u"
+			(at 227.33 72.644 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 223.52 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 223.52 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "913058af-1e57-4961-9b51-1d850afbeb86")
+		)
+		(pin "1"
+			(uuid "3301e78d-829b-4a37-8594-6a6bd1dfac16")
+		)
+		(instances
+			(project "OSS Radio Hardware Design"
+				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/1fea53e1-bad3-4fc0-9492-4b8e0f78b13e"
+					(reference "C90")
 					(unit 1)
 				)
 			)
