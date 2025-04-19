@@ -9,4 +9,6 @@
   (lib (name "2025-04-04_20-55-54")(type "KiCad")(uri "${KIPRJMOD}/Library/LM5157/2025-04-04_20-55-54.kicad_sym")(options "")(descr ""))
   (lib (name "P091S")(type "KiCad")(uri "${KIPRJMOD}/Library/P091S/P091S.kicad_sym")(options "")(descr ""))
   (lib (name "CC1120")(type "KiCad")(uri "${KIPRJMOD}/Library/CC1120/KiCADv6/2025-04-16_18-28-31.kicad_sym")(options "")(descr ""))
+  (lib (name "2025-04-19_21-18-27")(type "KiCad")(uri "${KIPRJMOD}/Library/DF40C-24DP-0.4V(51)/2025-04-19_21-18-27.kicad_sym")(options "")(descr ""))
+  (lib (name "2025-04-19_21-20-12")(type "KiCad")(uri "${KIPRJMOD}/Library/DF40C(2.0)-24DS-0.4V(51)/2025-04-19_21-20-12.kicad_sym")(options "")(descr ""))
 )
