@@ -1,4 +1,4 @@
-24737349745766988
+24761767802638214
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -13,6 +13,13 @@ audio belton reverb
 0
 7
 7
+BK-18650-PC4
+BAT_BK-18650-PC4
+
+
+0
+4
+4
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -55229,6 +55236,13 @@ SMD SMT ceramic resonator filter filter hand-soldering
 0
 3
 3
+DF40C-24DS
+CONN24_DF40C-2-24DS_HIR
+
+DF40C2.0-24DS-0.4V51 
+0
+24
+24
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -65848,13 +65862,62 @@ Yellow 5381 Series LED
 0
 2
 2
+LM5157
+QFN_57RTER_TEX
+
+LM5157RTER 
+0
+17
+17
+LM5157
+QFN_57RTER_TEX-L
+
+LM5157RTER 
+0
+17
+17
+LM5157
+QFN_57RTER_TEX-M
+
+LM5157RTER 
+0
+17
+17
 Library
-P091S-FC20BR10K
+PEC12R-2xxxF-Sxxxx
 
 
 0
+7
+5
+MCP73844
+MSOP8_MC_MCH
+
+MCP73844-840I/MS 
 0
+8
+8
+MCP73844
+MSOP8_MC_MCH-L
+
+MCP73844-840I/MS 
 0
+8
+8
+MCP73844
+MSOP8_MC_MCH-M
+
+MCP73844-840I/MS 
+0
+8
+8
+MEM2061
+GCT_MEM2061-01-188-00-A_REVA
+
+
+0
+12
+12
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -69803,6 +69866,13 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
+P091S
+P091S-FC20BR10K
+
+
+0
+5
+5
 Package_BGA
 Alliance_TFBGA-36_6x8mm_Layout6x8_P0.75mm
 Alliance TFBGA-36, NSMD, 6.0x8.0mm, 36 Ball, 6x8 Layout, 0.75mm Pitch, https://www.alliancememory.com/wp-content/uploads/pdf/AS6C1008_Mar_2023V1.2.pdf
@@ -91202,6 +91272,34 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+S-8252
+SOT236-A-PKG_MP006-A-P-SD-2.1_ABL
+
+S-8252AAZ-M6T1U 
+0
+6
+6
+S-8252
+SOT236-A-PKG_MP006-A-P-SD-2.1_ABL-L
+
+S-8252AAZ-M6T1U 
+0
+6
+6
+S-8252
+SOT236-A-PKG_MP006-A-P-SD-2.1_ABL-M
+
+S-8252AAZ-M6T1U 
+0
+6
+6
+SJ1-2503A
+SAMESKY_SJ1-2503A
+
+
+0
+4
+4
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf

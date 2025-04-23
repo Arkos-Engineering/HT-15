@@ -145,176 +145,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at -1.27 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "D_Small"
-				(at -3.81 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Diode, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Small_0_1"
-				(polyline
-					(pts
-						(xy -0.762 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 -1.016) (xy -0.762 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Small_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.778)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.778)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:LED_Small"
 			(pin_numbers
 				(hide yes)
@@ -1005,6 +835,173 @@
 						)
 					)
 					(number "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:1N4148WS"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4148WS"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-323"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?323*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4148WS_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4148WS_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2093,31 +2090,37 @@
 		(uuid "044ecfd0-f6b6-44cc-9917-0aa2ff62c945")
 	)
 	(junction
-		(at 182.88 76.2)
+		(at 166.37 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "07080f2c-8077-4cc8-a6bc-d270dd117b2e")
+		(uuid "0e842ff5-8509-4763-af64-f55df12cdace")
 	)
 	(junction
-		(at 149.86 96.52)
+		(at 149.86 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0911e72b-73c5-4b27-b64c-00c2b286f6d0")
+		(uuid "1267e261-7f3a-4c4c-89e2-289fcffef1a0")
 	)
 	(junction
-		(at 149.86 62.23)
+		(at 149.86 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0aabcd30-cf41-4cbd-b28a-34c5113ec4fc")
+		(uuid "149ec928-3ec4-475e-8d94-209d68f0f975")
 	)
 	(junction
-		(at 139.7 114.3)
+		(at 133.35 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "184095ea-cf48-42c6-b0ca-80418cc1d6cf")
+		(uuid "175c12ae-8378-4bc5-92e2-a9fbea7020b1")
 	)
 	(junction
-		(at 203.2 134.62)
+		(at 149.86 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1781d4a8-4abb-4356-8df6-1725e79d9bef")
+	)
+	(junction
+		(at 224.79 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1f638d85-743a-4f3e-9607-8d7d222aebf4")
@@ -2129,52 +2132,28 @@
 		(uuid "23ad9aed-7749-4114-a4c8-a52ad074c761")
 	)
 	(junction
-		(at 139.7 127)
+		(at 166.37 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "249369f7-7091-4c08-87b4-dc6e3f772c32")
+		(uuid "268170e9-f259-4f69-bbeb-34532b9ac723")
 	)
 	(junction
-		(at 133.35 62.23)
+		(at 166.37 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2af1472c-c766-4df4-814d-a67e2b1c008b")
+		(uuid "31314ff3-39bd-4f7a-b88f-e308a9e9d942")
 	)
 	(junction
-		(at 123.19 67.31)
+		(at 166.37 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2dddf235-52c1-4a9f-8012-92202065255d")
+		(uuid "3fe8cb8c-8aa4-4819-a1e0-401f6c2cc9ac")
 	)
 	(junction
-		(at 156.21 81.28)
+		(at 123.19 127)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "329339e4-95b5-4841-a93f-31647a9d7045")
-	)
-	(junction
-		(at 139.7 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "34dfea2c-fcef-45ab-b06a-fb060a6d7f14")
-	)
-	(junction
-		(at 139.7 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "395b68dd-e4d6-4e81-a56e-c9de3381e969")
-	)
-	(junction
-		(at 123.19 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3caf8a10-2e64-4d0c-aea4-92e9e03dc7b8")
-	)
-	(junction
-		(at 166.37 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "43a0bedd-23ef-49ff-bd72-1c233faca84e")
+		(uuid "4802303e-d168-444a-9575-4c4a6689dad5")
 	)
 	(junction
 		(at 66.04 49.53)
@@ -2183,34 +2162,46 @@
 		(uuid "4876d3ee-23f1-40c1-93f7-6cffe03c7cae")
 	)
 	(junction
-		(at 149.86 109.22)
+		(at 166.37 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "490af2ff-e4cc-44f4-b145-4fddaa4fb72e")
+		(uuid "49d00897-834a-4164-9f9b-f59c06e20083")
 	)
 	(junction
-		(at 123.19 81.28)
+		(at 133.35 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "50e0f220-d8b2-403f-8f1e-1f15bca79c3c")
+		(uuid "4f717dd5-d42d-4519-adcc-ff9d21a6bb0c")
 	)
 	(junction
-		(at 215.9 134.62)
+		(at 123.19 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5985a77e-ae51-4407-9b57-2dffa43c53bc")
+		(uuid "52bbe1e8-a699-49ff-bf61-0c956b578fac")
 	)
 	(junction
-		(at 139.7 139.7)
+		(at 208.28 127)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "643446c2-d41f-4526-8494-e722e59b61d7")
+		(uuid "5571293b-86d7-4330-9fa3-d2f226141231")
 	)
 	(junction
-		(at 190.5 134.62)
+		(at 139.7 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6a9b0841-58ef-4d51-9ece-7dde3357548d")
+		(uuid "590a7d0f-ea6c-40ec-acf8-ace534e3ce88")
+	)
+	(junction
+		(at 182.88 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a3aaff6-fe17-4cf8-8249-5bcf1d84b364")
+	)
+	(junction
+		(at 242.57 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ebc3892-9ac8-4e5d-8ae1-c2adbe13dd09")
 	)
 	(junction
 		(at 54.61 55.88)
@@ -2219,52 +2210,40 @@
 		(uuid "761b68ee-0577-40e1-8c31-684f72ab01d5")
 	)
 	(junction
-		(at 133.35 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "77281204-c08e-4819-a815-29b14b9dea53")
-	)
-	(junction
-		(at 156.21 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "78d9bd34-c465-4661-9145-f4a5930363db")
-	)
-	(junction
 		(at 104.14 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b9931b7-4479-49d4-a89f-59d5b97f0375")
 	)
 	(junction
-		(at 123.19 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7bbab1d2-e4b1-4330-ba5b-f8437d320534")
-	)
-	(junction
-		(at 203.2 144.78)
+		(at 224.79 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7bc951e1-77e7-4b7c-b0f7-58501907c761")
 	)
 	(junction
-		(at 156.21 114.3)
+		(at 139.7 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "80379c92-26dd-45ab-b2ca-8805b19a75be")
+		(uuid "85730839-385d-4bf6-b118-e4bc262fe55b")
 	)
 	(junction
-		(at 123.19 139.7)
+		(at 123.19 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "85e17755-bbd4-40e6-8681-720489eecf05")
+		(uuid "8b08ab45-022a-4d4b-9005-6f01624e4c3a")
 	)
 	(junction
-		(at 123.19 127)
+		(at 139.7 127)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "967228ed-65dc-441d-bf44-f54e5000f703")
+		(uuid "91c68f56-d637-475c-8b03-4aa50e9eb0e6")
+	)
+	(junction
+		(at 156.21 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9308084d-78ac-40c8-8ae2-1b474462a915")
 	)
 	(junction
 		(at 182.88 40.64)
@@ -2273,28 +2252,16 @@
 		(uuid "9704d128-35a5-4930-8090-e07072ae824a")
 	)
 	(junction
-		(at 149.86 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "985d381b-f4a1-483f-b26c-844da5e5533e")
-	)
-	(junction
-		(at 215.9 127)
+		(at 237.49 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "999634a8-24e7-41ef-af3f-f693651f6a78")
 	)
 	(junction
-		(at 133.35 76.2)
+		(at 139.7 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9bea2c0f-83ba-4902-a5b6-84d669b65555")
-	)
-	(junction
-		(at 133.35 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9d409d2f-196f-4ee7-8dcb-7d50d31cb035")
+		(uuid "9c9c3276-8183-48a0-9bd5-971aa6559477")
 	)
 	(junction
 		(at 104.14 114.3)
@@ -2303,34 +2270,16 @@
 		(uuid "9e346031-f4fa-4a1b-bac7-01420f6cdad1")
 	)
 	(junction
-		(at 149.86 121.92)
+		(at 156.21 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a2732a6b-b9d4-477a-8802-5e8624d26434")
+		(uuid "a127a638-5464-4d99-b113-1768827a668b")
 	)
 	(junction
-		(at 182.88 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a7412e27-9f7e-4051-807c-815d523fac21")
-	)
-	(junction
-		(at 190.5 127)
+		(at 212.09 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a9ff7a82-8a2a-4768-954d-3cd12b88aa31")
-	)
-	(junction
-		(at 182.88 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aa713e02-984d-46a4-adfe-831ff6f9cc99")
-	)
-	(junction
-		(at 133.35 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "abc2bccb-f2f0-4cc2-ac6a-8c5544122353")
 	)
 	(junction
 		(at 166.37 40.64)
@@ -2339,28 +2288,70 @@
 		(uuid "acd966b3-21c1-4da1-9333-e5bd11535801")
 	)
 	(junction
-		(at 166.37 121.92)
+		(at 133.35 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b013a4e1-41df-4a82-9c82-4152ec50429f")
+		(uuid "ae951c8b-2bc1-42f0-a35e-f21c632973b8")
 	)
 	(junction
-		(at 166.37 109.22)
+		(at 133.35 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b01bdc7d-6dc6-47ba-ae0e-a67de7256e57")
+		(uuid "b0f4211c-6cee-4c5b-b8b4-6efec94fe7bb")
 	)
 	(junction
-		(at 209.55 134.62)
+		(at 231.14 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b2e35b61-bc33-410b-8795-a908e8c7297f")
 	)
 	(junction
-		(at 139.7 67.31)
+		(at 156.21 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ccc3ded4-e187-4011-bdc3-89eef6e4ac04")
+		(uuid "bb29fe0f-4a6b-480e-a8aa-a9357d0e9414")
+	)
+	(junction
+		(at 133.35 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbbd2b53-01ba-4031-8661-7643e4cefc07")
+	)
+	(junction
+		(at 123.19 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc5cb8f4-3534-485c-96c2-38a80e9dac44")
+	)
+	(junction
+		(at 149.86 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2be89bc-c543-4f56-af59-323a75064366")
+	)
+	(junction
+		(at 139.7 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6977035-f4d6-4aef-86d1-044d081427ac")
+	)
+	(junction
+		(at 123.19 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd078124-6f45-4b97-bc6c-38daca5f95c2")
+	)
+	(junction
+		(at 149.86 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce00997e-b0d1-4d79-821a-e882d8daf1e0")
+	)
+	(junction
+		(at 156.21 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d08ac1d1-eb35-4d61-a282-f8e53de3fd09")
 	)
 	(junction
 		(at 110.49 67.31)
@@ -2369,10 +2360,28 @@
 		(uuid "d6c8673c-f8e0-4b88-b8ac-f98eaa39702a")
 	)
 	(junction
+		(at 182.88 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d87d3b63-b3d7-4236-92df-caccf23d6cf3")
+	)
+	(junction
+		(at 182.88 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2047e81-f288-40b4-9735-56098d587fba")
+	)
+	(junction
 		(at 149.86 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4749385-befa-425a-81d3-4a484a25f5cd")
+	)
+	(junction
+		(at 123.19 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e66946a5-90b4-4f97-b666-5d1e22dd7531")
 	)
 	(junction
 		(at 110.49 127)
@@ -2381,22 +2390,10 @@
 		(uuid "e85cda49-b951-44d3-b760-e5f40054a024")
 	)
 	(junction
-		(at 156.21 67.31)
+		(at 139.7 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ebda817a-2c51-4a01-a2d6-b02aad08c747")
-	)
-	(junction
-		(at 166.37 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f8f93ffe-e75e-4efc-9507-7a78e75a2b93")
-	)
-	(junction
-		(at 166.37 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fa0f34bc-52b2-4444-8402-9f7aba561f7e")
+		(uuid "eb671445-f7fb-47d4-9f30-505744fa8b3d")
 	)
 	(junction
 		(at 133.35 40.64)
@@ -2405,7 +2402,7 @@
 		(uuid "fc82e587-4522-44da-963e-ee3e4d45b77d")
 	)
 	(junction
-		(at 196.85 134.62)
+		(at 218.44 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ffd42718-d2c2-4bb5-8c7e-bde797de89c1")
@@ -2415,6 +2412,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fff62c8b-f510-4abc-9ed5-50f46b6920b9")
+	)
+	(wire
+		(pts
+			(xy 139.7 114.3) (xy 156.21 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0300549d-7ac4-4208-9fb4-3675a69a4409")
 	)
 	(wire
 		(pts
@@ -2428,17 +2435,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 134.62) (xy 219.71 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "069e9993-5f7e-43ee-a060-63808431a69a")
-	)
-	(wire
-		(pts
-			(xy 203.2 144.78) (xy 209.55 144.78)
+			(xy 224.79 144.78) (xy 231.14 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2448,7 +2445,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 76.2) (xy 182.88 96.52)
+			(xy 182.88 73.66) (xy 182.88 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2468,7 +2465,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 134.62) (xy 203.2 134.62)
+			(xy 223.52 134.62) (xy 224.79 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2478,7 +2475,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 127) (xy 210.82 127)
+			(xy 227.33 127) (xy 232.41 127)
 		)
 		(stroke
 			(width 0)
@@ -2488,7 +2485,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 109.22) (xy 200.66 109.22)
+			(xy 172.72 106.68) (xy 222.25 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2498,7 +2495,17 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 40.64) (xy 149.86 62.23)
+			(xy 123.19 81.28) (xy 139.7 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18a90f80-fa82-4c38-abc0-f181a3a7b073")
+	)
+	(wire
+		(pts
+			(xy 149.86 40.64) (xy 149.86 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2508,17 +2515,17 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 109.22) (xy 166.37 121.92)
+			(xy 123.19 101.6) (xy 139.7 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1f860bfd-814e-42ea-b074-d539c3460b5e")
+		(uuid "1ee81a0b-c945-4acc-87b3-552a73279342")
 	)
 	(wire
 		(pts
-			(xy 190.5 127) (xy 190.5 134.62)
+			(xy 212.09 127) (xy 212.09 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2528,13 +2535,23 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 127) (xy 200.66 127)
+			(xy 217.17 127) (xy 222.25 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2667b1bf-da24-4e9a-ac20-297ac60131d4")
+	)
+	(wire
+		(pts
+			(xy 139.7 101.6) (xy 156.21 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2836f878-507c-41ae-b81b-c61593174743")
 	)
 	(wire
 		(pts
@@ -2568,7 +2585,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 139.7) (xy 156.21 139.7)
+			(xy 104.14 139.7) (xy 123.19 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2588,7 +2605,27 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 134.62) (xy 196.85 134.62)
+			(xy 156.21 81.28) (xy 172.72 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32858bd2-ce68-4040-a987-bdf448ad0b03")
+	)
+	(wire
+		(pts
+			(xy 149.86 73.66) (xy 149.86 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33383567-9462-4a48-bb7a-ef82b7bc2573")
+	)
+	(wire
+		(pts
+			(xy 212.09 134.62) (xy 218.44 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2598,27 +2635,47 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 96.52) (xy 133.35 109.22)
+			(xy 156.21 114.3) (xy 172.72 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4034bc54-d0a8-472e-b898-5ffa778a3199")
+		(uuid "3da6e36e-19c2-45ec-acc6-5e0d5315c41e")
 	)
 	(wire
 		(pts
-			(xy 139.7 67.31) (xy 156.21 67.31)
+			(xy 166.37 93.98) (xy 166.37 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "46ab0dd6-e596-4865-9dac-45c103944f67")
+		(uuid "3f8e7927-2ea4-48e0-8f0c-c437d77e6aab")
 	)
 	(wire
 		(pts
-			(xy 215.9 134.62) (xy 209.55 134.62)
+			(xy 139.7 139.7) (xy 156.21 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44ad52ba-4a51-4b73-8492-d3cc71174979")
+	)
+	(wire
+		(pts
+			(xy 133.35 119.38) (xy 133.35 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48a18430-0102-48d2-81c3-9efb55b869a2")
+	)
+	(wire
+		(pts
+			(xy 237.49 134.62) (xy 231.14 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2628,17 +2685,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 62.23) (xy 182.88 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4af418e2-004d-480a-bf3d-d0d676ee9a80")
-	)
-	(wire
-		(pts
-			(xy 182.88 96.52) (xy 205.74 96.52)
+			(xy 182.88 96.52) (xy 227.33 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2648,17 +2695,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 109.22) (xy 133.35 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5125eaf5-4db0-452c-baee-21d1f2029b36")
-	)
-	(wire
-		(pts
-			(xy 196.85 144.78) (xy 203.2 144.78)
+			(xy 218.44 144.78) (xy 224.79 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2668,23 +2705,23 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 114.3) (xy 156.21 114.3)
+			(xy 123.19 67.31) (xy 139.7 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5208330b-3af2-4237-ab31-b76194c9532a")
+	)
+	(wire
+		(pts
+			(xy 104.14 114.3) (xy 123.19 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "52dddbdd-58dd-4851-b157-9cddc20ecaf0")
-	)
-	(wire
-		(pts
-			(xy 133.35 121.92) (xy 133.35 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55103111-dfd0-4c5c-a0ce-a8e546484683")
 	)
 	(wire
 		(pts
@@ -2698,23 +2735,23 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 101.6) (xy 156.21 101.6)
+			(xy 123.19 139.7) (xy 139.7 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "56a301e1-52e9-4e71-8674-ba1d2571afcd")
+		(uuid "585b2b7d-981b-4789-be23-e90c61696896")
 	)
 	(wire
 		(pts
-			(xy 110.49 67.31) (xy 123.19 67.31)
+			(xy 208.28 127) (xy 205.74 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5b54ad8f-cb9f-4dc9-bd59-8873be033c65")
+		(uuid "5a282cf0-6725-4194-8817-111dc61a1129")
 	)
 	(wire
 		(pts
@@ -2728,7 +2765,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 134.62) (xy 196.85 139.7)
+			(xy 218.44 134.62) (xy 218.44 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2738,27 +2775,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 81.28) (xy 139.7 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6251e178-e43f-4dde-ae71-f60b38eb00c4")
-	)
-	(wire
-		(pts
-			(xy 123.19 114.3) (xy 139.7 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "649450ac-0681-4231-bb3f-d642e6d33803")
-	)
-	(wire
-		(pts
-			(xy 156.21 67.31) (xy 172.72 67.31)
+			(xy 110.49 67.31) (xy 123.19 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2768,13 +2785,13 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 114.3) (xy 172.72 114.3)
+			(xy 133.35 59.69) (xy 133.35 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "66ca5c14-46e0-48fa-abf4-e7d6dc1b2326")
+		(uuid "66924c62-c5fe-42b3-8937-372895b59d41")
 	)
 	(wire
 		(pts
@@ -2788,7 +2805,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 134.62) (xy 204.47 134.62)
+			(xy 224.79 134.62) (xy 226.06 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2818,7 +2835,17 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 40.64) (xy 133.35 62.23)
+			(xy 133.35 73.66) (xy 133.35 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b83c37e-6cb5-4d47-a105-a7cfc258ac18")
+	)
+	(wire
+		(pts
+			(xy 133.35 40.64) (xy 133.35 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2828,7 +2855,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 96.52) (xy 149.86 109.22)
+			(xy 149.86 93.98) (xy 149.86 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2838,7 +2865,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 127) (xy 189.23 127)
+			(xy 212.09 127) (xy 208.28 127)
 		)
 		(stroke
 			(width 0)
@@ -2848,7 +2875,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 81.28) (xy 172.72 81.28)
+			(xy 104.14 81.28) (xy 123.19 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2868,6 +2895,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 59.69) (xy 166.37 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "724c212c-97b9-48f7-9715-494b0af2a470")
+	)
+	(wire
+		(pts
 			(xy 101.6 127) (xy 110.49 127)
 		)
 		(stroke
@@ -2878,7 +2915,27 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 109.22) (xy 200.66 111.76)
+			(xy 182.88 59.69) (xy 182.88 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "768508a5-6b6c-4cd7-8f85-70d0189ff1bb")
+	)
+	(wire
+		(pts
+			(xy 242.57 127) (xy 245.11 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b1dde2f-3dca-4c81-8158-8394c2a80d56")
+	)
+	(wire
+		(pts
+			(xy 222.25 106.68) (xy 222.25 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2888,17 +2945,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 96.52) (xy 166.37 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8083425d-0a70-4e6f-ac60-9ce6f578d3be")
-	)
-	(wire
-		(pts
-			(xy 215.9 127) (xy 217.17 127)
+			(xy 237.49 127) (xy 242.57 127)
 		)
 		(stroke
 			(width 0)
@@ -2918,7 +2965,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 134.62) (xy 203.2 127)
+			(xy 224.79 134.62) (xy 224.79 127)
 		)
 		(stroke
 			(width 0)
@@ -2928,43 +2975,13 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 76.2) (xy 149.86 96.52)
+			(xy 166.37 106.68) (xy 166.37 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "92b50f4e-ae99-45e2-92b4-49259226689f")
-	)
-	(wire
-		(pts
-			(xy 104.14 114.3) (xy 123.19 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95e0763a-a4e7-40a7-8519-df3da4db6098")
-	)
-	(wire
-		(pts
-			(xy 166.37 121.92) (xy 166.37 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97b45c03-64db-4b77-a26c-51318870d9c4")
-	)
-	(wire
-		(pts
-			(xy 110.49 101.6) (xy 123.19 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a26619e3-86e1-4e76-ad0a-daeebcb7e186")
+		(uuid "9893d668-bbd9-4577-b573-1aaf50ab61d6")
 	)
 	(wire
 		(pts
@@ -2988,6 +3005,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 101.6) (xy 172.72 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5e38afd-bf59-48da-894a-19561a90b1f0")
+	)
+	(wire
+		(pts
 			(xy 36.83 41.91) (xy 44.45 41.91)
 		)
 		(stroke
@@ -2998,17 +3025,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 81.28) (xy 156.21 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6a3b091-5922-4136-a307-28a9ac6793e2")
-	)
-	(wire
-		(pts
-			(xy 215.9 127) (xy 215.9 134.62)
+			(xy 237.49 127) (xy 237.49 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3018,7 +3035,17 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 134.62) (xy 209.55 139.7)
+			(xy 133.35 106.68) (xy 133.35 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7c541ad-5455-4ebf-8b6e-668894091bbc")
+	)
+	(wire
+		(pts
+			(xy 231.14 134.62) (xy 231.14 139.7)
 		)
 		(stroke
 			(width 0)
@@ -3028,13 +3055,33 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 109.22) (xy 149.86 121.92)
+			(xy 149.86 106.68) (xy 149.86 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ab32bbd7-e9da-45a6-ab1b-4dc27f527d00")
+	)
+	(wire
+		(pts
+			(xy 139.7 81.28) (xy 156.21 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abbbbcfa-0bd0-4047-bdc6-3210658f2d1a")
+	)
+	(wire
+		(pts
+			(xy 166.37 73.66) (xy 166.37 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac460ef7-ac73-435e-9b54-045e1406dcd5")
 	)
 	(wire
 		(pts
@@ -3048,7 +3095,17 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 144.78) (xy 203.2 148.59)
+			(xy 149.86 59.69) (xy 149.86 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b268bf4f-0035-434c-a4bf-f5207c3cb437")
+	)
+	(wire
+		(pts
+			(xy 224.79 144.78) (xy 224.79 148.59)
 		)
 		(stroke
 			(width 0)
@@ -3058,47 +3115,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 62.23) (xy 133.35 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4b9507a-5259-4f05-9352-e6a0a02442c6")
-	)
-	(wire
-		(pts
-			(xy 104.14 81.28) (xy 123.19 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b53c8343-0c98-419c-8056-0ba44df26f08")
-	)
-	(wire
-		(pts
-			(xy 149.86 62.23) (xy 149.86 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5472505-fab8-456c-950c-6ec05dfdb7a3")
-	)
-	(wire
-		(pts
-			(xy 139.7 127) (xy 156.21 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0848590-ea35-48b7-8599-ec01845692fe")
-	)
-	(wire
-		(pts
-			(xy 156.21 101.6) (xy 172.72 101.6)
+			(xy 110.49 101.6) (xy 123.19 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3108,7 +3125,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 121.92) (xy 149.86 134.62)
+			(xy 149.86 119.38) (xy 149.86 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3118,23 +3135,13 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 139.7) (xy 139.7 139.7)
+			(xy 156.21 67.31) (xy 172.72 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cc904033-a7a6-42da-8b2c-e69c54aa094a")
-	)
-	(wire
-		(pts
-			(xy 104.14 139.7) (xy 123.19 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc9649e6-e935-4f1a-9253-3378be9489fe")
+		(uuid "ca0a861a-af5b-4763-9ba5-667ddc68da59")
 	)
 	(wire
 		(pts
@@ -3148,16 +3155,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 134.62) (xy 190.5 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfdff16b-db38-484c-b736-6d0dd70e0da1")
-	)
-	(wire
-		(pts
 			(xy 66.04 49.53) (xy 66.04 46.99)
 		)
 		(stroke
@@ -3168,17 +3165,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 62.23) (xy 166.37 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d38d314f-1884-4920-8194-23d035c62347")
-	)
-	(wire
-		(pts
-			(xy 182.88 40.64) (xy 182.88 62.23)
+			(xy 182.88 40.64) (xy 182.88 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3188,7 +3175,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 40.64) (xy 166.37 62.23)
+			(xy 166.37 40.64) (xy 166.37 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3208,6 +3195,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 127) (xy 139.7 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddeb9c36-fdf5-4e79-bee6-f0958b1a424f")
+	)
+	(wire
+		(pts
 			(xy 73.66 41.91) (xy 64.77 41.91)
 		)
 		(stroke
@@ -3218,13 +3215,13 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 76.2) (xy 166.37 96.52)
+			(xy 139.7 127) (xy 156.21 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "df39b45c-0b5e-49f7-877e-ffc036576830")
+		(uuid "df664fba-7058-41bd-99ce-9b8819da7ff4")
 	)
 	(wire
 		(pts
@@ -3258,17 +3255,47 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 67.31) (xy 139.7 67.31)
+			(xy 139.7 67.31) (xy 156.21 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e961d11a-39f2-4b91-bec0-ac786aaafe36")
+		(uuid "e552e24b-a95a-48bb-bf36-fd7f73743ce9")
 	)
 	(wire
 		(pts
-			(xy 205.74 96.52) (xy 205.74 111.76)
+			(xy 133.35 93.98) (xy 133.35 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8f08c1d-0626-4a56-8472-9f73aaad24b1")
+	)
+	(wire
+		(pts
+			(xy 182.88 93.98) (xy 182.88 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9ea325a-3293-411b-8774-2bad8af24176")
+	)
+	(wire
+		(pts
+			(xy 123.19 114.3) (xy 139.7 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecd4b2b8-efa3-4a90-9011-b319fecd254f")
+	)
+	(wire
+		(pts
+			(xy 227.33 96.52) (xy 227.33 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3278,13 +3305,13 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 127) (xy 139.7 127)
+			(xy 166.37 119.38) (xy 166.37 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ee043956-3c98-4325-bae8-4be80536b06c")
+		(uuid "ef8be6ef-d5f1-4127-ae7d-1fd2433e122c")
 	)
 	(wire
 		(pts
@@ -3305,26 +3332,6 @@
 			(type default)
 		)
 		(uuid "fb2ad8fa-7fc5-4dc3-bf9d-2d8405621a88")
-	)
-	(wire
-		(pts
-			(xy 133.35 76.2) (xy 133.35 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc5dd1f0-df51-46df-a1f9-cb74b0fef02c")
-	)
-	(wire
-		(pts
-			(xy 123.19 101.6) (xy 139.7 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "feaff97c-1fe8-4918-8a83-8210a973f703")
 	)
 	(global_label "BTN_MTX_1"
 		(shape output)
@@ -3350,7 +3357,7 @@
 	)
 	(global_label "BTN_ENC_A"
 		(shape output)
-		(at 189.23 127 180)
+		(at 205.74 127 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3360,7 +3367,7 @@
 		)
 		(uuid "21982ca8-5651-42ff-a96c-cfd1622d3f9c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.9034 127 0)
+			(at 192.4134 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3438,7 +3445,7 @@
 	)
 	(global_label "BTN_ENC_B"
 		(shape output)
-		(at 217.17 127 0)
+		(at 245.11 127 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3448,7 +3455,7 @@
 		)
 		(uuid "3c84122d-1579-4db3-bc16-506c5528f00e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.678 127 0)
+			(at 258.618 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3482,7 +3489,7 @@
 	)
 	(global_label "3V3_MCU"
 		(shape input)
-		(at 203.2 148.59 270)
+		(at 224.79 148.59 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3492,7 +3499,7 @@
 		)
 		(uuid "45ef32ec-0f45-4486-ab6c-42f76d352474")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.2 160.1023 90)
+			(at 224.79 160.1023 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3810,95 +3817,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Small")
-		(at 139.7 111.76 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "01467d36-86a6-40e8-85cc-be687d09d415")
-		(property "Reference" "D13"
-			(at 141.224 111.252 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 140.97 113.538 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 139.7 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 139.7 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 139.7 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a73e121c-8ddd-482c-86b9-a04a80732b75")
-		)
-		(pin "2"
-			(uuid "b275cc6a-0656-4c19-8354-90befe2fc541")
-		)
-		(instances
-			(project "OSS Radio Hardware Design"
-				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/7b56df82-cc6a-450b-93ef-d87bc728ade2"
-					(reference "D13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 161.29 62.23 0)
+		(at 161.29 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3906,15 +3826,15 @@
 		(dnp no)
 		(uuid "04d75a25-114e-4819-b6e1-2df5381141a2")
 		(property "Reference" "SW_RIGHT1"
-			(at 161.544 58.42 0)
+			(at 161.544 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 161.29 57.15 0)
+		(property "Value" "TS-1187A-B-A-B"
+			(at 161.29 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3922,8 +3842,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 161.29 57.15 0)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
+			(at 161.29 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3932,7 +3852,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 161.29 57.15 0)
+			(at 161.29 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3941,7 +3861,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 161.29 62.23 0)
+			(at 161.29 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3965,9 +3885,183 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148WS")
+		(at 172.72 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0624d84a-4b04-48b3-a790-19f9f6669e70")
+		(property "Reference" "D29"
+			(at 174.498 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WS"
+			(at 170.18 103.632 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 177.165 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+			(at 172.72 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
+			(at 172.72 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 172.72 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 172.72 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd111cc9-49f9-44cf-8f5d-b10fffa951e8")
+		)
+		(pin "2"
+			(uuid "3a10aab8-e6ab-4259-ba82-10885dd82d31")
+		)
+		(instances
+			(project "OSS Radio Hardware Design"
+				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/7b56df82-cc6a-450b-93ef-d87bc728ade2"
+					(reference "D29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WS")
+		(at 156.21 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "09ce4219-0bb5-4de5-9cce-cc684fd213c2")
+		(property "Reference" "D14"
+			(at 157.988 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WS"
+			(at 153.67 90.932 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 160.655 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+			(at 156.21 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
+			(at 156.21 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 156.21 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 156.21 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d421946-e0eb-4b32-9384-aaf8e940dcc5")
+		)
+		(pin "2"
+			(uuid "0a367021-9904-431f-815f-239ac1e55d2c")
+		)
+		(instances
+			(project "OSS Radio Hardware Design"
+				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/7b56df82-cc6a-450b-93ef-d87bc728ade2"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "ESD9B3.3ST5G_1")
 		(lib_id "Diode:ESD9B3.3ST5G")
-		(at 186.69 138.43 270)
+		(at 208.28 130.81 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3975,7 +4069,7 @@
 		(dnp no)
 		(uuid "0a59420c-2923-4bfb-87f3-d76302ba60b4")
 		(property "Reference" "D47"
-			(at 181.356 137.16 90)
+			(at 202.946 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3984,7 +4078,7 @@
 			)
 		)
 		(property "Value" "ESD9B3.3ST5G"
-			(at 171.196 139.7 90)
+			(at 192.786 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3993,7 +4087,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-923"
-			(at 186.69 138.43 0)
+			(at 208.28 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4002,7 +4096,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
-			(at 186.69 138.43 0)
+			(at 208.28 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4011,7 +4105,7 @@
 			)
 		)
 		(property "Description" "ESD protection diode, 3.3Vrwm, SOD-923"
-			(at 186.69 138.43 0)
+			(at 208.28 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4052,14 +4146,14 @@
 			)
 		)
 		(property "Value" "P091S-FC20BR10k"
-			(at 54.61 34.29 0)
+			(at 54.864 32.766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "P091S:P091S-FC20BR10K"
 			(at 54.61 44.45 0)
 			(effects
 				(font
@@ -4181,7 +4275,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 207.01 134.62 90)
+		(at 228.6 134.62 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4189,7 +4283,7 @@
 		(dnp no)
 		(uuid "1590576d-d7ca-41d0-9f6a-d98f664c82b3")
 		(property "Reference" "C81"
-			(at 205.486 134.366 0)
+			(at 227.076 134.366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4198,7 +4292,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 208.534 134.62 0)
+			(at 230.124 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4207,7 +4301,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 207.01 134.62 0)
+			(at 228.6 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4216,7 +4310,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 207.01 134.62 0)
+			(at 228.6 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4225,7 +4319,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 207.01 134.62 0)
+			(at 228.6 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4243,93 +4337,6 @@
 			(project "OSS Radio Hardware Design"
 				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/7b56df82-cc6a-450b-93ef-d87bc728ade2"
 					(reference "C81")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Small")
-		(at 156.21 99.06 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1643baa6-48ff-40c0-aa79-26913161ebaa")
-		(property "Reference" "D16"
-			(at 157.734 98.552 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 157.48 100.838 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.21 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 156.21 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 156.21 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 156.21 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b36cbdcf-e3c9-4fdb-ad78-a769a07ec1c0")
-		)
-		(pin "2"
-			(uuid "53868068-e148-4683-af2a-61f7c87b8369")
-		)
-		(instances
-			(project "OSS Radio Hardware Design"
-				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/7b56df82-cc6a-450b-93ef-d87bc728ade2"
-					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -4401,95 +4408,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Small")
-		(at 123.19 78.74 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1db6914e-e9f6-4239-8096-3e51c83178bb")
-		(property "Reference" "D29"
-			(at 124.714 78.232 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 124.46 80.518 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 123.19 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 123.19 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 123.19 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 123.19 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d172195b-bbca-43e4-9f7f-e17a55db6ce5")
-		)
-		(pin "2"
-			(uuid "d063a9ae-5080-40be-807b-2248eb965227")
-		)
-		(instances
-			(project "OSS Radio Hardware Design"
-				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/7b56df82-cc6a-450b-93ef-d87bc728ade2"
-					(reference "D29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
-		(at 199.39 134.62 90)
+		(at 220.98 134.62 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4497,7 +4417,7 @@
 		(dnp no)
 		(uuid "1dd82894-3d02-4c41-a8ba-4d250fc712db")
 		(property "Reference" "C82"
-			(at 197.866 134.366 0)
+			(at 219.456 134.366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4506,7 +4426,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 200.914 134.62 0)
+			(at 222.504 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4515,7 +4435,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 199.39 134.62 0)
+			(at 220.98 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4524,7 +4444,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 199.39 134.62 0)
+			(at 220.98 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4533,7 +4453,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 199.39 134.62 0)
+			(at 220.98 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4622,95 +4542,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Small")
-		(at 156.21 137.16 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1f47d30b-6ffc-472d-b325-9c67425f427b")
-		(property "Reference" "D19"
-			(at 157.734 136.652 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 157.48 138.938 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.21 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 156.21 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 156.21 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 156.21 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5214a6b2-ebf5-4eaf-9240-fb30fc2bbc63")
-		)
-		(pin "2"
-			(uuid "b304945a-bd97-47c5-8cb3-8129fb466448")
-		)
-		(instances
-			(project "OSS Radio Hardware Design"
-				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/7b56df82-cc6a-450b-93ef-d87bc728ade2"
-					(reference "D19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 177.8 76.2 0)
+		(at 177.8 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4718,15 +4551,15 @@
 		(dnp no)
 		(uuid "2077fe30-ac21-495a-b35d-1d74c35906c4")
 		(property "Reference" "SW_SIDE1"
-			(at 177.546 72.136 0)
+			(at 177.546 69.596 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 177.8 71.12 0)
+		(property "Value" "1825027-8"
+			(at 177.8 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4734,8 +4567,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 177.8 71.12 0)
+		(property "Footprint" "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS"
+			(at 177.8 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4744,7 +4577,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 71.12 0)
+			(at 177.8 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4753,7 +4586,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 177.8 76.2 0)
+			(at 177.8 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4842,95 +4675,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Small")
-		(at 172.72 64.77 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "24b9e21d-de57-41da-bbf3-efbd27434924")
-		(property "Reference" "D20"
-			(at 174.244 64.262 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 173.99 66.548 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.72 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 172.72 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 172.72 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 172.72 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fb4be359-4c91-4191-a785-5b481ebb152a")
-		)
-		(pin "2"
-			(uuid "174c43bb-8a66-45b3-a6e0-4b045b09df38")
-		)
-		(instances
-			(project "OSS Radio Hardware Design"
-				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/7b56df82-cc6a-450b-93ef-d87bc728ade2"
-					(reference "D20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 128.27 62.23 0)
+		(at 128.27 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4938,15 +4684,15 @@
 		(dnp no)
 		(uuid "267595d3-20fc-4c29-b76e-ab1f891dc6ab")
 		(property "Reference" "SW_LEFT1"
-			(at 128.27 58.166 0)
+			(at 128.27 55.626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 128.27 57.15 0)
+		(property "Value" "TS-1187A-B-A-B"
+			(at 128.27 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4954,8 +4700,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 128.27 57.15 0)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
+			(at 128.27 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4964,7 +4710,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 57.15 0)
+			(at 128.27 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4973,7 +4719,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 128.27 62.23 0)
+			(at 128.27 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4998,7 +4744,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 177.8 62.23 0)
+		(at 177.8 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5006,15 +4752,15 @@
 		(dnp no)
 		(uuid "389bf236-a577-42c7-be25-e9a675e357c6")
 		(property "Reference" "SW_PTT1"
-			(at 177.546 58.166 0)
+			(at 177.546 55.626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 177.8 57.15 0)
+		(property "Value" "1825027-8"
+			(at 177.8 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5022,8 +4768,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 177.8 57.15 0)
+		(property "Footprint" "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS"
+			(at 177.8 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5032,7 +4778,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 57.15 0)
+			(at 177.8 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5041,7 +4787,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 177.8 62.23 0)
+			(at 177.8 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5065,24 +4811,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 144.78 121.92 0)
+		(lib_id "Diode:1N4148WS")
+		(at 123.19 110.49 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "40705a00-96a9-4e4a-a959-0e4a1b6b0bd5")
-		(property "Reference" "SW_8"
-			(at 144.526 117.856 0)
+		(uuid "3db24885-acd0-4d88-8da1-05c0478d9dbb")
+		(property "Reference" "D17"
+			(at 124.968 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 144.78 116.84 0)
+		(property "Value" "1N4148WS"
+			(at 120.65 103.632 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 127.635 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5090,8 +4846,85 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 144.78 116.84 0)
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+			(at 123.19 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
+			(at 123.19 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 123.19 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 123.19 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "398583a7-be11-475a-b242-8d2c18b760ef")
+		)
+		(pin "2"
+			(uuid "4b207e1b-2359-4960-a9d8-7c2f4fd5f7b2")
+		)
+		(instances
+			(project "OSS Radio Hardware Design"
+				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/7b56df82-cc6a-450b-93ef-d87bc728ade2"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 144.78 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40705a00-96a9-4e4a-a959-0e4a1b6b0bd5")
+		(property "Reference" "SW_8"
+			(at 144.526 115.316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS-1187A-B-A-B"
+			(at 144.78 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
+			(at 144.78 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5100,7 +4933,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 116.84 0)
+			(at 144.78 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5109,7 +4942,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 144.78 121.92 0)
+			(at 144.78 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5127,6 +4960,180 @@
 			(project "OSS Radio Hardware Design"
 				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/7b56df82-cc6a-450b-93ef-d87bc728ade2"
 					(reference "SW_8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WS")
+		(at 123.19 135.89 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40eefe0a-e287-4a0e-a4f2-35caa4138a5a")
+		(property "Reference" "D4"
+			(at 124.968 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WS"
+			(at 120.65 129.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 127.635 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+			(at 123.19 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
+			(at 123.19 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 123.19 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 123.19 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30f50ff3-2de6-4d4d-bd62-194fea38e250")
+		)
+		(pin "2"
+			(uuid "52b3c3d3-c853-442c-8494-849335ef2faf")
+		)
+		(instances
+			(project ""
+				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/7b56df82-cc6a-450b-93ef-d87bc728ade2"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WS")
+		(at 123.19 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "44a26acf-90b6-4c23-920a-c0a9c6a9a9e5")
+		(property "Reference" "D16"
+			(at 124.968 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WS"
+			(at 120.65 90.932 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 127.635 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+			(at 123.19 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
+			(at 123.19 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 123.19 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 123.19 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "40fc736c-9e8b-4590-b7dd-43b6809b7cad")
+		)
+		(pin "2"
+			(uuid "938c8ff6-4a03-4c18-b4fc-9c1c670128e4")
+		)
+		(instances
+			(project "OSS Radio Hardware Design"
+				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/7b56df82-cc6a-450b-93ef-d87bc728ade2"
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -5199,7 +5206,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 128.27 96.52 0)
+		(at 128.27 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5207,15 +5214,15 @@
 		(dnp no)
 		(uuid "496a0a70-8760-4195-a70f-9520251db374")
 		(property "Reference" "SW_1"
-			(at 128.016 92.456 0)
+			(at 128.016 89.916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 128.27 91.44 0)
+		(property "Value" "TS-1187A-B-A-B"
+			(at 128.27 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5223,8 +5230,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 128.27 91.44 0)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
+			(at 128.27 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5233,7 +5240,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 91.44 0)
+			(at 128.27 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5242,7 +5249,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 128.27 96.52 0)
+			(at 128.27 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5260,180 +5267,6 @@
 			(project ""
 				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/7b56df82-cc6a-450b-93ef-d87bc728ade2"
 					(reference "SW_1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Small")
-		(at 139.7 124.46 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4cd140b4-4978-4da0-a955-d9de8012334a")
-		(property "Reference" "D14"
-			(at 141.224 123.952 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 140.97 126.238 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 139.7 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 139.7 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 139.7 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4c76ae89-7b0a-44c8-af48-70bed96b4d62")
-		)
-		(pin "2"
-			(uuid "4f4da37c-6e1d-40c5-a2fe-36e14bb3aad4")
-		)
-		(instances
-			(project "OSS Radio Hardware Design"
-				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/7b56df82-cc6a-450b-93ef-d87bc728ade2"
-					(reference "D14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Small")
-		(at 123.19 99.06 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4e4514cb-438e-45ea-88ca-4e32ea5c1264")
-		(property "Reference" "D8"
-			(at 124.714 98.552 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 124.46 100.838 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 123.19 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 123.19 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 123.19 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 123.19 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "46e10155-1017-475f-8f7a-fdf2ca6e4fce")
-		)
-		(pin "2"
-			(uuid "0cecb843-f702-474c-89ff-a0c24ac267e8")
-		)
-		(instances
-			(project ""
-				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/7b56df82-cc6a-450b-93ef-d87bc728ade2"
-					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -5505,8 +5338,356 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148WS")
+		(at 139.7 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "54e8de5a-6d31-4988-bd1e-4a53f4262e3b")
+		(property "Reference" "D18"
+			(at 141.478 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WS"
+			(at 137.16 103.632 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 144.145 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+			(at 139.7 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
+			(at 139.7 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 139.7 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 139.7 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49c8fd80-46a5-4519-a45c-896640183e98")
+		)
+		(pin "2"
+			(uuid "f1a857e6-6dcf-41b7-a96f-8c43a8975ed5")
+		)
+		(instances
+			(project "OSS Radio Hardware Design"
+				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/7b56df82-cc6a-450b-93ef-d87bc728ade2"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WS")
+		(at 139.7 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "555796c6-7df8-42e0-a353-1b381350d935")
+		(property "Reference" "D22"
+			(at 141.478 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WS"
+			(at 137.16 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 144.145 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+			(at 139.7 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
+			(at 139.7 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 139.7 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 139.7 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83eaa2c8-663a-46fd-8dc6-bac358de2751")
+		)
+		(pin "2"
+			(uuid "d44a2435-de6c-44e3-8cea-e412df80e9cc")
+		)
+		(instances
+			(project "OSS Radio Hardware Design"
+				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/7b56df82-cc6a-450b-93ef-d87bc728ade2"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WS")
+		(at 172.72 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "56d91153-58b7-4a0c-90bc-570a77d44b60")
+		(property "Reference" "D13"
+			(at 174.498 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WS"
+			(at 170.18 90.932 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 177.165 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+			(at 172.72 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
+			(at 172.72 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 172.72 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 172.72 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d076af2a-fa36-4792-b56d-ce8e3fa8e25a")
+		)
+		(pin "2"
+			(uuid "92148b69-0244-4d83-8d41-19da25e5c1aa")
+		)
+		(instances
+			(project "OSS Radio Hardware Design"
+				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/7b56df82-cc6a-450b-93ef-d87bc728ade2"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WS")
+		(at 156.21 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63c73bf1-3252-4302-b30d-2db99009fdc7")
+		(property "Reference" "D10"
+			(at 157.988 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WS"
+			(at 153.67 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 160.655 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+			(at 156.21 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
+			(at 156.21 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 156.21 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 156.21 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1a309de-9d85-47a6-9260-5735c0d8baab")
+		)
+		(pin "2"
+			(uuid "459c2f84-d8f3-4b0b-bfcd-96b5d189e7f4")
+		)
+		(instances
+			(project "OSS Radio Hardware Design"
+				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/7b56df82-cc6a-450b-93ef-d87bc728ade2"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
-		(at 213.36 127 90)
+		(at 234.95 127 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5515,7 +5696,7 @@
 		(fields_autoplaced yes)
 		(uuid "64054b46-3fca-4391-acf1-39dcf0616408")
 		(property "Reference" "R40"
-			(at 213.36 121.92 90)
+			(at 234.95 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5523,15 +5704,15 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 213.36 124.46 90)
+			(at 234.95 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 213.36 127 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 234.95 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5540,7 +5721,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 213.36 127 0)
+			(at 234.95 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5549,7 +5730,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 213.36 127 0)
+			(at 234.95 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5642,16 +5823,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Small")
-		(at 172.72 99.06 90)
+		(lib_id "Diode:1N4148WS")
+		(at 139.7 135.89 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "677b8fae-c76d-4434-9271-f7e5a3ecba8f")
-		(property "Reference" "D22"
-			(at 174.244 98.552 90)
+		(uuid "6948fcdb-28b7-4766-98ac-d15aa078d86b")
+		(property "Reference" "D8"
+			(at 141.478 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5659,8 +5840,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
-			(at 173.99 100.838 90)
+		(property "Value" "1N4148WS"
+			(at 137.16 129.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5668,8 +5849,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 172.72 99.06 90)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 144.145 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5677,8 +5858,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 172.72 99.06 90)
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+			(at 139.7 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5686,8 +5867,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode, small symbol"
-			(at 172.72 99.06 0)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
+			(at 139.7 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5696,7 +5877,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 172.72 99.06 0)
+			(at 139.7 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5705,7 +5886,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 172.72 99.06 0)
+			(at 139.7 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5714,15 +5895,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "2813a0ce-2d3b-4ce1-b6a9-1fd7dbf68ed0")
+			(uuid "0a6a7fd9-dd0b-44e0-97d7-45bfffc0f9bb")
 		)
 		(pin "2"
-			(uuid "1de7251b-32fe-4f8a-923f-af0516c63bf0")
+			(uuid "ec7d63d6-2112-468b-9332-feff2b5ee8fe")
 		)
 		(instances
 			(project "OSS Radio Hardware Design"
 				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/7b56df82-cc6a-450b-93ef-d87bc728ade2"
-					(reference "D22")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -5799,7 +5980,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 219.71 142.24 0)
+		(at 242.57 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5807,7 +5988,7 @@
 		(dnp no)
 		(uuid "728e46a5-cc40-42f5-bebf-c9cef3eeda77")
 		(property "Reference" "#PWR061"
-			(at 219.71 148.59 0)
+			(at 242.57 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5816,7 +5997,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 219.71 146.304 0)
+			(at 242.57 138.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5824,7 +6005,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 219.71 142.24 0)
+			(at 242.57 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5833,7 +6014,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 142.24 0)
+			(at 242.57 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5842,7 +6023,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 219.71 142.24 0)
+			(at 242.57 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5863,182 +6044,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Small")
-		(at 156.21 78.74 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7a186fd1-2b2b-4d23-901b-d01229711a39")
-		(property "Reference" "D30"
-			(at 157.734 78.232 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 157.48 80.518 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.21 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 156.21 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 156.21 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 156.21 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8374e776-456a-4991-ab26-ae1b47bb8fda")
-		)
-		(pin "2"
-			(uuid "2bc7887c-e74c-48e3-a3e1-a1aeeab13690")
-		)
-		(instances
-			(project "OSS Radio Hardware Design"
-				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/7b56df82-cc6a-450b-93ef-d87bc728ade2"
-					(reference "D30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Small")
-		(at 156.21 111.76 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7f0100e0-5b9e-43a4-94c3-07f74f84fcac")
-		(property "Reference" "D17"
-			(at 157.734 111.252 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 157.48 113.538 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.21 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 156.21 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 156.21 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 156.21 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "119f43a0-62a8-4cb7-b0dd-8c7be4c06962")
-		)
-		(pin "2"
-			(uuid "ecbbe17d-2d6f-4ea2-aaec-e5c1cb546d6c")
-		)
-		(instances
-			(project "OSS Radio Hardware Design"
-				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/7b56df82-cc6a-450b-93ef-d87bc728ade2"
-					(reference "D17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 161.29 134.62 0)
+		(at 161.29 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6046,15 +6053,15 @@
 		(dnp no)
 		(uuid "804e316a-424f-4e97-8a26-e1185b71fe87")
 		(property "Reference" "SW_#1"
-			(at 161.036 130.556 0)
+			(at 161.036 128.016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 161.29 129.54 0)
+		(property "Value" "TS-1187A-B-A-B"
+			(at 161.29 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6062,8 +6069,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 161.29 129.54 0)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
+			(at 161.29 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6072,7 +6079,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 161.29 129.54 0)
+			(at 161.29 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6081,7 +6088,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 161.29 134.62 0)
+			(at 161.29 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6170,95 +6177,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Small")
-		(at 123.19 111.76 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8495b7ff-8aec-4b0f-bde0-08f9bc2dc3fd")
-		(property "Reference" "D9"
-			(at 124.714 111.252 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 124.46 113.538 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 123.19 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 123.19 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 123.19 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 123.19 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2f833a7b-7b27-4fa7-a9e4-3cebb4ad3dc8")
-		)
-		(pin "2"
-			(uuid "051ec7c2-6fbe-43d7-9e3f-621515867dd4")
-		)
-		(instances
-			(project "OSS Radio Hardware Design"
-				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/7b56df82-cc6a-450b-93ef-d87bc728ade2"
-					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 144.78 109.22 0)
+		(at 144.78 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6266,15 +6186,15 @@
 		(dnp no)
 		(uuid "84ff28a0-d681-4340-a23d-0524f605ef05")
 		(property "Reference" "SW_5"
-			(at 144.526 105.156 0)
+			(at 144.526 102.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 144.78 104.14 0)
+		(property "Value" "TS-1187A-B-A-B"
+			(at 144.78 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6282,8 +6202,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 144.78 104.14 0)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
+			(at 144.78 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6292,7 +6212,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 104.14 0)
+			(at 144.78 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6301,7 +6221,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 144.78 109.22 0)
+			(at 144.78 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6325,95 +6245,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Small")
-		(at 123.19 137.16 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "88985732-cfcd-444b-949c-8019d0a3d1b4")
-		(property "Reference" "D11"
-			(at 124.714 136.652 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 124.46 138.938 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 123.19 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 123.19 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 123.19 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 123.19 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "31fd3749-afa7-47c8-8ef6-05c9012b68db")
-		)
-		(pin "2"
-			(uuid "b21b56de-e172-418d-a357-793fbd50ca45")
-		)
-		(instances
-			(project "OSS Radio Hardware Design"
-				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/7b56df82-cc6a-450b-93ef-d87bc728ade2"
-					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 144.78 76.2 0)
+		(at 144.78 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6421,15 +6254,15 @@
 		(dnp no)
 		(uuid "8e2e2657-43b5-47ac-a7d6-bc48ed537978")
 		(property "Reference" "SW_DOWN1"
-			(at 145.288 72.39 0)
+			(at 145.288 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 144.78 71.12 0)
+		(property "Value" "TS-1187A-B-A-B"
+			(at 144.78 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6437,8 +6270,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 144.78 71.12 0)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
+			(at 144.78 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6447,7 +6280,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 71.12 0)
+			(at 144.78 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6456,7 +6289,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 144.78 76.2 0)
+			(at 144.78 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6481,7 +6314,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 161.29 76.2 0)
+		(at 161.29 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6489,15 +6322,15 @@
 		(dnp no)
 		(uuid "8edc8862-1632-4183-a9ff-98d86c2a45a8")
 		(property "Reference" "SW_ENTER1"
-			(at 161.798 72.39 0)
+			(at 161.798 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 161.29 71.12 0)
+		(property "Value" "TS-1187A-B-A-B"
+			(at 161.29 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6505,8 +6338,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 161.29 71.12 0)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
+			(at 161.29 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6515,7 +6348,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 161.29 71.12 0)
+			(at 161.29 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6524,7 +6357,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 161.29 76.2 0)
+			(at 161.29 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6549,7 +6382,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 196.85 142.24 0)
+		(at 218.44 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6558,7 +6391,7 @@
 		(fields_autoplaced yes)
 		(uuid "93c51a97-77d7-4491-bc58-ecb75c5bedb1")
 		(property "Reference" "R22"
-			(at 199.39 140.9699 0)
+			(at 220.98 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6567,7 +6400,7 @@
 			)
 		)
 		(property "Value" "5k1"
-			(at 199.39 143.5099 0)
+			(at 220.98 143.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6575,8 +6408,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 196.85 142.24 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 218.44 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6585,7 +6418,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 196.85 142.24 0)
+			(at 218.44 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6594,7 +6427,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 196.85 142.24 0)
+			(at 218.44 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6612,6 +6445,93 @@
 			(project "OSS Radio Hardware Design"
 				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/7b56df82-cc6a-450b-93ef-d87bc728ade2"
 					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WS")
+		(at 139.7 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "95fe801b-bfce-4fa5-8845-65702bd25cd6")
+		(property "Reference" "D11"
+			(at 141.478 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WS"
+			(at 137.16 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 144.145 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+			(at 139.7 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
+			(at 139.7 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 139.7 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 139.7 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b44df159-3304-421d-87a1-72149130683f")
+		)
+		(pin "2"
+			(uuid "2347e091-7f7d-4a28-9857-aab1e8165983")
+		)
+		(instances
+			(project "OSS Radio Hardware Design"
+				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/7b56df82-cc6a-450b-93ef-d87bc728ade2"
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -6751,7 +6671,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 161.29 96.52 0)
+		(at 161.29 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6759,15 +6679,15 @@
 		(dnp no)
 		(uuid "9f1c5aa5-198d-4795-b31f-11ccf76aca86")
 		(property "Reference" "SW_3"
-			(at 161.036 92.456 0)
+			(at 161.036 89.916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 161.29 91.44 0)
+		(property "Value" "TS-1187A-B-A-B"
+			(at 161.29 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6775,8 +6695,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 161.29 91.44 0)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
+			(at 161.29 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6785,7 +6705,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 161.29 91.44 0)
+			(at 161.29 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6794,7 +6714,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 161.29 96.52 0)
+			(at 161.29 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6888,24 +6808,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 144.78 62.23 0)
+		(lib_id "Diode:1N4148WS")
+		(at 139.7 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a78ff6de-786a-4bdf-8cdf-eab65092adb6")
-		(property "Reference" "SW_UP1"
-			(at 144.78 58.166 0)
+		(uuid "a01bb2bb-26ec-4d59-8df2-fab47425e8b8")
+		(property "Reference" "D15"
+			(at 141.478 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 144.78 57.15 0)
+		(property "Value" "1N4148WS"
+			(at 137.16 90.932 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 144.145 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6913,8 +6843,85 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 144.78 57.15 0)
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+			(at 139.7 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
+			(at 139.7 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 139.7 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 139.7 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c917f168-665a-419b-a997-c95fd711790a")
+		)
+		(pin "2"
+			(uuid "e8fe1714-ee25-4297-b60b-d4393d5dc8bd")
+		)
+		(instances
+			(project "OSS Radio Hardware Design"
+				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/7b56df82-cc6a-450b-93ef-d87bc728ade2"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 144.78 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a78ff6de-786a-4bdf-8cdf-eab65092adb6")
+		(property "Reference" "SW_UP1"
+			(at 144.78 55.626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS-1187A-B-A-B"
+			(at 144.78 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
+			(at 144.78 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6923,7 +6930,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 57.15 0)
+			(at 144.78 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6932,7 +6939,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 144.78 62.23 0)
+			(at 144.78 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6957,7 +6964,7 @@
 	)
 	(symbol
 		(lib_id "Device:RotaryEncoder_Switch")
-		(at 203.2 119.38 90)
+		(at 224.79 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6965,7 +6972,7 @@
 		(dnp no)
 		(uuid "a929b711-8741-436d-a96a-2facec6c3d68")
 		(property "Reference" "SW3"
-			(at 209.042 115.062 90)
+			(at 230.632 115.062 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6973,8 +6980,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RotaryEncoder_Switch"
-			(at 209.042 117.602 90)
+		(property "Value" "PEC12R-21xx-S0012"
+			(at 230.632 117.602 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6982,8 +6989,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 199.136 123.19 0)
+		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Bourns_Horizontal_PEC12R-2x17F-Sxxxx"
+			(at 220.726 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6992,7 +6999,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 196.596 119.38 0)
+			(at 218.186 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7001,7 +7008,7 @@
 			)
 		)
 		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
-			(at 203.2 119.38 0)
+			(at 224.79 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7035,7 +7042,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 128.27 109.22 0)
+		(at 128.27 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7043,15 +7050,15 @@
 		(dnp no)
 		(uuid "aa055b82-675a-4cc9-99af-be8139dcf3a7")
 		(property "Reference" "SW_4"
-			(at 128.016 105.156 0)
+			(at 128.016 102.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 128.27 104.14 0)
+		(property "Value" "TS-1187A-B-A-B"
+			(at 128.27 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7059,8 +7066,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 128.27 104.14 0)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
+			(at 128.27 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7069,7 +7076,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 104.14 0)
+			(at 128.27 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7078,7 +7085,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 128.27 109.22 0)
+			(at 128.27 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7171,6 +7178,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148WS")
+		(at 172.72 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aebcef37-d9b6-4996-b5c1-0eecb610b2b2")
+		(property "Reference" "D20"
+			(at 174.498 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WS"
+			(at 170.18 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 177.165 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+			(at 172.72 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
+			(at 172.72 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 172.72 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 172.72 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "555c6ee1-9401-4f85-8649-d5ec487e7e34")
+		)
+		(pin "2"
+			(uuid "3df1dd9c-08c6-498f-834a-2abfb2997001")
+		)
+		(instances
+			(project "OSS Radio Hardware Design"
+				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/7b56df82-cc6a-450b-93ef-d87bc728ade2"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:ESD9B3.3ST5G")
 		(at 110.49 130.81 270)
 		(unit 1)
@@ -7240,267 +7334,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Small")
-		(at 123.19 124.46 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b1efb12e-b5a4-4ef5-a39e-371f6a0851a9")
-		(property "Reference" "D10"
-			(at 124.714 123.952 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 124.46 126.238 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 123.19 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 123.19 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 123.19 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 123.19 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0b0054c8-7177-4de4-9730-03bfeb2959c7")
-		)
-		(pin "2"
-			(uuid "c6348ba4-f0a7-435a-88fc-e433c04d8349")
-		)
-		(instances
-			(project "OSS Radio Hardware Design"
-				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/7b56df82-cc6a-450b-93ef-d87bc728ade2"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Small")
-		(at 123.19 64.77 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b591c172-6905-44b0-8051-f6e673469830")
-		(property "Reference" "D28"
-			(at 124.714 64.262 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 124.46 66.548 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 123.19 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 123.19 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 123.19 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 123.19 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f2a68d90-eb6a-4a39-b087-0ebf12a452ac")
-		)
-		(pin "2"
-			(uuid "c49ff5af-84fc-4861-a52a-fedf65db19e8")
-		)
-		(instances
-			(project "OSS Radio Hardware Design"
-				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/7b56df82-cc6a-450b-93ef-d87bc728ade2"
-					(reference "D28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Small")
-		(at 139.7 99.06 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ba5d1ae0-e9b3-4f3f-903f-5251fbc55c93")
-		(property "Reference" "D12"
-			(at 141.224 98.552 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 140.97 100.838 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 139.7 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 139.7 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 139.7 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0205a2b5-531b-4c0f-998a-d06c8810e755")
-		)
-		(pin "2"
-			(uuid "2bed2206-be38-4703-a581-a6105683eddb")
-		)
-		(instances
-			(project "OSS Radio Hardware Design"
-				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/7b56df82-cc6a-450b-93ef-d87bc728ade2"
-					(reference "D12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED_Small")
 		(at 38.1 120.65 180)
 		(unit 1)
@@ -7527,7 +7360,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 38.1 120.65 90)
 			(effects
 				(font
@@ -7580,7 +7413,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 177.8 96.52 0)
+		(at 177.8 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7588,15 +7421,15 @@
 		(dnp no)
 		(uuid "bc24c84a-2247-40a3-9c0b-be47b813d173")
 		(property "Reference" "SW_SIDE2"
-			(at 177.546 92.456 0)
+			(at 177.546 89.916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 177.8 91.44 0)
+		(property "Value" "1825027-8"
+			(at 177.8 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7604,8 +7437,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 177.8 91.44 0)
+		(property "Footprint" "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS"
+			(at 177.8 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7614,7 +7447,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 91.44 0)
+			(at 177.8 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7623,7 +7456,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 177.8 96.52 0)
+			(at 177.8 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7674,7 +7507,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 43.18 120.65 0)
 			(effects
 				(font
@@ -7717,24 +7550,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 128.27 76.2 0)
+		(lib_id "Diode:1N4148WS")
+		(at 156.21 135.89 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c0dd009e-6e19-473b-ab69-c4a2a0cc1221")
-		(property "Reference" "SW_BACK1"
-			(at 128.524 72.39 0)
+		(uuid "c0ab29ff-f391-45d1-bf73-117bc7ce91bf")
+		(property "Reference" "D9"
+			(at 157.988 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 128.27 71.12 0)
+		(property "Value" "1N4148WS"
+			(at 153.67 129.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 160.655 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7742,8 +7585,85 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 128.27 71.12 0)
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+			(at 156.21 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
+			(at 156.21 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 156.21 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 156.21 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "309d4c69-182d-4ee5-978f-364eec57116d")
+		)
+		(pin "2"
+			(uuid "0e2b88da-4d6c-4db2-bf86-86cae5469305")
+		)
+		(instances
+			(project "OSS Radio Hardware Design"
+				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/7b56df82-cc6a-450b-93ef-d87bc728ade2"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 128.27 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0dd009e-6e19-473b-ab69-c4a2a0cc1221")
+		(property "Reference" "SW_BACK1"
+			(at 128.524 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS-1187A-B-A-B"
+			(at 128.27 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
+			(at 128.27 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7752,7 +7672,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 71.12 0)
+			(at 128.27 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7761,7 +7681,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 128.27 76.2 0)
+			(at 128.27 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7920,7 +7840,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 193.04 127 90)
+		(at 214.63 127 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7929,7 +7849,7 @@
 		(fields_autoplaced yes)
 		(uuid "ce73ab89-f054-4079-9d34-b429c1d71cbe")
 		(property "Reference" "R24"
-			(at 193.04 121.92 90)
+			(at 214.63 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7937,15 +7857,15 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 193.04 124.46 90)
+			(at 214.63 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 193.04 127 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 214.63 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7954,7 +7874,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 193.04 127 0)
+			(at 214.63 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7963,7 +7883,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 193.04 127 0)
+			(at 214.63 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7988,7 +7908,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 186.69 142.24 0)
+		(at 208.28 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7996,7 +7916,7 @@
 		(dnp no)
 		(uuid "d0fe3229-7203-4d78-b766-407c08e9e8c4")
 		(property "Reference" "#PWR060"
-			(at 186.69 148.59 0)
+			(at 208.28 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8005,7 +7925,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 186.69 146.304 0)
+			(at 208.28 138.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8013,7 +7933,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 142.24 0)
+			(at 208.28 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8022,7 +7942,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 142.24 0)
+			(at 208.28 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8031,7 +7951,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 186.69 142.24 0)
+			(at 208.28 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8053,7 +7973,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 209.55 142.24 0)
+		(at 231.14 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8062,7 +7982,7 @@
 		(fields_autoplaced yes)
 		(uuid "d13677ad-0421-450b-a2f2-5d4cba8a33fd")
 		(property "Reference" "R21"
-			(at 212.09 140.9699 0)
+			(at 233.68 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8071,7 +7991,7 @@
 			)
 		)
 		(property "Value" "5k1"
-			(at 212.09 143.5099 0)
+			(at 233.68 143.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8079,8 +7999,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 209.55 142.24 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 231.14 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8089,7 +8009,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 209.55 142.24 0)
+			(at 231.14 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8098,7 +8018,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 209.55 142.24 0)
+			(at 231.14 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8116,6 +8036,93 @@
 			(project ""
 				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/7b56df82-cc6a-450b-93ef-d87bc728ade2"
 					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WS")
+		(at 156.21 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d144214b-0070-4ac8-9b7e-94a7a76bedcf")
+		(property "Reference" "D27"
+			(at 157.988 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WS"
+			(at 153.67 56.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 160.655 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+			(at 156.21 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
+			(at 156.21 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 156.21 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 156.21 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52142458-a949-41b4-94a0-dbd6c67e266a")
+		)
+		(pin "2"
+			(uuid "27c1a2a7-f201-42e1-be7b-06a13dd45452")
+		)
+		(instances
+			(project "OSS Radio Hardware Design"
+				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/7b56df82-cc6a-450b-93ef-d87bc728ade2"
+					(reference "D27")
 					(unit 1)
 				)
 			)
@@ -8191,9 +8198,96 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148WS")
+		(at 123.19 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d9e6c32a-f8c3-47dd-8beb-2fc68ee4c34e")
+		(property "Reference" "D23"
+			(at 124.968 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WS"
+			(at 120.65 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 127.635 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+			(at 123.19 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
+			(at 123.19 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 123.19 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 123.19 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75de304c-4ce6-4f0d-bb8e-a12b4b9707a0")
+		)
+		(pin "2"
+			(uuid "58cf9f68-9906-44bd-95ac-da964561fe3d")
+		)
+		(instances
+			(project "OSS Radio Hardware Design"
+				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/7b56df82-cc6a-450b-93ef-d87bc728ade2"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "ESD9B3.3ST5G_1")
 		(lib_id "Diode:ESD9B3.3ST5G")
-		(at 219.71 138.43 270)
+		(at 242.57 130.81 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8202,7 +8296,7 @@
 		(fields_autoplaced yes)
 		(uuid "da935d3d-4cd5-4782-b158-28124336a72d")
 		(property "Reference" "D46"
-			(at 222.25 137.1599 90)
+			(at 245.11 129.5399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8211,7 +8305,7 @@
 			)
 		)
 		(property "Value" "ESD9B3.3ST5G"
-			(at 222.25 139.6999 90)
+			(at 245.11 132.0799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8220,7 +8314,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-923"
-			(at 219.71 138.43 0)
+			(at 242.57 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8229,7 +8323,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
-			(at 219.71 138.43 0)
+			(at 242.57 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8238,7 +8332,7 @@
 			)
 		)
 		(property "Description" "ESD protection diode, 3.3Vrwm, SOD-923"
-			(at 219.71 138.43 0)
+			(at 242.57 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8262,16 +8356,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Small")
-		(at 172.72 78.74 90)
+		(lib_id "Diode:1N4148WS")
+		(at 172.72 63.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "da9a44d7-9c07-4b53-ad3f-db5c55260eb7")
-		(property "Reference" "D21"
-			(at 174.244 78.232 90)
+		(uuid "dac54f20-78d6-4b06-90de-5883bda998fb")
+		(property "Reference" "D28"
+			(at 174.498 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8279,8 +8373,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
-			(at 173.99 80.518 90)
+		(property "Value" "1N4148WS"
+			(at 170.18 56.642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8288,8 +8382,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 172.72 78.74 90)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 177.165 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8297,8 +8391,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 172.72 78.74 90)
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+			(at 172.72 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8306,8 +8400,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode, small symbol"
-			(at 172.72 78.74 0)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
+			(at 172.72 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8316,7 +8410,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 172.72 78.74 0)
+			(at 172.72 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8325,7 +8419,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 172.72 78.74 0)
+			(at 172.72 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8334,15 +8428,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "297fc4fc-b876-4c8d-8692-7dcbde7dc114")
+			(uuid "6a9127a3-53f1-4240-a761-e8314610c619")
 		)
 		(pin "2"
-			(uuid "316a7751-4e4a-43d1-8606-51c61613370f")
+			(uuid "44aa1c93-fab5-428b-b766-85dafb9ec975")
 		)
 		(instances
 			(project "OSS Radio Hardware Design"
 				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/7b56df82-cc6a-450b-93ef-d87bc728ade2"
-					(reference "D21")
+					(reference "D28")
 					(unit 1)
 				)
 			)
@@ -8350,7 +8444,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 144.78 134.62 0)
+		(at 144.78 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8358,15 +8452,15 @@
 		(dnp no)
 		(uuid "dc5add09-0b59-4bb5-9ede-b7357b71a84e")
 		(property "Reference" "SW_0"
-			(at 144.526 130.556 0)
+			(at 144.526 128.016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 144.78 129.54 0)
+		(property "Value" "TS-1187A-B-A-B"
+			(at 144.78 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8374,8 +8468,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 144.78 129.54 0)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
+			(at 144.78 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8384,7 +8478,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 129.54 0)
+			(at 144.78 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8393,7 +8487,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 144.78 134.62 0)
+			(at 144.78 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8417,16 +8511,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Small")
-		(at 156.21 64.77 90)
+		(lib_id "Diode:1N4148WS")
+		(at 139.7 63.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "de8cdf2e-5ae4-4f03-b15a-83906731dc63")
-		(property "Reference" "D24"
-			(at 157.734 64.262 90)
+		(uuid "dd71aacb-5f1c-40f7-9589-e588ab7d4a4f")
+		(property "Reference" "D25"
+			(at 141.478 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8434,8 +8528,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
-			(at 157.48 66.548 90)
+		(property "Value" "1N4148WS"
+			(at 137.16 56.642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8443,8 +8537,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 156.21 64.77 90)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 144.145 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8452,8 +8546,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 156.21 64.77 90)
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+			(at 139.7 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8461,8 +8555,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode, small symbol"
-			(at 156.21 64.77 0)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
+			(at 139.7 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8471,7 +8565,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 156.21 64.77 0)
+			(at 139.7 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8480,7 +8574,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 156.21 64.77 0)
+			(at 139.7 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8489,189 +8583,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "882af6e0-6141-4514-a406-f222d4a59fed")
+			(uuid "df38b7c7-3a56-44b7-b81c-9f1b08e216c2")
 		)
 		(pin "2"
-			(uuid "1e3c416d-aa20-446b-9c46-445e5dd4f3d0")
+			(uuid "7e7adeba-bd64-4822-b9de-278706b6edc1")
 		)
 		(instances
 			(project "OSS Radio Hardware Design"
 				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/7b56df82-cc6a-450b-93ef-d87bc728ade2"
-					(reference "D24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Small")
-		(at 139.7 78.74 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e19901e6-e141-4e96-9d97-81099859abe3")
-		(property "Reference" "D27"
-			(at 141.224 78.232 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 140.97 80.518 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 139.7 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 139.7 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 139.7 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "73df9cac-fa19-4f8c-aec9-979040920c90")
-		)
-		(pin "2"
-			(uuid "a30ff424-d96c-41e4-a2c5-308b1c93d9cb")
-		)
-		(instances
-			(project "OSS Radio Hardware Design"
-				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/7b56df82-cc6a-450b-93ef-d87bc728ade2"
-					(reference "D27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Small")
-		(at 156.21 124.46 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e261a6ff-9944-41cc-9704-a7890823b665")
-		(property "Reference" "D18"
-			(at 157.734 123.952 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 157.48 126.238 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.21 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 156.21 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 156.21 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 156.21 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9a96ade2-ebb7-4938-ade2-fa26a76d8ee6")
-		)
-		(pin "2"
-			(uuid "fc765a52-1b43-4dd0-a33a-4044e4fdb865")
-		)
-		(instances
-			(project "OSS Radio Hardware Design"
-				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/7b56df82-cc6a-450b-93ef-d87bc728ade2"
-					(reference "D18")
+					(reference "D25")
 					(unit 1)
 				)
 			)
@@ -8809,7 +8729,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 161.29 109.22 0)
+		(at 161.29 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8817,15 +8737,15 @@
 		(dnp no)
 		(uuid "e6a75421-d335-4ec9-81a5-8fd1f36112f9")
 		(property "Reference" "SW_6"
-			(at 161.036 105.156 0)
+			(at 161.036 102.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 161.29 104.14 0)
+		(property "Value" "TS-1187A-B-A-B"
+			(at 161.29 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8833,8 +8753,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 161.29 104.14 0)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
+			(at 161.29 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8843,7 +8763,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 161.29 104.14 0)
+			(at 161.29 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8852,7 +8772,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 161.29 109.22 0)
+			(at 161.29 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8877,7 +8797,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 203.2 134.62 0)
+		(at 224.79 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8885,7 +8805,7 @@
 		(dnp no)
 		(uuid "e8b5443c-305a-45fd-b4bc-16bdfc553dc9")
 		(property "Reference" "#PWR045"
-			(at 203.2 140.97 0)
+			(at 224.79 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8894,7 +8814,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 203.2 138.684 0)
+			(at 224.79 138.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8902,7 +8822,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 134.62 0)
+			(at 224.79 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8911,7 +8831,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 134.62 0)
+			(at 224.79 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8920,7 +8840,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 203.2 134.62 0)
+			(at 224.79 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8942,7 +8862,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 161.29 121.92 0)
+		(at 161.29 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8950,15 +8870,15 @@
 		(dnp no)
 		(uuid "e8f9b513-16c4-4c20-8aea-5b3a03694bf7")
 		(property "Reference" "SW_9"
-			(at 161.036 117.856 0)
+			(at 161.036 115.316 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 161.29 116.84 0)
+		(property "Value" "TS-1187A-B-A-B"
+			(at 161.29 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8966,8 +8886,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 161.29 116.84 0)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
+			(at 161.29 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8976,7 +8896,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 161.29 116.84 0)
+			(at 161.29 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8985,7 +8905,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 161.29 121.92 0)
+			(at 161.29 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9009,24 +8929,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 128.27 121.92 0)
+		(lib_id "Diode:1N4148WS")
+		(at 156.21 110.49 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "eb9b5781-0c35-4914-b3b4-0388748123a6")
-		(property "Reference" "SW_7"
-			(at 128.016 117.856 0)
+		(uuid "ea2dbd6f-c31a-42ea-b48d-7d4a5015eac1")
+		(property "Reference" "D19"
+			(at 157.988 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 128.27 116.84 0)
+		(property "Value" "1N4148WS"
+			(at 153.67 103.632 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 160.655 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9034,8 +8964,85 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 128.27 116.84 0)
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+			(at 156.21 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
+			(at 156.21 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 156.21 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 156.21 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "963bb06a-a762-46e8-94e3-b0fd0918cc56")
+		)
+		(pin "2"
+			(uuid "9a616bad-d1fa-4e0d-95cb-6d5ca8ea45f8")
+		)
+		(instances
+			(project "OSS Radio Hardware Design"
+				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/7b56df82-cc6a-450b-93ef-d87bc728ade2"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 128.27 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb9b5781-0c35-4914-b3b4-0388748123a6")
+		(property "Reference" "SW_7"
+			(at 128.016 115.316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS-1187A-B-A-B"
+			(at 128.27 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
+			(at 128.27 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9044,7 +9051,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 116.84 0)
+			(at 128.27 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9053,7 +9060,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 128.27 121.92 0)
+			(at 128.27 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9077,24 +9084,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 128.27 134.62 0)
+		(lib_id "Diode:1N4148WS")
+		(at 123.19 63.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f09fb834-ced3-4ea1-8bbb-cd44bdcada83")
-		(property "Reference" "SW_*1"
-			(at 128.016 130.556 0)
+		(uuid "efdf6f20-a920-485b-a257-30c6d0cd943c")
+		(property "Reference" "D24"
+			(at 124.968 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 128.27 129.54 0)
+		(property "Value" "1N4148WS"
+			(at 120.65 56.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 127.635 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9102,8 +9119,85 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 128.27 129.54 0)
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+			(at 123.19 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
+			(at 123.19 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 123.19 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 123.19 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4355dc5-0a34-49d6-a01d-9deebfb6a39b")
+		)
+		(pin "2"
+			(uuid "8c11ddd1-4667-4137-b749-5a72a2ab5f53")
+		)
+		(instances
+			(project "OSS Radio Hardware Design"
+				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/7b56df82-cc6a-450b-93ef-d87bc728ade2"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 128.27 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f09fb834-ced3-4ea1-8bbb-cd44bdcada83")
+		(property "Reference" "SW_*1"
+			(at 128.016 128.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS-1187A-B-A-B"
+			(at 128.27 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
+			(at 128.27 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9112,7 +9206,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 129.54 0)
+			(at 128.27 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9121,7 +9215,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 128.27 134.62 0)
+			(at 128.27 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9209,6 +9303,180 @@
 			(project "OSS Radio Hardware Design"
 				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/7b56df82-cc6a-450b-93ef-d87bc728ade2"
 					(reference "D35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WS")
+		(at 123.19 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f24a3ab1-02a5-4243-a782-dcc2e0e5d0d4")
+		(property "Reference" "D12"
+			(at 124.968 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WS"
+			(at 120.65 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 127.635 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+			(at 123.19 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
+			(at 123.19 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 123.19 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 123.19 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bad4f7f4-6128-4a4d-86ac-a310611f5bde")
+		)
+		(pin "2"
+			(uuid "2602b402-453c-4f83-9b60-9207914a3d14")
+		)
+		(instances
+			(project "OSS Radio Hardware Design"
+				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/7b56df82-cc6a-450b-93ef-d87bc728ade2"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WS")
+		(at 156.21 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f2ed0bce-d920-4461-ba77-bd56c869ef66")
+		(property "Reference" "D21"
+			(at 157.988 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WS"
+			(at 153.67 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 160.655 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+			(at 156.21 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
+			(at 156.21 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 156.21 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 156.21 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ad14f65-0107-4a6a-a291-2b8b32bd5842")
+		)
+		(pin "2"
+			(uuid "a62a2244-c0c8-419b-8e61-2bcf99e151f2")
+		)
+		(instances
+			(project "OSS Radio Hardware Design"
+				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/7b56df82-cc6a-450b-93ef-d87bc728ade2"
+					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -9354,7 +9622,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 144.78 96.52 0)
+		(at 144.78 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9362,15 +9630,15 @@
 		(dnp no)
 		(uuid "f9846928-162f-4b11-8c6a-d036de954419")
 		(property "Reference" "SW_2"
-			(at 144.526 92.456 0)
+			(at 144.526 89.916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 144.78 91.44 0)
+		(property "Value" "TS-1187A-B-A-B"
+			(at 144.78 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9378,8 +9646,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 144.78 91.44 0)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
+			(at 144.78 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9388,7 +9656,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 91.44 0)
+			(at 144.78 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9397,7 +9665,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 144.78 96.52 0)
+			(at 144.78 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9415,267 +9683,6 @@
 			(project "OSS Radio Hardware Design"
 				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/7b56df82-cc6a-450b-93ef-d87bc728ade2"
 					(reference "SW_2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Small")
-		(at 139.7 64.77 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fb733199-e542-4359-9464-c0597be61722")
-		(property "Reference" "D25"
-			(at 141.224 64.262 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 140.97 66.548 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 139.7 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 139.7 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 139.7 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "41663ef9-8603-4650-ac61-c9d0de43b19f")
-		)
-		(pin "2"
-			(uuid "35ed3631-7bc0-4d56-9697-9ac7ab0ecd34")
-		)
-		(instances
-			(project "OSS Radio Hardware Design"
-				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/7b56df82-cc6a-450b-93ef-d87bc728ade2"
-					(reference "D25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Small")
-		(at 172.72 111.76 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fcbdbdb0-9e66-487e-8d2b-cf0a9f39005b")
-		(property "Reference" "D23"
-			(at 174.244 111.252 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 173.99 113.538 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.72 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 172.72 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 172.72 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 172.72 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a10d6d22-5b49-4abc-b08c-cedf528f5ed5")
-		)
-		(pin "2"
-			(uuid "4ba6bc82-1384-4338-969f-8a812d141f1f")
-		)
-		(instances
-			(project "OSS Radio Hardware Design"
-				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/7b56df82-cc6a-450b-93ef-d87bc728ade2"
-					(reference "D23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Small")
-		(at 139.7 137.16 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ff3a8903-ad23-4675-b231-f388be28c2c4")
-		(property "Reference" "D15"
-			(at 141.224 136.652 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 140.97 138.938 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 139.7 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 139.7 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 139.7 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b9df64d8-025d-49f6-a289-0e8f51c88c76")
-		)
-		(pin "2"
-			(uuid "a3e93adc-e18e-4e29-b78c-09843a17d02c")
-		)
-		(instances
-			(project "OSS Radio Hardware Design"
-				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/7b56df82-cc6a-450b-93ef-d87bc728ade2"
-					(reference "D15")
 					(unit 1)
 				)
 			)

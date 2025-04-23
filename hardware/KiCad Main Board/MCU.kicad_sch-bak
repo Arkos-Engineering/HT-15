@@ -9727,7 +9727,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "b536a6ef-7bd4-47f1-951c-b3526962a5c4")
 		(property "Reference" "J1"
 			(at 70.866 126.238 90)

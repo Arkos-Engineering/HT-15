@@ -1957,7 +1957,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 186.69 52.07 0)
 			(effects
 				(font
@@ -2027,7 +2027,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MEM2061-01-188-00-A_REVA:GCT_MEM2061-01-188-00-A_REVA"
+		(property "Footprint" "MEM2061:GCT_MEM2061-01-188-00-A_REVA"
 			(at 231.14 52.07 0)
 			(effects
 				(font
