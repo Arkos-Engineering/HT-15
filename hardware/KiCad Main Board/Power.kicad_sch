@@ -3745,6 +3745,12 @@
 		(uuid "dcee93fc-db77-404b-8b67-5029a0365c62")
 	)
 	(junction
+		(at 173.99 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ddaa5a73-9dd5-4b67-9f77-0644841ca9e1")
+	)
+	(junction
 		(at 135.89 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4548,6 +4554,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 91.44) (xy 250.19 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50ff250f-7c11-42b2-bde6-e0358963dbe0")
+	)
+	(wire
+		(pts
 			(xy 223.52 25.4) (xy 229.87 25.4)
 		)
 		(stroke
@@ -4748,7 +4764,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 91.44) (xy 250.19 91.44)
+			(xy 142.24 91.44) (xy 173.99 91.44)
 		)
 		(stroke
 			(width 0)
@@ -6890,7 +6906,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 38.1 91.44 0)
 			(effects
 				(font
@@ -7919,7 +7935,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 267.97 52.07 0)
 			(effects
 				(font
@@ -8595,7 +8611,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 270.51 25.4 0)
 			(effects
 				(font
@@ -9661,6 +9677,72 @@
 			(project "OSS Radio Hardware Design"
 				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/c701d20d-e266-4c46-aeb3-ff3d813a359d"
 					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 173.99 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2de0125-c820-4c8c-8146-90f08a454e00")
+		(property "Reference" "TP30"
+			(at 173.228 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 173.228 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 179.07 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 173.99 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e83061a-32f1-4a0c-882c-dae296d7c703")
+		)
+		(instances
+			(project "OSS Radio Hardware Design"
+				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/c701d20d-e266-4c46-aeb3-ff3d813a359d"
+					(reference "TP30")
 					(unit 1)
 				)
 			)

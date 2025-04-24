@@ -684,6 +684,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Audio:AudioJack3_SwitchT"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2198,6 +2305,12 @@
 		(uuid "f962a27d-0c04-44d9-b668-332fadc4dbb2")
 	)
 	(junction
+		(at 73.66 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "062f4b60-24a2-4d7e-a3c9-6f0a37a125bd")
+	)
+	(junction
 		(at 198.12 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2226,6 +2339,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "17af458c-63fc-4ac8-8133-d124af727af5")
+	)
+	(junction
+		(at 243.84 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c2c954b-9380-45e5-9b2e-c79a1f4ed3a7")
 	)
 	(junction
 		(at 172.72 62.23)
@@ -2264,6 +2383,12 @@
 		(uuid "4ef13ed6-3933-463e-8158-4c9e66927f35")
 	)
 	(junction
+		(at 222.25 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f81c274-591a-48ec-bd29-56297729ed8b")
+	)
+	(junction
 		(at 156.21 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2276,6 +2401,12 @@
 		(uuid "58e79295-5cc7-458c-9bee-701481f2cd18")
 	)
 	(junction
+		(at 72.39 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59810ad9-3489-4028-9d6d-4ae36fa41948")
+	)
+	(junction
 		(at 163.83 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2286,6 +2417,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ac714d4-c1da-4e3c-bd1a-14d81ee8e7f7")
+	)
+	(junction
+		(at 71.12 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5aef4209-151e-4036-9420-359102435479")
 	)
 	(junction
 		(at 167.64 45.72)
@@ -2304,6 +2441,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68d5472b-6cc8-404d-952a-d5f384c19441")
+	)
+	(junction
+		(at 223.52 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6fb58ab1-d29f-4370-8edf-d638b7a25e91")
 	)
 	(junction
 		(at 181.61 40.64)
@@ -2370,6 +2513,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf772ba3-644f-4cea-8d0a-ae3e8228e5a6")
+	)
+	(junction
+		(at 156.21 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd60789d-4297-424a-ab24-705711e8093d")
 	)
 	(junction
 		(at 201.93 44.45)
@@ -2443,6 +2592,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 80.01) (xy 177.8 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03469ab3-fdf3-47fb-b3a5-bdf587637950")
+	)
+	(wire
+		(pts
 			(xy 187.96 97.79) (xy 187.96 101.6)
 		)
 		(stroke
@@ -2450,6 +2609,16 @@
 			(type default)
 		)
 		(uuid "05dda0cb-9541-4770-aea9-e511ce8bf03c")
+	)
+	(wire
+		(pts
+			(xy 73.66 54.61) (xy 60.96 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08c6a010-72ed-486a-9622-8aa38a9de4e0")
 	)
 	(wire
 		(pts
@@ -2490,6 +2659,16 @@
 			(type default)
 		)
 		(uuid "1388e6f6-ec15-46e7-9a3a-14ee53077659")
+	)
+	(wire
+		(pts
+			(xy 243.84 67.31) (xy 257.81 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "139286a7-dd62-4efb-8720-293187c329a8")
 	)
 	(wire
 		(pts
@@ -2623,6 +2802,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 57.15) (xy 72.39 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3de3a868-3429-4b3a-ac97-6c86e269c30b")
+	)
+	(wire
+		(pts
 			(xy 218.44 77.47) (xy 232.41 77.47)
 		)
 		(stroke
@@ -2653,6 +2842,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 59.69) (xy 62.23 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47ce9d7e-1633-4f17-b6a4-8c7a266f4ce9")
+	)
+	(wire
+		(pts
 			(xy 151.13 52.07) (xy 163.83 52.07)
 		)
 		(stroke
@@ -2680,6 +2879,16 @@
 			(type default)
 		)
 		(uuid "4e982a08-b699-495e-8625-1af6d00ccdcd")
+	)
+	(wire
+		(pts
+			(xy 73.66 54.61) (xy 73.66 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fa592a7-c724-4fca-8d22-a3d9ddc28728")
 	)
 	(wire
 		(pts
@@ -2733,7 +2942,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 54.61) (xy 224.79 54.61)
+			(xy 218.44 54.61) (xy 223.52 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2953,6 +3162,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 57.15) (xy 60.96 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8745e5c5-6f63-41f7-90cb-2324a2dbe7fa")
+	)
+	(wire
+		(pts
 			(xy 60.96 45.72) (xy 63.5 45.72)
 		)
 		(stroke
@@ -3143,7 +3362,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 80.01) (xy 177.8 80.01)
+			(xy 151.13 80.01) (xy 156.21 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3153,7 +3372,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 57.15) (xy 60.96 57.15)
+			(xy 74.93 57.15) (xy 72.39 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3283,7 +3502,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 59.69) (xy 62.23 59.69)
+			(xy 74.93 59.69) (xy 71.12 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3313,6 +3532,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 59.69) (xy 71.12 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1e732bd-e13b-4f0b-8aa8-c3252d770b79")
+	)
+	(wire
+		(pts
 			(xy 181.61 45.72) (xy 175.26 45.72)
 		)
 		(stroke
@@ -3323,7 +3552,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 54.61) (xy 60.96 54.61)
+			(xy 74.93 54.61) (xy 73.66 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3373,7 +3602,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 67.31) (xy 257.81 67.31)
+			(xy 240.03 67.31) (xy 243.84 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3410,6 +3639,16 @@
 			(type default)
 		)
 		(uuid "ecdf8aaa-21e1-4f0f-8fab-ec91c161a5c2")
+	)
+	(wire
+		(pts
+			(xy 223.52 54.61) (xy 224.79 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edcbba6a-6060-44b4-a413-c05088f2972b")
 	)
 	(wire
 		(pts
@@ -5301,6 +5540,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 223.52 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63297e5d-616f-4d2d-b8aa-ca205f240a3e")
+		(property "Reference" "TP38"
+			(at 230.378 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 230.378 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 228.6 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 223.52 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0043e54d-9f32-429f-990a-2e49cf236c38")
+		)
+		(instances
+			(project "OSS Radio Hardware Design"
+				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/1fea53e1-bad3-4fc0-9492-4b8e0f78b13e"
+					(reference "TP38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Audio:AudioJack3_SwitchT")
 		(at 256.54 92.71 0)
 		(mirror y)
@@ -5436,6 +5741,72 @@
 			(project "OSS Radio Hardware Design"
 				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/1fea53e1-bad3-4fc0-9492-4b8e0f78b13e"
 					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 72.39 72.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "71320e66-9293-4b96-8b50-924c688139aa")
+		(property "Reference" "TP40"
+			(at 73.152 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 73.152 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 67.31 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 72.39 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b7704e0-a08e-4a15-a3f3-6c7e14a9ca50")
+		)
+		(instances
+			(project "OSS Radio Hardware Design"
+				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/1fea53e1-bad3-4fc0-9492-4b8e0f78b13e"
+					(reference "TP40")
 					(unit 1)
 				)
 			)
@@ -5920,6 +6291,72 @@
 			(project "OSS Radio Hardware Design"
 				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/1fea53e1-bad3-4fc0-9492-4b8e0f78b13e"
 					(reference "C49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 243.84 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8cb7614d-26a1-4385-8693-92f59bd2499e")
+		(property "Reference" "TP34"
+			(at 243.078 65.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 243.078 63.246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 248.92 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 248.92 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 243.84 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f646a5b-ea80-416d-b877-68f83c22b4ac")
+		)
+		(instances
+			(project "OSS Radio Hardware Design"
+				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/1fea53e1-bad3-4fc0-9492-4b8e0f78b13e"
+					(reference "TP34")
 					(unit 1)
 				)
 			)
@@ -6446,6 +6883,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 222.25 59.69 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b9b4e8e5-ea6f-4d5c-962f-4bdababf01f1")
+		(property "Reference" "TP37"
+			(at 223.012 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 223.012 63.754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 217.17 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 222.25 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c7a09cf-6e79-4d22-8817-c59973ed402e")
+		)
+		(instances
+			(project "OSS Radio Hardware Design"
+				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/1fea53e1-bad3-4fc0-9492-4b8e0f78b13e"
+					(reference "TP37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 238.76 83.82 270)
 		(unit 1)
@@ -6505,6 +7008,72 @@
 			(project "OSS Radio Hardware Design"
 				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/1fea53e1-bad3-4fc0-9492-4b8e0f78b13e"
 					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 156.21 80.01 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c579f108-fa30-42b4-b093-c8fef083f857")
+		(property "Reference" "TP42"
+			(at 156.972 82.042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 156.972 84.074 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 151.13 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 156.21 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78d557cd-ea51-4d95-8a80-329c6f3fee1a")
+		)
+		(instances
+			(project "OSS Radio Hardware Design"
+				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/1fea53e1-bad3-4fc0-9492-4b8e0f78b13e"
+					(reference "TP42")
 					(unit 1)
 				)
 			)
@@ -6716,6 +7285,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 247.65 83.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3530c51-7419-4511-82d7-8570e1de02be")
+		(property "Reference" "TP36"
+			(at 249.682 83.058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 251.714 83.058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 247.65 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.65 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 247.65 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed107a56-d75c-40d8-ae09-05d14eb7cfe9")
+		)
+		(instances
+			(project "OSS Radio Hardware Design"
+				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/1fea53e1-bad3-4fc0-9492-4b8e0f78b13e"
+					(reference "TP36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 208.28 36.83 90)
 		(unit 1)
@@ -6840,6 +7475,72 @@
 			(project "OSS Radio Hardware Design"
 				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/1fea53e1-bad3-4fc0-9492-4b8e0f78b13e"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 71.12 78.74 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5543411-4e4e-49f6-8cc7-12c6c4ab74cc")
+		(property "Reference" "TP41"
+			(at 71.882 80.772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 71.882 82.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 66.04 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 71.12 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ea4788c-a465-4294-be5c-fdf57426ddb0")
+		)
+		(instances
+			(project "OSS Radio Hardware Design"
+				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/1fea53e1-bad3-4fc0-9492-4b8e0f78b13e"
+					(reference "TP41")
 					(unit 1)
 				)
 			)
@@ -6975,6 +7676,72 @@
 			(project ""
 				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/1fea53e1-bad3-4fc0-9492-4b8e0f78b13e"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 73.66 66.04 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe5378b5-4bb5-4f08-8449-e665fde0d4eb")
+		(property "Reference" "TP39"
+			(at 74.422 68.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 74.422 70.104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 68.58 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 73.66 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51dfa704-715b-41fe-be99-905a039f8966")
+		)
+		(instances
+			(project "OSS Radio Hardware Design"
+				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/1fea53e1-bad3-4fc0-9492-4b8e0f78b13e"
+					(reference "TP39")
 					(unit 1)
 				)
 			)
