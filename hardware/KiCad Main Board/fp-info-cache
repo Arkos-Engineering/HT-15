@@ -1,4 +1,4 @@
-24761767802638214
+24765258970067573
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2572,6 +2572,13 @@ Buzzer_Beeper
 Speaker_CUI_CMR-1206S-67
 Speaker, 30mW, 300-7000Hz, IP67 face, 12x6x2,25mm, https://www.cuidevices.com/product/resource/cmr-12062s-67.pdf
 speaker CUI
+0
+2
+2
+CDRH2D18_LDNP-470NC
+CDRH2D18_LDNP-470NC
+
+
 0
 2
 2
@@ -69868,6 +69875,13 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 4
 P091S
 P091S-FC20BR10K
+
+
+0
+5
+5
+PEC09-2120F-S0012
+PEC09-2120F-S0012
 
 
 0

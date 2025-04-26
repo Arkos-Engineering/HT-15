@@ -1211,9 +1211,6 @@
 			(embedded_fonts no)
 		)
 		(symbol "Device:L_Small"
-			(pin_numbers
-				(hide yes)
-			)
 			(pin_names
 				(offset 0.254)
 				(hide yes)
@@ -3580,7 +3577,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMC"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 195.58 64.135 0)
 			(effects
 				(font
@@ -4125,7 +4122,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMC"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 213.36 42.545 0)
 			(effects
 				(font
@@ -4261,7 +4258,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMC"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 195.58 42.545 0)
 			(effects
 				(font
@@ -4462,7 +4459,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_10.4x10.4_H4.8"
+		(property "Footprint" "CDRH2D18_LDNP-470NC:CDRH2D18_LDNP-470NC"
 			(at 219.71 59.69 0)
 			(effects
 				(font
@@ -4471,7 +4468,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "SMDRH104R-470MT"
+		(property "Datasheet" "CDRH2D18_LDNP-470NC"
 			(at 219.71 59.69 0)
 			(effects
 				(font

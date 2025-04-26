@@ -9,4 +9,6 @@
   (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/Library/PEC12R-2xxxF-Sxxxx/Library.pretty")(options "")(descr ""))
   (lib (name "BK-18650-PC4")(type "KiCad")(uri "${KIPRJMOD}/Library/BK-18650-PC4")(options "")(descr ""))
   (lib (name "SJ1-2503A")(type "KiCad")(uri "${KIPRJMOD}/Library/SJ1-2503A")(options "")(descr ""))
+  (lib (name "PEC09-2120F-S0012")(type "KiCad")(uri "${KIPRJMOD}/Library/PEC09-2120F-S0012/PEC09-2120F-S0012.pretty")(options "")(descr ""))
+  (lib (name "CDRH2D18_LDNP-470NC")(type "KiCad")(uri "${KIPRJMOD}/Library/CDRH2D18_LDNP-470NC/CDRH2D18_LDNP-470NC.pretty")(options "")(descr ""))
 )

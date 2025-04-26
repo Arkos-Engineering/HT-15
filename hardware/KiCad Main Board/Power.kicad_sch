@@ -3415,6 +3415,12 @@
 		(uuid "0db36b31-168c-457e-8fb7-04d5ff12772b")
 	)
 	(junction
+		(at 266.7 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1294c218-c7f3-4492-ad65-e44e776d3fbe")
+	)
+	(junction
 		(at 46.99 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3427,6 +3433,12 @@
 		(uuid "15f7242c-beb4-4c72-9b9d-b0841b13ffde")
 	)
 	(junction
+		(at 256.54 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16629c7b-6fe6-4460-b482-7088f334d04d")
+	)
+	(junction
 		(at 36.83 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3437,12 +3449,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "22a7e35b-984c-4a8f-972d-29488a918b08")
-	)
-	(junction
-		(at 262.89 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2908f393-3c05-4d67-9b57-c8081c320eab")
 	)
 	(junction
 		(at 48.26 130.81)
@@ -3659,12 +3665,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b0f97cbd-6bec-47f5-b196-79088664808d")
-	)
-	(junction
-		(at 265.43 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b163bb49-533c-4228-8e8a-347c173644fb")
 	)
 	(junction
 		(at 208.28 40.64)
@@ -3974,7 +3974,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 25.4) (xy 265.43 25.4)
+			(xy 256.54 25.4) (xy 267.97 25.4)
 		)
 		(stroke
 			(width 0)
@@ -4374,16 +4374,6 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 25.4) (xy 267.97 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45d13c71-ee78-46c8-b882-2647a3f16e61")
-	)
-	(wire
-		(pts
 			(xy 52.07 109.22) (xy 43.18 109.22)
 		)
 		(stroke
@@ -4391,16 +4381,6 @@
 			(type default)
 		)
 		(uuid "47981fd2-28f4-49d9-94f9-e2b2aa4be7b0")
-	)
-	(wire
-		(pts
-			(xy 256.54 52.07) (xy 262.89 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "480f6539-66fd-4cb4-a390-638ffed40bad")
 	)
 	(wire
 		(pts
@@ -4914,7 +4894,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 52.07) (xy 267.97 52.07)
+			(xy 256.54 52.07) (xy 266.7 52.07)
 		)
 		(stroke
 			(width 0)
@@ -5384,6 +5364,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 59.69) (xy 266.7 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc8ae7be-554d-401b-8acd-19540cb2e9bd")
+	)
+	(wire
+		(pts
 			(xy 69.85 55.88) (xy 68.58 55.88)
 		)
 		(stroke
@@ -5601,6 +5591,16 @@
 			(type default)
 		)
 		(uuid "e739cf92-5136-491e-b967-6e659e29b355")
+	)
+	(wire
+		(pts
+			(xy 266.7 52.07) (xy 267.97 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e73d7478-40b6-4e06-a84c-d49a7ac23890")
 	)
 	(wire
 		(pts
@@ -6620,6 +6620,76 @@
 			(project "OSS Radio Hardware Design"
 				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/c701d20d-e266-4c46-aeb3-ff3d813a359d"
 					(reference "C69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 266.7 55.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32c6ec07-554d-47fc-b21b-28ef633837db")
+		(property "Reference" "C78"
+			(at 270.51 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7u"
+			(at 270.51 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 265.7348 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 266.7 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 266.7 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60299611-77e5-4f03-8938-6ead535a9a9c")
+		)
+		(pin "2"
+			(uuid "6d823e92-53be-49c4-a4ed-922f746488fb")
+		)
+		(instances
+			(project "OSS Radio Hardware Design"
+				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/c701d20d-e266-4c46-aeb3-ff3d813a359d"
+					(reference "C78")
 					(unit 1)
 				)
 			)
@@ -7908,73 +7978,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 262.89 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7e80eb03-ce3d-4056-b96c-20a79711a3e1")
-		(property "Reference" "TP7"
-			(at 265.43 47.4979 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 265.43 50.0379 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 267.97 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 267.97 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 262.89 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ca881853-bd74-4899-9b17-f602ab864df6")
-		)
-		(instances
-			(project "OSS Radio Hardware Design"
-				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/c701d20d-e266-4c46-aeb3-ff3d813a359d"
-					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 186.69 111.76 270)
 		(unit 1)
@@ -8584,73 +8587,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 265.43 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "99802140-66bf-4331-b4a4-2150e2d7a5f1")
-		(property "Reference" "TP6"
-			(at 267.97 20.8279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 267.97 23.3679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 270.51 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 270.51 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 265.43 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dfce90a9-de73-4e0a-bddf-e5147b721b80")
-		)
-		(instances
-			(project ""
-				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/c701d20d-e266-4c46-aeb3-ff3d813a359d"
-					(reference "TP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 41.91 106.68 270)
 		(unit 1)
@@ -8744,7 +8680,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMC"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 31.75 17.145 0)
 			(effects
 				(font
@@ -8945,7 +8881,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMC"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 143.51 41.275 0)
 			(effects
 				(font
@@ -9919,7 +9855,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMC"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 96.52 86.995 0)
 			(effects
 				(font
