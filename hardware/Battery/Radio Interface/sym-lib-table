@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "BK-18650-PC4")(type "KiCad")(uri "Y:/Projects/OSS-Radio/hardware/KiCad Main Board/BK-18650-PC4.kicad_sym")(options "")(descr ""))
+  (lib (name "2025-04-02_22-14-21")(type "KiCad")(uri "Y:/Projects/OSS-Radio/hardware/KiCad Main Board/2025-04-02_22-14-21.kicad_sym")(options "")(descr ""))
+  (lib (name "2025-04-04_20-55-54")(type "KiCad")(uri "Y:/Projects/OSS-Radio/hardware/KiCad Main Board/2025-04-04_20-55-54.kicad_sym")(options "")(descr ""))
+  (lib (name "2025-04-02_22-09-11")(type "KiCad")(uri "Y:/Projects/OSS-Radio/hardware/KiCad Main Board/2025-04-02_22-09-11.kicad_sym")(options "")(descr ""))
+)

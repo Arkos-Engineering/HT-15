@@ -13310,7 +13310,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 241.3 35.56 90)
+		(at 241.3 35.56 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13318,7 +13319,7 @@
 		(dnp no)
 		(uuid "dc6c6cf2-1560-4d6a-85b3-a9442cdff1db")
 		(property "Reference" "R8"
-			(at 239.776 33.528 90)
+			(at 242.824 33.528 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13326,7 +13327,7 @@
 			)
 		)
 		(property "Value" "5k1"
-			(at 243.332 33.528 90)
+			(at 239.268 33.528 90)
 			(effects
 				(font
 					(size 1.27 1.27)
