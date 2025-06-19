@@ -2305,12 +2305,6 @@
 		(uuid "f962a27d-0c04-44d9-b668-332fadc4dbb2")
 	)
 	(junction
-		(at 73.66 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "062f4b60-24a2-4d7e-a3c9-6f0a37a125bd")
-	)
-	(junction
 		(at 198.12 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2387,12 +2381,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "58e79295-5cc7-458c-9bee-701481f2cd18")
-	)
-	(junction
-		(at 72.39 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "59810ad9-3489-4028-9d6d-4ae36fa41948")
 	)
 	(junction
 		(at 163.83 45.72)
@@ -2594,7 +2582,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 54.61) (xy 60.96 54.61)
+			(xy 60.96 54.61) (xy 74.93 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2774,16 +2762,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 57.15) (xy 72.39 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3de3a868-3429-4b3a-ac97-6c86e269c30b")
-	)
-	(wire
-		(pts
 			(xy 218.44 77.47) (xy 232.41 77.47)
 		)
 		(stroke
@@ -2851,16 +2829,6 @@
 			(type default)
 		)
 		(uuid "4e982a08-b699-495e-8625-1af6d00ccdcd")
-	)
-	(wire
-		(pts
-			(xy 73.66 54.61) (xy 73.66 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fa592a7-c724-4fca-8d22-a3d9ddc28728")
 	)
 	(wire
 		(pts
@@ -3134,7 +3102,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 57.15) (xy 60.96 57.15)
+			(xy 60.96 57.15) (xy 74.93 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3344,16 +3312,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 57.15) (xy 72.39 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b97c1e97-65d2-47cd-9386-ffc2d555f481")
-	)
-	(wire
-		(pts
 			(xy 62.23 59.69) (xy 60.96 59.69)
 		)
 		(stroke
@@ -3521,16 +3479,6 @@
 			(type default)
 		)
 		(uuid "d24848e1-5982-422a-9603-7500cd6e6263")
-	)
-	(wire
-		(pts
-			(xy 74.93 54.61) (xy 73.66 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d35c7d7a-a9e1-4a90-8e9e-5bc7c4f49213")
 	)
 	(wire
 		(pts
@@ -5643,72 +5591,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 72.39 72.39 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "71320e66-9293-4b96-8b50-924c688139aa")
-		(property "Reference" "TP40"
-			(at 73.152 74.422 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 73.152 76.454 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 67.31 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 67.31 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 72.39 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4b7704e0-a08e-4a15-a3f3-6c7e14a9ca50")
-		)
-		(instances
-			(project "OSS Radio Hardware Design"
-				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/1fea53e1-bad3-4fc0-9492-4b8e0f78b13e"
-					(reference "TP40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:ESD9B3.3ST5G")
 		(at 167.64 109.22 270)
 		(unit 1)
@@ -7374,72 +7256,6 @@
 			(project ""
 				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/1fea53e1-bad3-4fc0-9492-4b8e0f78b13e"
 					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 73.66 66.04 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fe5378b5-4bb5-4f08-8449-e665fde0d4eb")
-		(property "Reference" "TP39"
-			(at 74.422 68.072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 74.422 70.104 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 68.58 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 68.58 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 73.66 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "51dfa704-715b-41fe-be99-905a039f8966")
-		)
-		(instances
-			(project "OSS Radio Hardware Design"
-				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/1fea53e1-bad3-4fc0-9492-4b8e0f78b13e"
-					(reference "TP39")
 					(unit 1)
 				)
 			)

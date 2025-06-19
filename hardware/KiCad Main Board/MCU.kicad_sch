@@ -3842,12 +3842,6 @@
 		(uuid "268cf2e3-6155-4820-87d7-a9a6dd789a7c")
 	)
 	(junction
-		(at 199.39 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "27ec6682-7e52-49ca-a3a3-803df1e29d08")
-	)
-	(junction
 		(at 191.77 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4385,16 +4379,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 134.62) (xy 199.39 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d31116e-33dd-4ccf-896e-4840f6dfc0d4")
-	)
-	(wire
-		(pts
 			(xy 62.23 93.98) (xy 66.04 93.98)
 		)
 		(stroke
@@ -4445,7 +4429,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 127) (xy 199.39 127)
+			(xy 147.32 127) (xy 208.28 127)
 		)
 		(stroke
 			(width 0)
@@ -5202,16 +5186,6 @@
 			(type default)
 		)
 		(uuid "61c81998-ffeb-451c-8d37-a4a2b3df3962")
-	)
-	(wire
-		(pts
-			(xy 208.28 127) (xy 199.39 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61dfdcd7-fe67-4dfd-b959-53b1ffb9ecc7")
 	)
 	(wire
 		(pts
@@ -10507,73 +10481,6 @@
 			(project "OSS Radio Hardware Design"
 				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/e0ca9277-1532-4a93-8da4-fd2786b01953"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 199.39 134.62 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "51627ea9-1b60-48b5-8e8e-142444100da9")
-		(property "Reference" "TP18"
-			(at 201.93 136.6519 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 201.93 139.1919 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 194.31 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 194.31 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 199.39 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b9a2321a-88a0-40a2-8d5e-cced80ce0631")
-		)
-		(instances
-			(project "OSS Radio Hardware Design"
-				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/e0ca9277-1532-4a93-8da4-fd2786b01953"
-					(reference "TP18")
 					(unit 1)
 				)
 			)
