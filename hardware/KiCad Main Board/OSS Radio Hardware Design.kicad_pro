@@ -231,6 +231,10 @@
           "drill": 0.2
         },
         {
+          "diameter": 0.45,
+          "drill": 0.3
+        },
+        {
           "diameter": 0.8,
           "drill": 0.4
         }
@@ -497,7 +501,7 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "via_diameter": 0.6,
+        "via_diameter": 0.45,
         "via_drill": 0.3,
         "wire_width": 6
       }
@@ -514,7 +518,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Exports/",
+      "plot": "Exports/Rev_0.1/",
       "pos_files": "Exports/",
       "specctra_dsn": "",
       "step": "C:/Users/ben/Downloads/OSS Radio Hardware Design.step",
@@ -631,7 +635,7 @@
           "show": false
         }
       ],
-      "filter_string": "",
+      "filter_string": "R52",
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
