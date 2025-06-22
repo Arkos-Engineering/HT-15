@@ -4012,12 +4012,6 @@
 		(uuid "99db3798-5bd3-4ecd-a200-08b4d9659e34")
 	)
 	(junction
-		(at 142.24 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e6cf3cc-bc31-4f20-921d-9425ba642f7b")
-	)
-	(junction
 		(at 43.18 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4070,6 +4064,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b973af77-e4a0-411d-b827-d249ae798b1c")
+	)
+	(junction
+		(at 142.24 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb423911-9583-4172-8d9c-2151051ed781")
 	)
 	(junction
 		(at 149.86 69.85)
@@ -4373,7 +4373,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 96.52) (xy 133.35 99.06)
+			(xy 133.35 97.79) (xy 133.35 99.06)
 		)
 		(stroke
 			(width 0)
@@ -4530,6 +4530,16 @@
 			(type default)
 		)
 		(uuid "2833261a-21e8-4c74-9be2-1ea482c36179")
+	)
+	(wire
+		(pts
+			(xy 142.24 92.71) (xy 142.24 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a2fc1d5-feeb-4b7a-bcae-c9f68c3ed549")
 	)
 	(wire
 		(pts
@@ -4933,6 +4943,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 92.71) (xy 133.35 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5066b03f-099c-43f7-9b2e-1868c15f3cdb")
+	)
+	(wire
+		(pts
 			(xy 132.08 55.88) (xy 125.73 55.88)
 		)
 		(stroke
@@ -5073,7 +5093,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 96.52) (xy 142.24 99.06)
+			(xy 142.24 97.79) (xy 142.24 99.06)
 		)
 		(stroke
 			(width 0)
@@ -5100,6 +5120,16 @@
 			(type default)
 		)
 		(uuid "684b0daf-1e8a-4f18-8044-39e26cdf9feb")
+	)
+	(wire
+		(pts
+			(xy 142.24 91.44) (xy 173.99 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68cbb393-1dca-4b66-bb2d-897b89790f07")
 	)
 	(wire
 		(pts
@@ -5150,16 +5180,6 @@
 			(type default)
 		)
 		(uuid "6c7abc8f-82ee-4d9b-9fa8-532cf4da3fb2")
-	)
-	(wire
-		(pts
-			(xy 142.24 91.44) (xy 173.99 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cb9585b-f9e1-48aa-bef5-bae156936d4b")
 	)
 	(wire
 		(pts
@@ -6395,7 +6415,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 133.35 93.98 0)
+		(at 133.35 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6404,7 +6424,7 @@
 		(fields_autoplaced yes)
 		(uuid "04ad0ff4-4b7e-4ce7-8466-8fb3b8306b9d")
 		(property "Reference" "C53"
-			(at 135.89 92.7162 0)
+			(at 135.89 93.9862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6413,7 +6433,7 @@
 			)
 		)
 		(property "Value" "4.7u"
-			(at 135.89 95.2562 0)
+			(at 135.89 96.5262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6422,7 +6442,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 133.35 93.98 0)
+			(at 133.35 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6431,7 +6451,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 93.98 0)
+			(at 133.35 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6440,7 +6460,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 133.35 93.98 0)
+			(at 133.35 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9063,6 +9083,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 142.24 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "883c962f-5c0f-4cd3-9944-6e50b9fd476b")
+		(property "Reference" "C54"
+			(at 144.78 93.9862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7u"
+			(at 144.78 96.5262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 142.24 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 142.24 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60825672-e893-4322-a9f1-1d534fee55d1")
+		)
+		(pin "2"
+			(uuid "9f1a08f2-f443-451e-94b6-613bb266ad6c")
+		)
+		(instances
+			(project "OSS Radio Hardware Design"
+				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/c701d20d-e266-4c46-aeb3-ff3d813a359d"
+					(reference "C54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:AO3400A")
 		(at 154.94 130.81 180)
 		(unit 1)
@@ -9912,76 +10002,6 @@
 			(project "OSS Radio Hardware Design"
 				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/c701d20d-e266-4c46-aeb3-ff3d813a359d"
 					(reference "D26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 142.24 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c5262da7-7942-477a-b7fa-22502249333b")
-		(property "Reference" "C54"
-			(at 144.78 92.7162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47u"
-			(at 144.78 95.2562 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 142.24 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 142.24 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e04d7031-41ee-4bab-838a-159599955ea1")
-		)
-		(pin "2"
-			(uuid "ebf1600e-2d44-4c5c-bfd0-b7c5320b7e66")
-		)
-		(instances
-			(project "OSS Radio Hardware Design"
-				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/c701d20d-e266-4c46-aeb3-ff3d813a359d"
-					(reference "C54")
 					(unit 1)
 				)
 			)
