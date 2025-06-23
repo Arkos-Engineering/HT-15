@@ -1,11 +1,11 @@
-%TF.GenerationSoftware,KiCad,Pcbnew,9.0.0*%
-%TF.CreationDate,2025-06-22T14:00:25-06:00*%
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.2*%
+%TF.CreationDate,2025-06-22T20:43:22-06:00*%
 %TF.ProjectId,OSS Radio Hardware Design,4f535320-5261-4646-996f-204861726477,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Profile,NP*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 9.0.0) date 2025-06-22 14:00:25*
+G04 Created by KiCad (PCBNEW 9.0.2) date 2025-06-22 20:43:22*
 %MOMM*%
 %LPD*%
 G01*

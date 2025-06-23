@@ -1,12 +1,12 @@
-%TF.GenerationSoftware,KiCad,Pcbnew,9.0.0*%
-%TF.CreationDate,2025-06-22T14:00:25-06:00*%
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.2*%
+%TF.CreationDate,2025-06-22T20:43:22-06:00*%
 %TF.ProjectId,OSS Radio Hardware Design,4f535320-5261-4646-996f-204861726477,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Paste,Bot*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 9.0.0) date 2025-06-22 14:00:25*
+G04 Created by KiCad (PCBNEW 9.0.2) date 2025-06-22 20:43:22*
 %MOMM*%
 %LPD*%
 G01*
@@ -419,8 +419,8 @@ X80299999Y-95680000D03*
 %TD*%
 D18*
 %TO.C,C67*%
-X75000000Y-128317500D03*
-X75000000Y-127182500D03*
+X74925000Y-128442500D03*
+X74925000Y-127307500D03*
 %TD*%
 D17*
 %TO.C,R36*%
@@ -763,8 +763,8 @@ X101000000Y-125975000D03*
 %TD*%
 D14*
 %TO.C,R6*%
-X69802500Y-119000000D03*
-X67977500Y-119000000D03*
+X69762500Y-118975000D03*
+X67937500Y-118975000D03*
 %TD*%
 D12*
 %TO.C,C13*%

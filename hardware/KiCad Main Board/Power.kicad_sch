@@ -4072,6 +4072,12 @@
 		(uuid "bb423911-9583-4172-8d9c-2151051ed781")
 	)
 	(junction
+		(at 259.08 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c09de68a-5c82-4339-9b60-3e035b3af3c9")
+	)
+	(junction
 		(at 149.86 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4118,6 +4124,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e10ed3aa-95d2-4aec-a50a-86292a20cbed")
+	)
+	(junction
+		(at 246.38 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e324e84c-eb4b-4418-86a9-d955f8a994c3")
 	)
 	(junction
 		(at 33.02 91.44)
@@ -4373,6 +4385,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 55.88) (xy 259.08 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f378a20-0c26-451e-af4f-76bfbc636f21")
+	)
+	(wire
+		(pts
 			(xy 133.35 97.79) (xy 133.35 99.06)
 		)
 		(stroke
@@ -4500,6 +4522,16 @@
 			(type default)
 		)
 		(uuid "2203a881-f24e-4d4c-be62-8bc1ce9f9aaa")
+	)
+	(wire
+		(pts
+			(xy 246.38 63.5) (xy 247.65 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23d4ce9b-7928-455d-89ee-040da7680c45")
 	)
 	(wire
 		(pts
@@ -4873,6 +4905,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 55.88) (xy 261.62 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b720d79-4454-4928-bc6b-6c436505bd48")
+	)
+	(wire
+		(pts
 			(xy 43.18 118.11) (xy 48.26 118.11)
 		)
 		(stroke
@@ -5050,6 +5092,16 @@
 			(type default)
 		)
 		(uuid "59b561fb-7fc5-4b1c-af75-4dd35c60ec2a")
+	)
+	(wire
+		(pts
+			(xy 259.08 63.5) (xy 259.08 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a2d5dde-b1b6-406e-8cbb-7b3b3cfcda61")
 	)
 	(wire
 		(pts
@@ -5543,6 +5595,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 69.85) (xy 246.38 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7f69c37-aca2-49fa-ae12-ce0191cac1f9")
+	)
+	(wire
+		(pts
 			(xy 222.25 137.16) (xy 219.71 137.16)
 		)
 		(stroke
@@ -5570,6 +5632,16 @@
 			(type default)
 		)
 		(uuid "ae5cb73d-8f4d-4922-a66a-8c1916b5e0cc")
+	)
+	(wire
+		(pts
+			(xy 259.08 69.85) (xy 246.38 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0d3d6d4-7ad1-4d57-a777-2e9756c45fe1")
 	)
 	(wire
 		(pts
@@ -5773,7 +5845,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 63.5) (xy 247.65 63.5)
+			(xy 237.49 63.5) (xy 246.38 63.5)
 		)
 		(stroke
 			(width 0)
@@ -6033,7 +6105,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 55.88) (xy 261.62 55.88)
+			(xy 247.65 55.88) (xy 259.08 55.88)
 		)
 		(stroke
 			(width 0)
@@ -7473,7 +7545,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 237.49 30.48 0)
 			(effects
 				(font
@@ -9453,6 +9525,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 259.08 67.31 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1ac26cd-f1fc-4f46-9643-be5d10ed6c3e")
+		(property "Reference" "R11"
+			(at 261.62 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100"
+			(at 261.62 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 259.08 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 259.08 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f24f24ba-52cd-4b23-9a26-2da111c1b09f")
+		)
+		(pin "2"
+			(uuid "0d061bea-293b-4feb-bb9c-694870f34ddd")
+		)
+		(instances
+			(project "OSS Radio Hardware Design"
+				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/c701d20d-e266-4c46-aeb3-ff3d813a359d"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:B340")
 		(at 31.75 21.59 180)
 		(unit 1)
@@ -9654,6 +9796,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 259.08 60.96 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b51df181-4a4c-409b-b7a7-3a2c784ccae1")
+		(property "Reference" "R10"
+			(at 261.62 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100"
+			(at 261.62 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 259.08 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 259.08 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b090f06-893d-426b-a2b1-75632bdbd6d9")
+		)
+		(pin "2"
+			(uuid "4d6609da-829d-4733-9afe-05f738273314")
+		)
+		(instances
+			(project "OSS Radio Hardware Design"
+				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/c701d20d-e266-4c46-aeb3-ff3d813a359d"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:B340")
 		(at 143.51 45.72 180)
 		(unit 1)
@@ -9739,7 +9951,7 @@
 				)
 			)
 		)
-		(property "Value" "NCP1117-1.8_SOT223"
+		(property "Value" "AMS1117-1.8"
 			(at 218.44 52.07 0)
 			(effects
 				(font
@@ -9756,7 +9968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF"
+		(property "Datasheet" "AMS1117-1.8"
 			(at 220.98 62.23 0)
 			(effects
 				(font
