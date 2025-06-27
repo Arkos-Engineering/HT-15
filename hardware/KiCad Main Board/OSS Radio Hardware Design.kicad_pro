@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -79,7 +79,7 @@
         "footprint_filters_mismatch": "ignore",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
-        "hole_clearance": "error",
+        "hole_clearance": "warning",
         "hole_to_hole": "warning",
         "holes_co_located": "warning",
         "invalid_outline": "error",
@@ -105,7 +105,7 @@
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "error",
+        "starved_thermal": "warning",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
         "text_thickness": "warning",
@@ -137,8 +137,8 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.16,
-        "min_via_annular_width": 0.2,
-        "min_via_diameter": 0.5,
+        "min_via_annular_width": 0.075,
+        "min_via_diameter": 0.45,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -229,6 +229,10 @@
         {
           "diameter": 0.4,
           "drill": 0.2
+        },
+        {
+          "diameter": 0.45,
+          "drill": 0.3
         },
         {
           "diameter": 0.8,
@@ -485,7 +489,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.16,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -497,7 +501,7 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "via_diameter": 0.6,
+        "via_diameter": 0.45,
         "via_drill": 0.3,
         "wire_width": 6
       }
@@ -631,7 +635,7 @@
           "show": false
         }
       ],
-      "filter_string": "",
+      "filter_string": "R52",
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
