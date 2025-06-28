@@ -3324,7 +3324,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 92.71) (xy 209.55 95.25)
+			(xy 210.82 93.98) (xy 210.82 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3454,6 +3454,26 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 90.17) (xy 205.74 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e64893b-1675-4760-9816-558059dd0deb")
+	)
+	(wire
+		(pts
+			(xy 210.82 91.44) (xy 210.82 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41798903-4446-4a4b-8ac3-db52246e4b61")
+	)
+	(wire
+		(pts
 			(xy 205.74 113.03) (xy 219.71 113.03)
 		)
 		(stroke
@@ -3574,7 +3594,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 90.17) (xy 212.09 90.17)
+			(xy 210.82 91.44) (xy 212.09 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4084,7 +4104,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 95.25) (xy 209.55 95.25)
+			(xy 205.74 95.25) (xy 210.82 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4184,7 +4204,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 92.71) (xy 212.09 92.71)
+			(xy 210.82 93.98) (xy 212.09 93.98)
 		)
 		(stroke
 			(width 0)
@@ -7457,6 +7477,75 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
+		(at 132.08 38.1 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e8d4c58-e49e-4fe5-a918-3884e51400e7")
+		(property "Reference" "R54"
+			(at 131.318 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 131.064 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 132.08 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 132.08 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7b5f21fb-bfcd-490e-a9da-c245f92048f0")
+		)
+		(pin "1"
+			(uuid "9eb01cb1-6fbe-4987-a454-65b7c3e5a971")
+		)
+		(instances
+			(project "OSS Radio Hardware Design"
+				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/1fea53e1-bad3-4fc0-9492-4b8e0f78b13e"
+					(reference "R54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
 		(at 215.9 44.45 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8583,76 +8672,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 132.08 38.1 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "edfb968b-9387-4a60-b0b4-001c18b0f6da")
-		(property "Reference" "R53"
-			(at 131.318 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5k1"
-			(at 131.572 39.624 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 132.08 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 132.08 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 132.08 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0d400187-c7aa-4f4a-9535-fb4b975ce77c")
-		)
-		(pin "1"
-			(uuid "fa8f5dc3-b331-4edb-91a4-137ae8f4a20e")
-		)
-		(instances
-			(project "OSS Radio Hardware Design"
-				(path "/fd5c68a7-f5d0-4135-a258-bde3ebf63307/1fea53e1-bad3-4fc0-9492-4b8e0f78b13e"
-					(reference "R53")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 71.12 78.74 180)
 		(unit 1)
@@ -8785,7 +8804,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 217.17 90.17 0)
+		(at 217.17 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8794,7 +8813,7 @@
 		(fields_autoplaced yes)
 		(uuid "fd21bf40-5076-488f-a5b2-e60199dc006f")
 		(property "Reference" "J6"
-			(at 219.71 90.1699 0)
+			(at 219.71 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8803,7 +8822,7 @@
 			)
 		)
 		(property "Value" "SPK_CONN_INT"
-			(at 219.71 92.7099 0)
+			(at 219.71 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8812,7 +8831,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
-			(at 217.17 90.17 0)
+			(at 217.17 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8821,7 +8840,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 217.17 90.17 0)
+			(at 217.17 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8830,7 +8849,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 217.17 90.17 0)
+			(at 217.17 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
