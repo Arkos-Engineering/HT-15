@@ -635,7 +635,7 @@
           "show": false
         }
       ],
-      "filter_string": "R52",
+      "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",

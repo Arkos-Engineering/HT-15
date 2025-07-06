@@ -1,15 +1,15 @@
 LTspice 24.1.5 for Windows
-Circuit: Z:\Projects\OSS-Radio\hardware\MOSFET RF front end amplifier.net
-Start Time: Wed Apr 16 16:58:09 2025
+Circuit: Z:\Projects\OSS-Radio\hardware\LTSpice Drawings\MOSFET RF front end amplifier.net
+Start Time: Wed Jul  2 14:03:07 2025
 solver = Normal
 Maximum thread count: 28
 tnom = 27
 temp = 27
 method = trap
 Direct Newton iteration for .op point succeeded.
-Total elapsed time: 3.423 seconds.
+Total elapsed time: 2.940 seconds.
 
 Files loaded:
-Z:\Projects\OSS-Radio\hardware\MOSFET RF front end amplifier.net
+Z:\Projects\OSS-Radio\hardware\LTSpice Drawings\MOSFET RF front end amplifier.net
 C:\Users\ben\AppData\Local\LTspice\lib\cmp\standard.mos
 
