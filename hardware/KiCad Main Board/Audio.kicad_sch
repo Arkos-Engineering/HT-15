@@ -2868,6 +2868,16 @@
 		)
 		(uuid "35e1076c-4dbb-4f18-8a23-162dd5de32e5")
 	)
+	(text "I2C 0X18"
+		(exclude_from_sim no)
+		(at 116.84 103.886 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "59e12f6a-79fe-4f06-9277-088774c4ec28")
+	)
 	(text "Audio 1V8"
 		(exclude_from_sim no)
 		(at 184.658 44.196 0)
