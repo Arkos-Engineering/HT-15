@@ -5689,7 +5689,7 @@
 		)
 		(uuid "f0deb5f7-c160-48d2-9bf2-a5218431094f")
 	)
-	(text "PA to RF_IN on Amp should be:\nDC Block\n50 ohm characteristic impedance\npass at 150 and 450\nideally block inbetween"
+	(text "PA to RF_IN on Amp should be:\nDC Block\n50 ohm input impedance\n5-5j output impedance\npass at 150 and 450\nideally block inbetween"
 		(exclude_from_sim no)
 		(at 199.898 97.028 0)
 		(effects

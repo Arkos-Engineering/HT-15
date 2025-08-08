@@ -2,6 +2,8 @@
 - How do we want do deal with the battery? Baofeng battery?
 - Enclosure:
 	- Small batch resin casting?
+	- Slant3D - Made in USA, Still looks like FDM (because it is), ~$10 per device. I have qualms with the quality oif their printer parts
+	- Xometry - Made in USA, can get SLS Nylon parts @ 40 per device (CF-Nylon is more expensive)
 - Electrical
 	- Components:
 		- RF IC:
