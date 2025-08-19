@@ -19,6 +19,7 @@
 			- MAAM-011229-TR1000
 			- AFT09MS007N
 			- I might need to design my own "gain block amplifier" using transistors
+			- GRF5604, 38dBm, 37.5dB Gain
 		- RF Switch:
 			- for switching the amplifier in/out for low power output (wideband tx) and recieving
 		- MCU:
@@ -33,7 +34,7 @@
 		- Display:
 			- https://www.digikey.com/en/products/detail/orient-display/AES200202A00-1-54ENRS/15198467
 		- Display Driver:
-			- SSD1681 Not necessary, The display i chose is SPI
+			- SSD1681 Not necessary, The display i chose is SPI with this chip embedded
 		- GPS:
 			- ZOE-M10Q-0. This is on the RAK devices. It's pretty expensive though
 			- Off the shelf RAK WisBlock reciever, and make it optional?
@@ -48,8 +49,8 @@
 			- MCP73844. needs an external PMOS
 				- LM51571 to boost the 5V up to charge voltage 
 		- BMS, only needed if designing battery
-			- BQ2947? does this balance, or just monitor?
-			- S-8252AAY-M6T1U 
+			- BQ2946? does this balance, or just monitor? 
+			- S-8252AAY-M6T1U Does not active balance. That cam be implemented on a standalone charger in the future
 		- Microphone
 			- SPH0645LM4H-B, I2S MEMS mic. Needs PIO
 			- Analog mic and compander into built in ADC?
