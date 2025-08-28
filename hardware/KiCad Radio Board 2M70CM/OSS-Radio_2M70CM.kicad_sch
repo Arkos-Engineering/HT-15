@@ -5679,9 +5679,9 @@
 		)
 		(uuid "b262971b-eaaa-4808-baac-4903d5f64d02")
 	)
-	(text "Other amplifier options\n\nBT33L - $10, 2 watt max without output filtering\nMMZ09332BT1 - $7, higher wattage, but not for new designs according to NXP\n"
+	(text "Other amplifier options\n\nBT33L - $10, 2 watt max without output filtering\nMMZ09332BT1 - $7, higher wattage, but not for new designs according to NXP\nGRF5604 - $5, 6W. Seems like the best choice\n"
 		(exclude_from_sim no)
-		(at 225.806 29.718 0)
+		(at 229.108 18.288 0)
 		(effects
 			(font
 				(size 1.27 1.27)
