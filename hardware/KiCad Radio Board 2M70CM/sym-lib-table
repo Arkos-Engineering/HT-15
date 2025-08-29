@@ -3,4 +3,5 @@
   (lib (name "CC1120")(type "KiCad")(uri "${KIPRJMOD}/Library/CC1120/KiCADv6/2025-04-16_18-28-31.kicad_sym")(options "")(descr ""))
   (lib (name "BT33L")(type "KiCad")(uri "${KIPRJMOD}/Library/BT33L/BT33L.kicad_sym")(options "")(descr ""))
   (lib (name "DF40C-24DP-0.4V(51)")(type "KiCad")(uri "${KIPRJMOD}/Library/DF40C-24DP-0.4V(51)/2025-07-10_19-57-49.kicad_sym")(options "")(descr ""))
+  (lib (name "GRF5504")(type "KiCad")(uri "${KIPRJMOD}/Library/GRF5504/2025-08-29_20-57-55.kicad_sym")(options "")(descr ""))
 )
