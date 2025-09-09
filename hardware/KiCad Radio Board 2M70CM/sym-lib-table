@@ -4,4 +4,5 @@
   (lib (name "BT33L")(type "KiCad")(uri "${KIPRJMOD}/Library/BT33L/BT33L.kicad_sym")(options "")(descr ""))
   (lib (name "DF40C-24DP-0.4V(51)")(type "KiCad")(uri "${KIPRJMOD}/Library/DF40C-24DP-0.4V(51)/2025-07-10_19-57-49.kicad_sym")(options "")(descr ""))
   (lib (name "GRF5504")(type "KiCad")(uri "${KIPRJMOD}/Library/GRF5504/2025-08-29_20-57-55.kicad_sym")(options "")(descr ""))
+  (lib (name "SKY13330-397LF")(type "KiCad")(uri "${KIPRJMOD}/Library/SKY13330-397LF/2025-09-09_17-35-35.kicad_sym")(options "")(descr ""))
 )
