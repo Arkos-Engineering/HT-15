@@ -1,6 +1,7 @@
-# OSS-Radio
+# HT-15
 
-HT-15. What will set this radio apart from competitors is:
+What will set this radio apart from competitors is:
+
 Fully open source, hardware and software
 Swappable radio module, allowing easy hardware upgradability (2M/70CM at launch)
 USBC charge and data, SD card, Kenwood style audio connector, removable battery
@@ -13,4 +14,5 @@ Target price between $200 and $300, Selling all individual parts on our website 
 At it's current state, the hardware is untested. That will change soon. We have prototypes on the way
 
 ## [Notes](notes.md)
+
 
