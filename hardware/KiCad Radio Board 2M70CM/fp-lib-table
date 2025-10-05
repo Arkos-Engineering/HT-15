@@ -3,4 +3,5 @@
   (lib (name "CC1120")(type "KiCad")(uri "${KIPRJMOD}/Library/CC1120/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "BT33L")(type "KiCad")(uri "${KIPRJMOD}/Library/BT33L/BT33L.pretty")(options "")(descr ""))
   (lib (name "SKY13330-397LF")(type "KiCad")(uri "${KIPRJMOD}/Library/SKY13330-397LF/footprints.pretty")(options "")(descr ""))
+  (lib (name "DF40C")(type "KiCad")(uri "${KIPRJMOD}/Library/DF40C-24DP-0.4V(51)/footprints.pretty")(options "")(descr ""))
 )
