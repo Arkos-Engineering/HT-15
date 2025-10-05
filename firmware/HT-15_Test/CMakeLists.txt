@@ -28,30 +28,30 @@ set(PICO_BOARD pico2 CACHE STRING "Board type")
 # Pull in Raspberry Pi Pico SDK (must be before project)
 include(pico_sdk_import.cmake)
 
-project(HT-15_Hello_World C CXX ASM)
+project(HT-15_Test C CXX ASM)
 
 # Initialise the Raspberry Pi Pico SDK
 pico_sdk_init()
 
 # Add executable. Default name is the project name, version 0.1
 
-add_executable(HT-15_Hello_World HT-15_Hello_World.cpp )
+add_executable(HT-15_Test HT-15_Test.cpp )
 
-pico_set_program_name(HT-15_Hello_World "HT-15_Hello_World")
-pico_set_program_version(HT-15_Hello_World "0.1")
+pico_set_program_name(HT-15_Test "HT-15_Test")
+pico_set_program_version(HT-15_Test "0.1")
 
 # Modify the below lines to enable/disable output over UART/USB
-pico_enable_stdio_uart(HT-15_Hello_World 0)
-pico_enable_stdio_usb(HT-15_Hello_World 0)
+pico_enable_stdio_uart(HT-15_Test 0)
+pico_enable_stdio_usb(HT-15_Test 1)
 
 # Add the standard library to the build
-target_link_libraries(HT-15_Hello_World
-        pico_stdlib)
+target_link_libraries(HT-15_Test
+        pico_stdlib pico_multicore)
 
 # Add the standard include files to the build
-target_include_directories(HT-15_Hello_World PRIVATE
+target_include_directories(HT-15_Test PRIVATE
         ${CMAKE_CURRENT_LIST_DIR}
 )
 
-pico_add_extra_outputs(HT-15_Hello_World)
+pico_add_extra_outputs(HT-15_Test)
 

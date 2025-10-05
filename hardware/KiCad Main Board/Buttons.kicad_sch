@@ -2263,6 +2263,12 @@
 		(uuid "3fe8cb8c-8aa4-4819-a1e0-401f6c2cc9ac")
 	)
 	(junction
+		(at 182.88 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41fa7c37-1422-4952-8270-46304e1e4b29")
+	)
+	(junction
 		(at 227.33 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2305,16 +2311,16 @@
 		(uuid "590a7d0f-ea6c-40ec-acf8-ace534e3ce88")
 	)
 	(junction
-		(at 182.88 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6a3aaff6-fe17-4cf8-8249-5bcf1d84b364")
-	)
-	(junction
 		(at 54.61 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "761b68ee-0577-40e1-8c31-684f72ab01d5")
+	)
+	(junction
+		(at 182.88 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a6de3e5-7744-4342-85ab-24955ab4d872")
 	)
 	(junction
 		(at 104.14 139.7)
@@ -2477,12 +2483,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6c8673c-f8e0-4b88-b8ac-f98eaa39702a")
-	)
-	(junction
-		(at 182.88 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d87d3b63-b3d7-4236-92df-caccf23d6cf3")
 	)
 	(junction
 		(at 245.11 127)
@@ -2800,6 +2800,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 93.98) (xy 182.88 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40dbe557-1eab-4d46-8bee-f2aa8095f1e7")
+	)
+	(wire
+		(pts
 			(xy 139.7 139.7) (xy 156.21 139.7)
 		)
 		(stroke
@@ -3050,7 +3060,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 59.69) (xy 182.88 73.66)
+			(xy 182.88 40.64) (xy 182.88 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3067,6 +3077,16 @@
 			(type default)
 		)
 		(uuid "7e45f0c4-bac0-4f2a-be0d-511ded9fef83")
+	)
+	(wire
+		(pts
+			(xy 182.88 59.69) (xy 182.88 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bf61d68-3bf3-4026-9ada-00e1f19448cd")
 	)
 	(wire
 		(pts
@@ -3300,16 +3320,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 40.64) (xy 182.88 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da2cdefd-d65f-4e41-8f86-aa03ae6c82b8")
-	)
-	(wire
-		(pts
 			(xy 166.37 40.64) (xy 166.37 59.69)
 		)
 		(stroke
@@ -3407,16 +3417,6 @@
 			(type default)
 		)
 		(uuid "e8f08c1d-0626-4a56-8472-9f73aaad24b1")
-	)
-	(wire
-		(pts
-			(xy 182.88 93.98) (xy 182.88 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9ea325a-3293-411b-8774-2bad8af24176")
 	)
 	(wire
 		(pts
@@ -5023,7 +5023,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 177.8 59.69 0)
+		(at 177.8 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5031,7 +5031,7 @@
 		(dnp no)
 		(uuid "389bf236-a577-42c7-be25-e9a675e357c6")
 		(property "Reference" "SW_PTT1"
-			(at 177.546 55.626 0)
+			(at 177.546 89.916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5039,7 +5039,7 @@
 			)
 		)
 		(property "Value" "1825027-8"
-			(at 177.8 54.61 0)
+			(at 177.8 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5048,7 +5048,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS"
-			(at 177.8 54.61 0)
+			(at 177.8 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5057,7 +5057,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 54.61 0)
+			(at 177.8 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5066,7 +5066,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 177.8 59.69 0)
+			(at 177.8 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7549,7 +7549,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 177.8 93.98 0)
+		(at 177.8 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7557,7 +7557,7 @@
 		(dnp no)
 		(uuid "bc24c84a-2247-40a3-9c0b-be47b813d173")
 		(property "Reference" "SW_SIDE2"
-			(at 177.546 89.916 0)
+			(at 177.546 55.626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7565,7 +7565,7 @@
 			)
 		)
 		(property "Value" "1825027-8"
-			(at 177.8 88.9 0)
+			(at 177.8 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7574,7 +7574,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS"
-			(at 177.8 88.9 0)
+			(at 177.8 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7583,7 +7583,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 88.9 0)
+			(at 177.8 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7592,7 +7592,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 177.8 93.98 0)
+			(at 177.8 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
