@@ -1,11 +1,13 @@
 #include <stdio.h>
 #include "pico/stdlib.h"
 #include "pico/multicore.h"
+#include "hardware/adc.h"
 
 #include "pindefs.c"
 
-
+//turn audio amp power on or off
 void set_audioamp_power(bool state){
+    //state = true turns off power, false turns on power (inverted logic)
     if(state){
         printf("Disabling Audio Amp Power\n");
     } else{
@@ -14,6 +16,19 @@ void set_audioamp_power(bool state){
     gpio_put(AUDIOAMP_POWER, !state);
 }
 
+//initialize battery voltage reading
+void init_battery_voltage(){
+    adc_init();
+    adc_gpio_init(V_BAT);
+}
+
+//returns battery voltage in volts
+float get_battery_voltage(){
+    adc_select_input(V_BAT-40); //V_BAT is ADC7, ADC input is 0 indexed
+    return (float)adc_read()*.003791; //conversion factor for voltage divider and ADC step size (127/27)*(3.3/4095)
+}
+
+//initialize all necessary pins
 void init_all(){
     //Audioamp power pin
     gpio_init(AUDIOAMP_POWER);
@@ -25,10 +40,14 @@ void init_all(){
     gpio_set_dir(LED_STATUS, GPIO_OUT);
     gpio_put(LED_STATUS, 1);
 
+    //init battery voltage reading
+    init_battery_voltage();
+
 }
 
+//what will run on core 0
 void core_0() {
-    printf("Core 1 launched\n");
+    printf("Core 0 launched\n");
 
 
     bool led_state = false;
@@ -48,7 +67,7 @@ void core_0() {
 
     //button states [sense][pwr][debounce_pointer] debounce_pointer toggles every loop to store last two states
     bool button_states[6][4][2] = {0};
-    printf("Button matrix initialized\n");
+    //raw battery voltage ready by pin V_BAT
 
     //init button pins
     for (int i = 0; i < 6; i++) {
@@ -65,13 +84,18 @@ void core_0() {
     bool button_debounce_pointer=0;
     bool button_has_been_pressed = false;
 
-    uint8_t counter = 0;
-    printf("Starting main loop on core 1\n");
+    uint16_t counter = 0;
+    printf("Starting main loop on core 0\n");
     while (true) {
         //toggle LED
         if(!(counter%50)){
             led_state = !led_state;
             gpio_put(LED_STATUS, led_state);
+        }
+        
+        //read battery voltage every 10 seconds
+        if (!counter){
+            printf("Battery Voltage: %.2fV\n", get_battery_voltage());
         }
 
         //scan buttons
@@ -85,7 +109,6 @@ void core_0() {
             sleep_us(1);
         }
         button_debounce_pointer = !button_debounce_pointer;
-
         //check for button presses with debounce
         for (int i = 0; i < 6; i++) {
             for (int j = 0; j < 4; j++) {
@@ -96,7 +119,6 @@ void core_0() {
                 }
             }
         }
-
         //print new line if any button has been pressed, and reset flag
         if (button_has_been_pressed){
             button_has_been_pressed = false;
@@ -105,7 +127,7 @@ void core_0() {
 
         //manage counter
         counter++;
-        if(counter>=100){
+        if(counter>=1000){
             counter = 0;
         }
         sleep_ms(10);
@@ -125,8 +147,10 @@ int main(){
     sleep_ms(5000);
 
     printf("Device Initalized!\n");
+
     multicore_reset_core1();
     multicore_launch_core1(core_1);
+
     core_0();
 
 }

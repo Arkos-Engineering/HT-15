@@ -46,7 +46,7 @@ pico_enable_stdio_usb(HT-15_Test 1)
 
 # Add the standard library to the build
 target_link_libraries(HT-15_Test
-        pico_stdlib pico_multicore)
+        pico_stdlib pico_multicore hardware_adc)
 
 # Add the standard include files to the build
 target_include_directories(HT-15_Test PRIVATE
