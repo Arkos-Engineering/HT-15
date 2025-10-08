@@ -14,4 +14,5 @@
   (lib (name "BK-18650-PC4")(type "KiCad")(uri "${KIPRJMOD}/Library/BK-18650-PC4/BK-18650-PC4.kicad_sym")(options "")(descr ""))
   (lib (name "SJ1-2503A")(type "KiCad")(uri "${KIPRJMOD}/Library/SJ1-2503A/SJ1-2503A.kicad_sym")(options "")(descr ""))
   (lib (name "New_Library")(type "KiCad")(uri "${KIPRJMOD}/Library/PEC09-2120F-S0012/New_Library.kicad_sym")(options "")(descr ""))
+  (lib (name "MP2672GD")(type "KiCad")(uri "${KIPRJMOD}/Library/MP2672GD/2025-10-08_21-27-53.kicad_sym")(options "")(descr ""))
 )

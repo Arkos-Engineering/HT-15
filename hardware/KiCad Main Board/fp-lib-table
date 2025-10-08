@@ -11,4 +11,5 @@
   (lib (name "SJ1-2503A")(type "KiCad")(uri "${KIPRJMOD}/Library/SJ1-2503A")(options "")(descr ""))
   (lib (name "PEC09-2120F-S0012")(type "KiCad")(uri "${KIPRJMOD}/Library/PEC09-2120F-S0012/PEC09-2120F-S0012.pretty")(options "")(descr ""))
   (lib (name "CDRH2D18_LDNP-470NC")(type "KiCad")(uri "${KIPRJMOD}/Library/CDRH2D18_LDNP-470NC/CDRH2D18_LDNP-470NC.pretty")(options "")(descr ""))
+  (lib (name "MP2672GD")(type "KiCad")(uri "${KIPRJMOD}/Library/MP2672GD/footprints.pretty")(options "")(descr ""))
 )
