@@ -519,7 +519,7 @@
       "plot": "Exports/2M70CM_Rev_0.2/",
       "pos_files": "Exports/2M70CM_Rev_0.2/",
       "specctra_dsn": "",
-      "step": "Exports/2M70CM_Rev_0.1/OSS-Radio_2M70CM.step",
+      "step": "../../../OSS-Radio_2M70CM.step",
       "svg": "",
       "vrml": ""
     },

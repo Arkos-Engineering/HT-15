@@ -22316,7 +22316,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 87.63 91.44 0)
 			(effects
 				(font
@@ -22343,7 +22343,7 @@
 				(hide yes)
 			)
 		)
-		(property "PART-NUMBER" "RT1206FRD0751RL"
+		(property "PART-NUMBER" "RT0402FRE0751RL"
 			(at 87.63 91.44 0)
 			(effects
 				(font
@@ -22352,7 +22352,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPB Part#" "C862185"
+		(property "JLCPB Part#" "C854359"
 			(at 87.63 91.44 90)
 			(effects
 				(font
