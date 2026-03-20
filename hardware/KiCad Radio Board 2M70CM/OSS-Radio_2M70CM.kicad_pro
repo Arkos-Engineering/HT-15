@@ -527,7 +527,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "Exports\\2M70CM_Rev_0.2\\OSS-Radio_2M70CM-bom.csv",
+    "bom_export_filename": "Exports\\2M70CM_Rev_0.3\\OSS-Radio_2M70CM-bom.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
